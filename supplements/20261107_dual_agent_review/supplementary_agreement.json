@@ -1,0 +1,42 @@
+{
+  "stage": "additional evidence after initial 449 labels were completed",
+  "n": 5,
+  "ids": [
+    "Q009",
+    "Q010",
+    "Q011",
+    "Q012",
+    "Q013"
+  ],
+  "agreement": {
+    "n": 5,
+    "agree": 4,
+    "raw_agreement": 0.8,
+    "cohen_kappa": 0.0,
+    "kappa_note": "",
+    "reviewer_a_labels": {
+      "OVERCONSERVATIVE": 4,
+      "UNCERTAIN": 1
+    },
+    "reviewer_b_labels": {
+      "OVERCONSERVATIVE": 5
+    },
+    "confusion": [
+      {
+        "a": "OVERCONSERVATIVE",
+        "b": "OVERCONSERVATIVE",
+        "n": 4
+      },
+      {
+        "a": "UNCERTAIN",
+        "b": "OVERCONSERVATIVE",
+        "n": 1
+      }
+    ]
+  },
+  "disagreement_ids": [
+    "Q010"
+  ],
+  "html_sha256": "4bc69166b162187f156448b5262146b8eebb900a7043e08c2835dcd576b74868",
+  "initial_labels_preserved": true
+}

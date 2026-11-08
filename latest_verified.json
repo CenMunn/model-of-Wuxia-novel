@@ -1,0 +1,44 @@
+{
+  "verified": true,
+  "snapshot_id": "20261106_035124_initialized_fa582aa2",
+  "local_snapshot": "D:\\大三上课程\\自然语言处理\\作业\\武侠小说生成作业\\服务器备份\\snapshots\\20261106_035124_initialized_fa582aa2",
+  "server_snapshot": "/home/xh/ww/nlp/exports/20261106_035124_initialized_fa582aa2",
+  "git_commit": "fa582aa209ca4fd97ffed63a37b6b7f1642e7acb",
+  "file_count": 41,
+  "bytes": 26071950,
+  "manifest_sha256": "0a46dc0bcdc9750318527a995e38a8492382f89eea2ead59dbea8be47df8b565",
+  "scope": "Initialized code, Git bundle, raw archive and 15 original texts, planning docs and environment metadata. No model weights yet.",
+  "automatic_backup_service": false,
+  "restore_verification": {
+    "all_snapshot_hashes_valid": true,
+    "git_bundle_restored": true,
+    "commit": "fa582aa209ca4fd97ffed63a37b6b7f1642e7acb",
+    "clean_restored_worktree": true,
+    "local_doctor": {
+      "python": "3.14.4",
+      "executable": "C:\\Users\\g'g\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "repo": "D:\\大三上课程\\自然语言处理\\作业\\武侠小说生成作业\\服务器备份\\snapshots\\20261106_035124_initialized_fa582aa2\\main",
+      "paths": {
+        "raw_data": "D:\\大三上课程\\自然语言处理\\作业\\武侠小说生成作业\\服务器备份\\snapshots\\20261106_035124_initialized_fa582aa2\\shared\\data\\raw\\jinyong",
+        "data_versions": "D:\\大三上课程\\自然语言处理\\作业\\武侠小说生成作业\\服务器备份\\snapshots\\20261106_035124_initialized_fa582aa2\\shared\\data\\versions",
+        "runs": "D:\\大三上课程\\自然语言处理\\作业\\武侠小说生成作业\\服务器备份\\snapshots\\20261106_035124_initialized_fa582aa2\\shared\\runs",
+        "locks": "D:\\大三上课程\\自然语言处理\\作业\\武侠小说生成作业\\服务器备份\\snapshots\\20261106_035124_initialized_fa582aa2\\shared\\locks",
+        "exports": "D:\\大三上课程\\自然语言处理\\作业\\武侠小说生成作业\\服务器备份\\snapshots\\20261106_035124_initialized_fa582aa2\\exports",
+        "deliverables": "D:\\大三上课程\\自然语言处理\\作业\\武侠小说生成作业\\服务器备份\\snapshots\\20261106_035124_initialized_fa582aa2\\deliverables"
+      },
+      "errors": [],
+      "torch": "2.12.0+cpu",
+      "cuda_build": null,
+      "cuda_available": false,
+      "tensor_autograd_checkpoint_check": "passed",
+      "raw_data": {
+        "archive_verified": true,
+        "novels_verified": 15,
+        "encoding": "gb18030",
+        "cleaned": false
+      },
+      "ok": true
+    }
+  }
+}

@@ -1,0 +1,465 @@
+{
+  "version_id": "corpus_v1_20261107",
+  "basis": "read-only inspection of hash-matched server snapshot",
+  "source_files_rehashed": [
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/config.json",
+      "sha256": "695e2547a1a437fea842af4b4a557bba67fa601b769ec67ca9b3b34c8c96250f"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/statistics.json",
+      "sha256": "b4b0e3e44baa97f44c456154fbb10f637709dc9105e84ed4baa11ec2e8c65df2"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/verification.json",
+      "sha256": "e209689e3cac6b1eb2bcd4cafdcb612da82efb834930352ea0b81fe6f68e4d91"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/raw_manifest.json",
+      "sha256": "28983553c64d836486ae2ab5a6d26560a472d2f1ae918410623e1bc117f043e3"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/clean/paragraphs.jsonl",
+      "sha256": "021bce33025f1c9523d9d7be8c2cfbec7c5856d811357d28a8ac59118a8eb265"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/clean/chapters.jsonl",
+      "sha256": "50e7d094fbf8a174a24ef481ffa198fd82b49f402dfddf3012de8e77085c855e"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/clean/segments.jsonl",
+      "sha256": "914fc1af9c62a33c657a1322afa9ec0ca5c5ce4dae8acbbb0b76cc4e2e3d5f28"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/records/excluded_blocks.jsonl",
+      "sha256": "c7f31b28a476d78a867317078307f2592ce33fc348cbc6cdde94872bd7b95ea8"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/records/repairs.jsonl",
+      "sha256": "9454bb4b0df157d50a11dfdf17eb1a96e22b5939b401ba28cf65929d23173d08"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/records/quarantine.jsonl",
+      "sha256": "43f5c5b8ca0dda5d87686a6c51eed9bc192a6a83f5a8a7e1c6da53bddd0853b6"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/records/boundaries.jsonl",
+      "sha256": "6bad17048dd5d8a19aa520f8d098511eeed8fe7394ac576e0763773712c6317e"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/vocab/char_all_training.json",
+      "sha256": "c30e93b2cb4f695fbfa89979386f23466179e1434dcd8609b3a00362b1cdecc8"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/vocab/char_jinyong_training.json",
+      "sha256": "60266a89060dc1fcd33f326ab45c2dad7d31e134715905e1b5d6d9f5939a0494"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/samples/train.jsonl",
+      "sha256": "c8b0f25ae0012722dc59b98113e8e7b31f536c520b6a7cd15058a96ec585a973"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/samples/validation.jsonl",
+      "sha256": "a5a4801b65d2431c9deb60b3e81b402b3eee49f26f1320959e3e1d02e535dda1"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/samples/train_jinyong.jsonl",
+      "sha256": "20c57a15f4cf580130b9ac523a91ed6edfa0a789837e2671b9887467b9f572fe"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/samples/validation_jinyong.jsonl",
+      "sha256": "3d8e743769b43a8692e36039110537f4ade551e0313782ddb5accebfa36d2041"
+    },
+    {
+      "relative_path": "nlp/shared/data/raw/jinyong/texts/书剑恩仇录.txt",
+      "sha256": "21fcf899021e45c773db5993e76fe80ea2fcb3dceaac0a94fc65d30dd0f05f9e"
+    },
+    {
+      "relative_path": "nlp/shared/data/raw/jinyong/texts/侠客行.txt",
+      "sha256": "d04a27d2aff0e1740d9441ab96c4dbb9e16708e7ff3ff8f7234092c17d7c70f9"
+    },
+    {
+      "relative_path": "nlp/shared/data/raw/jinyong/texts/倚天屠龙记.txt",
+      "sha256": "b88d847a57d3634f0e929f92ad1b7ada71a22094a402a488192b08d0d79d64f6"
+    },
+    {
+      "relative_path": "nlp/shared/data/raw/jinyong/texts/天龙八部.txt",
+      "sha256": "28cc736d9fae6353cd691923cde89906abf3bff83e18465718b0a9e49f973a89"
+    },
+    {
+      "relative_path": "nlp/shared/data/raw/jinyong/texts/射雕英雄传.txt",
+      "sha256": "b48e2ffbfd0786bdcabdea9137731ee2af2d96a49c95446210a3fb5ebec019aa"
+    },
+    {
+      "relative_path": "nlp/shared/data/raw/jinyong/texts/白马啸西风.txt",
+      "sha256": "ffaa1024e4e0a331656fd196fcbb848540ea005b0567f6ba31e63821db802e06"
+    },
+    {
+      "relative_path": "nlp/shared/data/raw/jinyong/texts/碧血剑.txt",
+      "sha256": "e4dc7ef82ae3e18c6a6a084d4fbba7a4ea135104ddabe63fbf64a2cdf5b1442b"
+    },
+    {
+      "relative_path": "nlp/shared/data/raw/jinyong/texts/神雕侠侣.txt",
+      "sha256": "81ebeda3df7d3f09db11e4a0465795ea61a1e75f35acf7b60211ccb2dface6d7"
+    },
+    {
+      "relative_path": "nlp/shared/data/raw/jinyong/texts/笑傲江湖.txt",
+      "sha256": "c46716c5a0f9c0a353c442a5d094a9b3e05edd6cb9a3a66890d55c433203f696"
+    },
+    {
+      "relative_path": "nlp/shared/data/raw/jinyong/texts/越女剑.txt",
+      "sha256": "af7f1fadc2730df4db4062b17a403e1848f64280211b7ecae4272d713edc29c0"
+    },
+    {
+      "relative_path": "nlp/shared/data/raw/jinyong/texts/连城诀.txt",
+      "sha256": "d467a2aa8f44cd4768f7429941439100435ee5a338576f9190a48c362b47524f"
+    },
+    {
+      "relative_path": "nlp/shared/data/raw/jinyong/texts/雪山飞狐.txt",
+      "sha256": "d9ffc3aba2c0402a10b8ea0521def2ed3dcbf62f9766eb6f95566fc58664bcf9"
+    },
+    {
+      "relative_path": "nlp/shared/data/raw/jinyong/texts/飞狐外传.txt",
+      "sha256": "eaaf3ad169eb69c5b09d7b412d6ec998d3a8dde62770d3edb1e79f3918522bda"
+    },
+    {
+      "relative_path": "nlp/shared/data/raw/jinyong/texts/鸳鸯刀.txt",
+      "sha256": "f169f6ee5e898b7cdf53285a3cd9b291dfb2816dd6b123301cb7ea8a7abafc33"
+    },
+    {
+      "relative_path": "nlp/shared/data/raw/jinyong/texts/鹿鼎记.txt",
+      "sha256": "9a34a6d97e21a13dee1d924674af6b54b7a6c65f1e989d00a9ae5b26d80d2596"
+    },
+    {
+      "relative_path": "nlp/shared/data/raw/supplementary/lfglib_20261106/sanxiawuyi/original.txt",
+      "sha256": "8f4b1552b5397d2e0f4ce47fda2ed09e9cd6ff8f174353bf8705404fe11da536"
+    },
+    {
+      "relative_path": "nlp/shared/data/raw/supplementary/lfglib_20261106/ernvyingxiongzhuan/original.txt",
+      "sha256": "e3026c5107161e905513e7646b1f2f41eaaf6a5286c9d55029630a605d798824"
+    }
+  ],
+  "samples": 72690,
+  "complete_samples": 72690,
+  "sample_failures": {
+    "cross_book_id": 0,
+    "cross_chapter_id": 0,
+    "cross_segment_id": 0,
+    "cross_scene_id": 0,
+    "split_mismatch": 0,
+    "discontinuity": 0,
+    "source_reconstruction": 0,
+    "source_length": 0,
+    "target_reconstruction": 0,
+    "target_length": 0
+  },
+  "paragraphs_replayed_from_original": 76115,
+  "paragraphs_replayed_from_recorded_repairs": 39,
+  "whitespace_normalized_repeated_pairs": 0,
+  "whitespace_normalized_pairs_cross_split": 0,
+  "sample_length_profiles": {
+    "jinyong_train": {
+      "n": 65035,
+      "source": {
+        "min": 64,
+        "q25": 404.0,
+        "median": 439.0,
+        "q75": 486.0,
+        "max": 986
+      },
+      "target": {
+        "min": 32,
+        "q25": 217.0,
+        "median": 251.0,
+        "q75": 297.0,
+        "max": 699
+      }
+    },
+    "supplementary_train": {
+      "n": 3962,
+      "source": {
+        "min": 66,
+        "q25": 430.0,
+        "median": 500.0,
+        "q75": 595.0,
+        "max": 1020
+      },
+      "target": {
+        "min": 33,
+        "q25": 242.0,
+        "median": 310.0,
+        "q75": 414.0,
+        "max": 768
+      }
+    },
+    "jinyong_validation": {
+      "n": 3469,
+      "source": {
+        "min": 64,
+        "q25": 405.0,
+        "median": 441.0,
+        "q75": 487.0,
+        "max": 836
+      },
+      "target": {
+        "min": 33,
+        "q25": 217.0,
+        "median": 251.0,
+        "q75": 296.0,
+        "max": 613
+      }
+    },
+    "supplementary_validation": {
+      "n": 224,
+      "source": {
+        "min": 69,
+        "q25": 420.75,
+        "median": 488.5,
+        "q75": 575.25,
+        "max": 961
+      },
+      "target": {
+        "min": 41,
+        "q25": 234.25,
+        "median": 292.5,
+        "q75": 399.5,
+        "max": 745
+      }
+    }
+  },
+  "sample_body_coverage": {
+    "jinyong_train": {
+      "paragraphs": 67971,
+      "body_characters": 7969418,
+      "used_paragraphs": 67948,
+      "used_characters": 7968680,
+      "used_character_fraction": 0.9999073959980516,
+      "target_character_fraction": 0.9605365159664105
+    },
+    "jinyong_validation": {
+      "paragraphs": 3594,
+      "body_characters": 420879,
+      "used_paragraphs": 3593,
+      "used_characters": 420852,
+      "used_character_fraction": 0.999935848545544,
+      "target_character_fraction": 0.9673279018435227
+    },
+    "supplementary_train": {
+      "paragraphs": 4343,
+      "body_characters": 994712,
+      "used_paragraphs": 4236,
+      "used_characters": 990245,
+      "used_character_fraction": 0.9955092529294911,
+      "target_character_fraction": 0.9353350517536734
+    },
+    "supplementary_validation": {
+      "paragraphs": 246,
+      "body_characters": 52508,
+      "used_paragraphs": 244,
+      "used_characters": 52494,
+      "used_character_fraction": 0.999733373962063,
+      "target_character_fraction": 0.9535689799649577
+    }
+  },
+  "validation_vocabulary_coverage": {
+    "jinyong": {
+      "all": {
+        "unique_body": {
+          "unknown_occurrences": 26,
+          "characters": 420879,
+          "coverage": 0.9999382245253386
+        },
+        "sample_target": {
+          "unknown_occurrences": 52,
+          "characters": 905043,
+          "coverage": 0.9999425441664098
+        }
+      },
+      "jinyong": {
+        "unique_body": {
+          "unknown_occurrences": 33,
+          "characters": 420879,
+          "coverage": 0.9999215926667759
+        },
+        "sample_target": {
+          "unknown_occurrences": 66,
+          "characters": 905043,
+          "coverage": 0.9999270752881355
+        }
+      }
+    },
+    "supplementary": {
+      "all": {
+        "unique_body": {
+          "unknown_occurrences": 23,
+          "characters": 52508,
+          "coverage": 0.9995619715091034
+        },
+        "sample_target": {
+          "unknown_occurrences": 56,
+          "characters": 72636,
+          "coverage": 0.9992290324357068
+        }
+      },
+      "jinyong": {
+        "unique_body": {
+          "unknown_occurrences": 68,
+          "characters": 52508,
+          "coverage": 0.9987049592443056
+        },
+        "sample_target": {
+          "unknown_occurrences": 130,
+          "characters": 72636,
+          "coverage": 0.9982102538686051
+        }
+      }
+    }
+  },
+  "major_reduction_audit": {
+    "jy_yuenv": {
+      "title": "越女剑",
+      "raw_han_bmp": 67715,
+      "clean_han_bmp": 13761,
+      "body_start_line": 3,
+      "body_end_line": 405,
+      "raw_after_body": [
+        "　　三十三剑客图",
+        "",
+        "　　旧小说有插图和绣像，是我国向来的传统。",
+        "",
+        "　　我很喜欢读旧小说，也喜欢小说中的插图。可惜一般插图的美术水准，与小说的文学水准差得实在太远。这些插图都是木版画，是雕刻在木版上再印出来的，往往画得既粗俗，刻得又简陋，只有极少数的例外。",
+        "",
+        "　　我国版画有很悠久的历史。最古的版画作品，是汉代的肖形印，在印章上刻了龙虎禽鸟等等图印，印在绢上纸上，成为精美巧丽的图形。版画成长于隋唐时的佛画，盛于宋元，到明末而登峰造极，最大的艺术家是陈洪绶（老莲）。清代版画普遍发展，年画盛行于民间。咸丰年间的任渭长，一般认为是我国传统版画最后的一位大师。以后的版画受到西方美术的影响，和我国传统的风格是颇为不同了。"
+      ],
+      "exclusions": [
+        {
+          "category": "book_title",
+          "start_line": 1,
+          "end_line": 2,
+          "han": 3,
+          "start_excerpt": "越女剑",
+          "end_excerpt": "越女剑"
+        },
+        {
+          "category": "appendix_or_afterword",
+          "start_line": 406,
+          "end_line": 1456,
+          "han": 53951,
+          "start_excerpt": "三十三剑客图\n\n　　旧小说有插图和绣像，是我国向来的传统。\n\n　　我很喜欢读旧小说，也喜欢小说中的插图。可惜一般插图的美术水准，与小说的文学水准差得实在太远。这些插图都是木版画，是",
+          "end_excerpt": "爱吹风月夜，丧衣能御雪霜天。伊予试问行年看，笑指松筠未是坚。”张淡道人用一匹绢来写了这首诗，笔力甚伟。（出洪迈《夷坚志》）\n\n　　这张淡道人只不过是方士之类的人物，并不是甚么剑客。"
+        }
+      ]
+    },
+    "jy_bixue": {
+      "title": "碧血剑",
+      "raw_han_bmp": 418049,
+      "clean_han_bmp": 350335,
+      "body_start_line": 32,
+      "body_end_line": 7820,
+      "raw_after_body": [
+        "　　（全书完）",
+        "",
+        "",
+        "　　袁崇焕评传",
+        "",
+        "　　『每一节文末的注释只是表示：文中的事实全部都有根据，并不是小说。对历史研究没有兴趣的读者们大可略过注释不读。』",
+        ""
+      ],
+      "exclusions": [
+        {
+          "category": "shared_preface",
+          "start_line": 1,
+          "end_line": 31,
+          "han": 2156,
+          "start_excerpt": "金庸作品集“三联版”序\n\n　　我在小学时就爱读课外书。低年级时看《儿童画报》、《小朋友》、《小学生》，后来看内容丰富的“小朋友文库”，再似懂非懂地阅读各种各样章回小说。到五六年级时",
+          "end_excerpt": "迁，人性却变动极少。\n\n　　小说写成后曾有过不少改动和增删，但失误和不足之处不免仍旧很多。我把每一位读者都当是朋友。朋友们的指教自然永远是欢迎的。\n\n　　金庸\n\n　　一九九四年一月"
+        },
+        {
+          "category": "editorial_annotation",
+          "start_line": 460,
+          "end_line": 462,
+          "han": 327,
+          "start_excerpt": "『注：明成祖应浡泥国苏丹之请，封其山为“长宁镇国山”，亲制碑文，并题诗一首，译意如下：\n\n　　“在热带的海上，是浡泥国所处的地方。人民亲近仁义，只有归顺，没有违逆。贤王勤恳谨慎，仰",
+          "end_excerpt": "固。西南各国的蕃邦君主，哪一位能及得上你？你国内有一座巍峨的高山，镇宁邦国。现在在石碑上刻了文字，以发扬你国王的美德。但愿你国王美德光大，国泰民安，今后千秋万岁，都归附我大明。”』"
+        },
+        {
+          "category": "editorial_annotation",
+          "start_line": 5555,
+          "end_line": 5557,
+          "han": 345,
+          "start_excerpt": "『注：清太宗皇太极死因不明。《清史稿·太宗本纪》：“崇德八年八月庚午，上御崇政殿，是夕亥时无疾崩，年五十有二。”当天他还在处理政事，一无异状，突然在半夜里“无疾崩”，后人颇有疑为多",
+          "end_excerpt": "，与人私通，后致汉成帝于死。清庄妃为太宗孝端皇后之侄女，民间传说称之为“大玉儿”、“小玉儿”者也。汉、宋、清三朝宫闱秘事，未尽可信，牵扯为一，或近于诬。小说家言，史家不必深究也。』"
+        },
+        {
+          "category": "editorial_annotation",
+          "start_line": 5882,
+          "end_line": 5882,
+          "han": 81,
+          "start_excerpt": "『注：袁崇焕有一个朋友邝湛若，广东名士，曾游瑶山，为瑶女掌兵权者云氏作记室，作有《赤雅》一书，其中“僮妇畜蛊”一节云：“五月五日，聚虫豸之毒者，并置器内，自相吞食，最后独存者曰蛊。",
+          "end_excerpt": "，广东名士，曾游瑶山，为瑶女掌兵权者云氏作记室，作有《赤雅》一书，其中“僮妇畜蛊”一节云：“五月五日，聚虫豸之毒者，并置器内，自相吞食，最后独存者曰蛊。有蛇蛊、蜥蜴蛊、蜣螂蛊。”』"
+        },
+        {
+          "category": "editorial_annotation",
+          "start_line": 6955,
+          "end_line": 6955,
+          "han": 53,
+          "start_excerpt": "『注：曹化淳欲立诚王为帝，并非史实，纯系小说作者之杜撰穿插，《明史》中亦无诚王其人。其他与崇祯有关之叙述，则大致根据史书所载。』",
+          "end_excerpt": "『注：曹化淳欲立诚王为帝，并非史实，纯系小说作者之杜撰穿插，《明史》中亦无诚王其人。其他与崇祯有关之叙述，则大致根据史书所载。』"
+        },
+        {
+          "category": "editorial_annotation",
+          "start_line": 7414,
+          "end_line": 7432,
+          "han": 988,
+          "start_excerpt": "『注：李自成攻破北京事迹，当时文士笔录见闻而流传后世者甚多。诸书作者对李自成无不极为仇视，文中自多夸张及诬蔑，未可尽信。但闯军初时纪律严明，进北京后便即腐败，当属事实，否则不致成功",
+          "end_excerpt": "钱粮者皆望蠲免。真保间民谣有“开了大门迎闯王，闯王来时不纳粮”等语，因此贼计得售。\n\n　　●贼兵入城者四十余万，各肆掳掠。自成或禁止，辄哗曰：“皇帝让汝做，金银妇女不让我辈耶？”』"
+        },
+        {
+          "category": "end_marker",
+          "start_line": 7821,
+          "end_line": 7821,
+          "han": 3,
+          "start_excerpt": "（全书完）",
+          "end_excerpt": "（全书完）"
+        },
+        {
+          "category": "appendix_or_afterword",
+          "start_line": 7822,
+          "end_line": 9119,
+          "han": 63491,
+          "start_excerpt": "袁崇焕评传\n\n　　『每一节文末的注释只是表示：文中的事实全部都有根据，并不是小说。对历史研究没有兴趣的读者们大可略过注释不读。』\n\n　　※※※\n\n　　在距离香港不到一百五十公里的地",
+          "end_excerpt": "义，恐怕是在于它的“可读性”。我以相当重大的努力，避免了一般历史文字中的艰深晦涩。现在的面目，比之在《明报》上所发表的初稿《广东英雄袁蛮子》，文字上要顺畅了些。\n\n　　一九七五．六"
+        }
+      ]
+    }
+  },
+  "validation_chapters_by_book": {
+    "书剑恩仇录": 1,
+    "侠客行": 1,
+    "倚天屠龙记": 2,
+    "天龙八部": 2,
+    "射雕英雄传": 2,
+    "白马啸西风": 0,
+    "碧血剑": 1,
+    "神雕侠侣": 2,
+    "笑傲江湖": 2,
+    "越女剑": 0,
+    "连城诀": 1,
+    "雪山飞狐": 1,
+    "飞狐外传": 1,
+    "鸳鸯刀": 0,
+    "鹿鼎记": 2,
+    "三侠五义": 4,
+    "儿女英雄传": 2
+  },
+  "human_labelled_gold_available": false,
+  "semantic_cleaning_accuracy": null,
+  "model_training_performed": false,
+  "original_figures_modified": false,
+  "references": [
+    "https://blog.csdn.net/universsky2015/article/details/137296952",
+    "https://blog.csdn.net/ayiya_Oese/article/details/147810050",
+    "https://aclanthology.org/2022.acl-long.577/",
+    "https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework"
+  ]
+}

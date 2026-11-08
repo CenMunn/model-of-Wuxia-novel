@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "artifact_files_verified": 16,
+  "source_review_files_unchanged": 5,
+  "zip_sha256": "a62dddc709b836173288bf9d25a31b83560d3438facb9397a3bbab344a9d776a",
+  "server_artifact_root": "/home/xh/ww/nlp_data_preparation_20261107/exports/dual_review_figure_20261107"
+}

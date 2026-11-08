@@ -1,0 +1,5 @@
+{"id":"Q009","kind":"quarantine","label":"OVERCONSERVATIVE","confidence":"high","evidence_quote":"致其先人槥于京邸","reason":"新增同版HTML的dd补出了原TXT缺载传文，两处损坏可由衰绖及槥的双侧锚点定位恢复，改变初判；理与狱是另处普通字异文，不宜顺带整段覆盖。","flags":["新增同版缓存dd证据","可局部恢复衰、槥","邻字异文：理与狱，另行保留"]}
+{"id":"Q010","kind":"quarantine","label":"OVERCONSERVATIVE","confidence":"medium","evidence_quote":"而卒措孀嫠崽子于磐石之安","reason":"新增dd全文与本段前后锚点对应，可支持将私用字及其后孀合成的两字跨度恢复为孀嫠，故改变初判；单独替换私用字不能复现参考，不能按一字回填处理。","flags":["新增同版缓存dd证据","须按两字跨度修复：孀至孀嫠","不可只替换PUA","字形对应仍有版本不确定性"]}
+{"id":"Q011","kind":"quarantine","label":"OVERCONSERVATIVE","confidence":"high","evidence_quote":"合巹之夕","reason":"初判所依TXT无此传文，新增同版dd现给出合巹之夕且全段其余文字对应，单字巹可依两侧锚点恢复，当前证据足以改变隔离合理的初判。","flags":["新增同版缓存dd证据","可局部恢复巹"]}
+{"id":"Q012","kind":"quarantine","label":"OVERCONSERVATIVE","confidence":"high","evidence_quote":"恒为里闬排难解纷","reason":"新增dd补出原先缺载段落，里与排难解纷之间明确为闬，整段对应且无须改变其他普通字，现可安全局部恢复，改变初判。","flags":["新增同版缓存dd证据","可局部恢复闬"]}
+{"id":"Q013","kind":"quarantine","label":"OVERCONSERVATIVE","confidence":"high","evidence_quote":"则翁簉室已先一月协熊占而又挛生也","reason":"新增dd在汤饼会与熊占叙述间明确写簉室，全文对应解除此前TXT缺载的证据不足，缺字可按簉恢复，改变初判而非凭常见词猜补。","flags":["新增同版缓存dd证据","可局部恢复簉"]}

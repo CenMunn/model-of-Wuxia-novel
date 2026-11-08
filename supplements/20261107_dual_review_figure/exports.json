@@ -1,0 +1,28 @@
+{
+  "backend": "python",
+  "matplotlib": "3.10.9",
+  "files": [
+    {
+      "name": "双智能体复核新增指标_Nature版_20261107.png",
+      "bytes": 474431,
+      "sha256": "a76e9a27c5badec86300666927ff7518581bd57d4dcd3e9917f4f366f55b089d"
+    },
+    {
+      "name": "双智能体复核新增指标_Nature版_20261107.pdf",
+      "bytes": 67060,
+      "sha256": "f5a980cb682329238880acc425493b4b38d6a6cf9c9d5cd49209dee33e9ddb4b"
+    },
+    {
+      "name": "双智能体复核新增指标_Nature版_20261107.svg",
+      "bytes": 82695,
+      "sha256": "a557b0a2a5d827c4ef744679153342d884a72859e6a24602a812acc0d314e146"
+    },
+    {
+      "name": "双智能体复核新增指标_Nature版_20261107.tiff",
+      "bytes": 1582204,
+      "sha256": "ef86f6abb6fd245184ecdf35515aeb542025c46f0b79341a0eb97f3aee54ae26"
+    }
+  ],
+  "data_modified": false,
+  "visible_explanatory_footnotes": false
+}

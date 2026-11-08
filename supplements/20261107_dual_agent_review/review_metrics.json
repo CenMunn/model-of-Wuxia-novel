@@ -1,0 +1,371 @@
+{
+  "review_type": "AI-assisted dual review plus coordinator adjudication",
+  "version": "corpus_v1_20261107",
+  "human_review": false,
+  "human_gold_accuracy_available": false,
+  "counts": {
+    "retained": {
+      "n": 300,
+      "labels": {
+        "KEEP": 300
+      },
+      "reported_numerator": 0,
+      "observed_ai_label_rate": 0.0,
+      "uncertain": 0,
+      "uncertainty_count_range": [
+        0.0,
+        0.0
+      ],
+      "range_is_not_confidence_interval": true
+    },
+    "excluded": {
+      "n": 100,
+      "labels": {
+        "EXCLUDE": 100
+      },
+      "reported_numerator": 0,
+      "observed_ai_label_rate": 0.0,
+      "uncertain": 0,
+      "uncertainty_count_range": [
+        0.0,
+        0.0
+      ],
+      "range_is_not_confidence_interval": true
+    },
+    "repair": {
+      "n": 33,
+      "labels": {
+        "SUPPORTED": 33
+      },
+      "reported_numerator": 33,
+      "observed_ai_label_rate": 1.0,
+      "uncertain": 0,
+      "uncertainty_count_range": [
+        1.0,
+        1.0
+      ],
+      "range_is_not_confidence_interval": true
+    },
+    "quarantine": {
+      "n": 16,
+      "labels": {
+        "JUSTIFIED": 3,
+        "OVERCONSERVATIVE": 11,
+        "UNCERTAIN": 2
+      },
+      "reported_numerator": 3,
+      "observed_ai_label_rate": 0.1875,
+      "uncertain": 2,
+      "uncertainty_count_range": [
+        0.1875,
+        0.3125
+      ],
+      "range_is_not_confidence_interval": true
+    }
+  },
+  "initial_agreement": {
+    "review_type": "two separately prompted AI reviewers",
+    "human_gold": false,
+    "by_kind": {
+      "retained": {
+        "n": 300,
+        "agree": 300,
+        "raw_agreement": 1.0,
+        "cohen_kappa": null,
+        "kappa_note": "undefined when expected agreement is one",
+        "reviewer_a_labels": {
+          "KEEP": 300
+        },
+        "reviewer_b_labels": {
+          "KEEP": 300
+        },
+        "confusion": [
+          {
+            "a": "KEEP",
+            "b": "KEEP",
+            "n": 300
+          }
+        ]
+      },
+      "excluded": {
+        "n": 100,
+        "agree": 100,
+        "raw_agreement": 1.0,
+        "cohen_kappa": null,
+        "kappa_note": "undefined when expected agreement is one",
+        "reviewer_a_labels": {
+          "EXCLUDE": 100
+        },
+        "reviewer_b_labels": {
+          "EXCLUDE": 100
+        },
+        "confusion": [
+          {
+            "a": "EXCLUDE",
+            "b": "EXCLUDE",
+            "n": 100
+          }
+        ]
+      },
+      "repair": {
+        "n": 33,
+        "agree": 33,
+        "raw_agreement": 1.0,
+        "cohen_kappa": null,
+        "kappa_note": "undefined when expected agreement is one",
+        "reviewer_a_labels": {
+          "SUPPORTED": 33
+        },
+        "reviewer_b_labels": {
+          "SUPPORTED": 33
+        },
+        "confusion": [
+          {
+            "a": "SUPPORTED",
+            "b": "SUPPORTED",
+            "n": 33
+          }
+        ]
+      },
+      "quarantine": {
+        "n": 16,
+        "agree": 13,
+        "raw_agreement": 0.8125,
+        "cohen_kappa": 0.7055214723926381,
+        "kappa_note": "",
+        "reviewer_a_labels": {
+          "JUSTIFIED": 8,
+          "OVERCONSERVATIVE": 7,
+          "UNCERTAIN": 1
+        },
+        "reviewer_b_labels": {
+          "UNCERTAIN": 4,
+          "OVERCONSERVATIVE": 7,
+          "JUSTIFIED": 5
+        },
+        "confusion": [
+          {
+            "a": "JUSTIFIED",
+            "b": "UNCERTAIN",
+            "n": 3
+          },
+          {
+            "a": "OVERCONSERVATIVE",
+            "b": "OVERCONSERVATIVE",
+            "n": 7
+          },
+          {
+            "a": "UNCERTAIN",
+            "b": "UNCERTAIN",
+            "n": 1
+          },
+          {
+            "a": "JUSTIFIED",
+            "b": "JUSTIFIED",
+            "n": 5
+          }
+        ]
+      }
+    },
+    "overall_raw_agreement": 0.9933184855233853,
+    "disagreement_ids": [
+      "Q001",
+      "Q002",
+      "Q007"
+    ],
+    "coordinator_high_risk_ids": [
+      "Q001",
+      "Q002",
+      "Q003",
+      "Q004",
+      "Q005",
+      "Q006",
+      "Q007",
+      "Q008",
+      "Q009",
+      "Q010",
+      "Q011",
+      "Q012",
+      "Q013",
+      "Q014",
+      "Q015",
+      "Q016"
+    ],
+    "adjudication_required_ids": [
+      "Q001",
+      "Q002",
+      "Q003",
+      "Q004",
+      "Q005",
+      "Q006",
+      "Q007",
+      "Q008",
+      "Q009",
+      "Q010",
+      "Q011",
+      "Q012",
+      "Q013",
+      "Q014",
+      "Q015",
+      "Q016"
+    ],
+    "packet_sha256": "4c6b2badc95957c46a54cee0b022cb101b72a36dcccc991d58042bbcdbda446c"
+  },
+  "supplementary_review": {
+    "stage": "additional evidence after initial 449 labels were completed",
+    "n": 5,
+    "ids": [
+      "Q009",
+      "Q010",
+      "Q011",
+      "Q012",
+      "Q013"
+    ],
+    "agreement": {
+      "n": 5,
+      "agree": 4,
+      "raw_agreement": 0.8,
+      "cohen_kappa": 0.0,
+      "kappa_note": "",
+      "reviewer_a_labels": {
+        "OVERCONSERVATIVE": 4,
+        "UNCERTAIN": 1
+      },
+      "reviewer_b_labels": {
+        "OVERCONSERVATIVE": 5
+      },
+      "confusion": [
+        {
+          "a": "OVERCONSERVATIVE",
+          "b": "OVERCONSERVATIVE",
+          "n": 4
+        },
+        {
+          "a": "UNCERTAIN",
+          "b": "OVERCONSERVATIVE",
+          "n": 1
+        }
+      ]
+    },
+    "disagreement_ids": [
+      "Q010"
+    ],
+    "html_sha256": "4bc69166b162187f156448b5262146b8eebb900a7043e08c2835dcd576b74868",
+    "initial_labels_preserved": true
+  },
+  "unresolved_ids": [
+    "Q006",
+    "Q010"
+  ],
+  "potential_defect_ids": [
+    "Q003",
+    "Q004",
+    "Q005",
+    "Q008",
+    "Q009",
+    "Q011",
+    "Q012",
+    "Q013",
+    "Q014",
+    "Q015",
+    "Q016"
+  ],
+  "recoverable_quarantine_ids": [
+    "Q003",
+    "Q004",
+    "Q005",
+    "Q008",
+    "Q009",
+    "Q011",
+    "Q012",
+    "Q013",
+    "Q014",
+    "Q015",
+    "Q016"
+  ],
+  "flag_counts": {
+    "疑似标点误断": 2,
+    "疑似标点误置": 2,
+    "疑似形近字：五指成抓": 1,
+    "洪炭疑似错字": 1,
+    "疑似错字：洪炭": 1,
+    "斗见疑似错字": 1,
+    "疑似错字：斗见": 1,
+    "疑似用字：斗然": 1,
+    "疑似用字：斜在一旁": 1,
+    "思深义重疑似错字": 1,
+    "疑似错字：体要、思深义重": 1,
+    "疑似穴名用字：大渊": 1,
+    "疑似用字：匙著": 1,
+    "疑似用字：积伶": 1,
+    "积伶疑似错字": 1,
+    "始未根由疑似错字": 1,
+    "疑似错字：始未": 1,
+    "疑似冗字": 1,
+    "口语段落含疑似错字": 1,
+    "疑似错字：洗洗汕汕、缝缝联联": 1,
+    "仅分隔符": 2,
+    "独立附录含叙事": 8,
+    "附录含独立叙事": 9,
+    "原文疑有拆字残留": 1,
+    "完结标记": 1,
+    "附录含叙事化描写": 1,
+    "附录含历史叙事": 1,
+    "仅相对缓存参考支持": 33,
+    "残留双逗号": 1,
+    "残留重复逗号": 1,
+    "固何疑似错字残留": 1,
+    "残留疑字：固何": 1,
+    "整回尾部补全": 1,
+    "较长缺尾补全": 1,
+    "同项两处修改已核": 2,
+    "残留疑字：类某": 1,
+    "参考用字踞足可疑": 1,
+    "参考踞足用字宜另核版本": 1,
+    "相邻下一段另有损坏不属本项": 1,
+    "相邻上一段另有损坏不属本项": 1,
+    "单个损坏字恢复含标点": 1,
+    "单处补入背及逗号": 1,
+    "A字锦地疑似损坏残留": 1,
+    "残留拉丁字母：A字锦": 1,
+    "参考对应处省字": 2,
+    "参考缺对应文字": 2,
+    "已搜索对应参考文件": 16,
+    "需核异文": 3,
+    "参考含扩展汉字非PUA": 2,
+    "参考有可定位修复": 7,
+    "可修复后取消该缺口": 2,
+    "补充平面字符": 2,
+    "同项五处可定位": 1,
+    "修复需连同邻近输字校正": 1,
+    "需同时修邻字": 3,
+    "参考注释布局异文": 1,
+    "参考注释表示不同": 1,
+    "损坏未解决前保留断点": 1,
+    "方言原字与释音难分": 1,
+    "需判断是否允许规范化乡音": 1,
+    "参考对应词异读": 1,
+    "参考邻词异文": 1,
+    "局跼字形差异": 1,
+    "参考TXT漏提dd；同缓存HTML已定位": 5,
+    "普通邻字及字序未定；继续隔离": 1,
+    "附近另有可疑用字": 1,
+    "同项两处可定位": 1,
+    "局部修复需兼顾邻字": 1
+  },
+  "packet_sha256": "4c6b2badc95957c46a54cee0b022cb101b72a36dcccc991d58042bbcdbda446c",
+  "protocol_sha256": "3ccfc3e8218a1cc98f1005564b4e415abfbc223fc9ef76a3f77df051ef93a8e0",
+  "no_corpus_edits": true,
+  "no_training": true,
+  "limits": [
+    "AI label rates do not measure externally verified human-gold accuracy.",
+    "Separate contexts from the same model can retain correlated systematic errors.",
+    "Excluded sampling covers 2244 nonempty source lines within exclusion records, not all removed characters.",
+    "Retained, excluded, repair and quarantine use different units; no pooled accuracy or F1 is reported.",
+    "Cached witness support does not establish agreement with the printed edition."
+  ],
+  "retained_flagged_units": 14,
+  "retained_flagged_fraction": 0.04666666666666667,
+  "retained_flags_are_not_verified_error_rate": true,
+  "recovery_candidate_raw_characters_excluding_outer_whitespace": 2808
+}

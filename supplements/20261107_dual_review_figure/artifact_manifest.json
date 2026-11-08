@@ -1,0 +1,114 @@
+{
+  "files": [
+    {
+      "name": "figure_contract.md",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_review_figure_20261107\\figure_contract.md",
+      "bytes": 2856,
+      "sha256": "462f169b6002b74501f64cc1984a38909469d72ced4b183bcd3631afb3935cb1"
+    },
+    {
+      "name": "academic_visual_prompt.md",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_review_figure_20261107\\academic_visual_prompt.md",
+      "bytes": 1979,
+      "sha256": "c941d0c0e5b1dd4151f7b6ff97b9029565b5a166fa37911b88eed6c7dd1de58c"
+    },
+    {
+      "name": "plot_review_metrics.py",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_review_figure_20261107\\plot_review_metrics.py",
+      "bytes": 12070,
+      "sha256": "d06d801c0e4b4e56ec6a5887b6fca2a16200ec23b7bce198327243a1ded3bcf0"
+    },
+    {
+      "name": "package_figure.py",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_review_figure_20261107\\package_figure.py",
+      "bytes": 3349,
+      "sha256": "89e0722a533c0e964f3d305ef8f99a06b7cb420cb46c842b8f7b98a5c152f131"
+    },
+    {
+      "name": "source_data.json",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_review_figure_20261107\\source_data.json",
+      "bytes": 1838,
+      "sha256": "9b7806fef068017a62c4cfe65406355b420ebd52cd53d2f94b1b33b7b074155c"
+    },
+    {
+      "name": "source_data.csv",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_review_figure_20261107\\source_data.csv",
+      "bytes": 503,
+      "sha256": "242fe09c917324dc9a90b8ca630922d6ea59b2c30a502eea1bd18111e59724a1"
+    },
+    {
+      "name": "exports.json",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_review_figure_20261107\\exports.json",
+      "bytes": 925,
+      "sha256": "d0ac94e3ab2de3675120a186634e4c645ce6443f615b6c783a98397b87906f87"
+    },
+    {
+      "name": "collision_audit.json",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_review_figure_20261107\\collision_audit.json",
+      "bytes": 642,
+      "sha256": "69d239ae00bad713055a386c1b28c7198a8a6e5d37a804f4ae546c90deee2147"
+    },
+    {
+      "name": "pdf_text_audit.json",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_review_figure_20261107\\pdf_text_audit.json",
+      "bytes": 335,
+      "sha256": "c7248792b78c8713a4beb85febbd6e6c0bfd74ede47db392a132ed38b54e73d4"
+    },
+    {
+      "name": "qa_review.json",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_review_figure_20261107\\qa_review.json",
+      "bytes": 752,
+      "sha256": "763daef104d63f98dcf839bab718f2e491f67bfa588cf440d50747cd46a3c37e"
+    },
+    {
+      "name": "双智能体复核新增指标_Nature版_20261107.png",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_review_figure_20261107\\双智能体复核新增指标_Nature版_20261107.png",
+      "bytes": 474431,
+      "sha256": "a76e9a27c5badec86300666927ff7518581bd57d4dcd3e9917f4f366f55b089d"
+    },
+    {
+      "name": "双智能体复核新增指标_Nature版_20261107.pdf",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_review_figure_20261107\\双智能体复核新增指标_Nature版_20261107.pdf",
+      "bytes": 67060,
+      "sha256": "f5a980cb682329238880acc425493b4b38d6a6cf9c9d5cd49209dee33e9ddb4b"
+    },
+    {
+      "name": "双智能体复核新增指标_Nature版_20261107.svg",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_review_figure_20261107\\双智能体复核新增指标_Nature版_20261107.svg",
+      "bytes": 82695,
+      "sha256": "a557b0a2a5d827c4ef744679153342d884a72859e6a24602a812acc0d314e146"
+    },
+    {
+      "name": "双智能体复核新增指标_Nature版_20261107.tiff",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_review_figure_20261107\\双智能体复核新增指标_Nature版_20261107.tiff",
+      "bytes": 1582204,
+      "sha256": "ef86f6abb6fd245184ecdf35515aeb542025c46f0b79341a0eb97f3aee54ae26"
+    },
+    {
+      "name": "双智能体复核新增指标_Nature版_20261107.alignment.json",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_review_figure_20261107\\双智能体复核新增指标_Nature版_20261107.alignment.json",
+      "bytes": 2885,
+      "sha256": "da34922b31c450e79e951cf9be5d9f4b73e188c7e385121c0d21ddfc29d4bda7"
+    },
+    {
+      "name": "双智能体复核新增指标_Nature版_20261107.alignment.svg",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_review_figure_20261107\\双智能体复核新增指标_Nature版_20261107.alignment.svg",
+      "bytes": 1121,
+      "sha256": "ff2cf5ff085e3dd5714cdc9c7c4289acd9eb1338674941cb1312f8701f86177a"
+    }
+  ],
+  "previous_figures_preserved": [
+    {
+      "name": "数据质量评测_Nature版_20261107.png",
+      "sha256": "bfc0cb6e4c48e95b88279eda4d9ccae6c530805c597386d24251e48a4dad6c36"
+    },
+    {
+      "name": "各书语料变化_Nature版_20261107.png",
+      "sha256": "b3e7bee27024a1c9285ea19b10bf18fecc1cfa50c33d2c21f0e18797e9b93eab"
+    }
+  ],
+  "backend": "python",
+  "review_units": 449,
+  "original_data_modified": false,
+  "user_facing_figures": 1
+}

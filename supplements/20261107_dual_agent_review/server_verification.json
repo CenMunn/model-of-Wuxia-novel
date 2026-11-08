@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "artifact_files_sha256_verified": 43,
+  "zip_sha256": "6e88cdabacb4caf231e3ae83d59b3508e60249328af2e1c14506079580348fbc",
+  "server_recalculation_matches": true,
+  "review_units": 449,
+  "source_files_unchanged": 24,
+  "artifact_root": "/home/xh/ww/nlp_data_preparation_20261107/exports/dual_agent_review_20261107",
+  "ai_assisted_review": true
+}

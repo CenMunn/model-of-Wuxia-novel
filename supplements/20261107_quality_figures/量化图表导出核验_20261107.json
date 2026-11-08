@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-07",
+  "version": "corpus_v1_20261107",
+  "python": "3.14.4",
+  "matplotlib": "3.10.9",
+  "font_family": "Microsoft YaHei",
+  "svg_text_editable": true,
+  "assessed_scope": "descriptive corpus preparation metrics; no overall accuracy or model scores",
+  "corpus_modified": false,
+  "files": [
+    {
+      "name": "数据预处理量化总览_20261107.png",
+      "bytes": 534011,
+      "sha256": "8499d33ca1a780bcccb33d21fa43e03a4673e7a75e9c51fdcd7d8f27077c4e69",
+      "width": 3630,
+      "height": 2530,
+      "mode": "RGBA",
+      "dpi": [
+        219.9894,
+        219.9894
+      ]
+    },
+    {
+      "name": "数据预处理量化总览_20261107.svg",
+      "bytes": 34221,
+      "sha256": "c56725a64c969ae801639cdb87cf393b0d6bff3c932e4716cdb3b1c6425b1932"
+    },
+    {
+      "name": "各书处理前后汉字量_20261107.png",
+      "bytes": 418612,
+      "sha256": "7ed6c3a9997ea0aa1bd410eae4024d2f962bf99c668f7f0bdf35de00ef62f664",
+      "width": 3630,
+      "height": 2596,
+      "mode": "RGBA",
+      "dpi": [
+        219.9894,
+        219.9894
+      ]
+    },
+    {
+      "name": "各书处理前后汉字量_20261107.svg",
+      "bytes": 40917,
+      "sha256": "60c55809da5d6893aa4e7977087074693ab6d7730fc3636fe89236230615293e"
+    },
+    {
+      "name": "预处理量化指标_20261107.json",
+      "bytes": 21043,
+      "sha256": "9bbed9f61c0ecccd50c3c820ffe4c049e96ecd325d6d7befe60bc4906afcd345"
+    },
+    {
+      "name": "预处理各书统计_20261107.csv",
+      "bytes": 1996,
+      "sha256": "dab94d420764b1e63be8c99babe1ce885d8859e5828d2ae0c61e63a0a017a2f5"
+    },
+    {
+      "name": "预处理量化指标_20261107.csv",
+      "bytes": 1332,
+      "sha256": "617ba01e2140add7886f6dfdf5d7ae4ae37e25c95f19f63d1e28bc985b19a3fa"
+    },
+    {
+      "name": "量化图表说明_20261107.md",
+      "bytes": 3425,
+      "sha256": "1aa6858df380b8acde28abb7efe73938daaa4c45eafc5b2e5fe6ad447a4bbc85"
+    },
+    {
+      "name": "collect_figure_data.py",
+      "bytes": 8765,
+      "sha256": "07df423d9935e493b2410497e1aa129e78a4064e14b7b78735f3bac6b8493af0"
+    },
+    {
+      "name": "plot_quality.py",
+      "bytes": 19127,
+      "sha256": "8af7048238c9d3f31d70622907b1004fe16e52ae258fa6b582e96abfba0d89ed"
+    }
+  ]
+}

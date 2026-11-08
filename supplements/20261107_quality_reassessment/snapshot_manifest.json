@@ -1,0 +1,650 @@
+{
+  "snapshot_id": "20261107_preprocess_v1",
+  "scope": "all canonical raw corpus, complete processed version, external preparation tools/evidence/logs; existing main checkout unchanged",
+  "files": [
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/README.md",
+      "bytes": 6273,
+      "sha256": "79c2308fbcadc0fd94dcf52830faf11e124868ee095a08ec75e348cbc8f511ab"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/clean/chapters.jsonl",
+      "bytes": 7015254,
+      "sha256": "50e7d094fbf8a174a24ef481ffa198fd82b49f402dfddf3012de8e77085c855e"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/clean/paragraphs.jsonl",
+      "bytes": 63448910,
+      "sha256": "021bce33025f1c9523d9d7be8c2cfbec7c5856d811357d28a8ac59118a8eb265"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/clean/segments.jsonl",
+      "bytes": 30917979,
+      "sha256": "914fc1af9c62a33c657a1322afa9ec0ca5c5ce4dae8acbbb0b76cc4e2e3d5f28"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/config.json",
+      "bytes": 11123,
+      "sha256": "695e2547a1a437fea842af4b4a557bba67fa601b769ec67ca9b3b34c8c96250f"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/dedup/chapter_components.jsonl",
+      "bytes": 48627,
+      "sha256": "04eb225bc1afd410451fc3e926e5b80d7a87559caf853d2f684c339860477905"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/dedup/exact_paragraphs.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/dedup/exact_substrings.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/dedup/near_paragraphs.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/manifest.json",
+      "bytes": 1872,
+      "sha256": "f46815247ca393f0c2c39a4d00b9098715b4c98b4392994e11b61159b6dc5067"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/raw_manifest.json",
+      "bytes": 10439,
+      "sha256": "28983553c64d836486ae2ab5a6d26560a472d2f1ae918410623e1bc117f043e3"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/reading_only/三侠五义.txt",
+      "bytes": 1526418,
+      "sha256": "71cda3a36835568c1aea490f052abb474e368f60b048fe0922be9ef5f5528c30"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/reading_only/书剑恩仇录.txt",
+      "bytes": 1533695,
+      "sha256": "793f9288e8e6ecda91e273d605f83127c22fb0964ad04287ba73e305b1e0a18b"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/reading_only/侠客行.txt",
+      "bytes": 1098508,
+      "sha256": "fb56631858e30f3e4099dcc1456eb8b46b37c5e18066c28b4e584163d6972464"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/reading_only/倚天屠龙记.txt",
+      "bytes": 2885876,
+      "sha256": "01eb63c91535d641bb90c91780cc223bcf157e6a84d479c10613710b0bdd1bbc"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/reading_only/儿女英雄传.txt",
+      "bytes": 1636572,
+      "sha256": "ac990263206245f9b9593b0af5d8dd4d4c16a0a026a2fb60d4d524129724a822"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/reading_only/天龙八部.txt",
+      "bytes": 3642748,
+      "sha256": "83de642ccfcf2de06ef839092e9f4d168152661f829b6ab15bb087dc764d35c3"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/reading_only/射雕英雄传.txt",
+      "bytes": 2689707,
+      "sha256": "18d2ba98e10b092ed8e6e36f999cc2e372eaecaed1599b9bf510eda59aff5755"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/reading_only/白马啸西风.txt",
+      "bytes": 203671,
+      "sha256": "6d6c2d019f261ecb7640f839a3062bcf1a781ea5295979d5df3b1d1e52083317"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/reading_only/碧血剑.txt",
+      "bytes": 1245527,
+      "sha256": "3fb600dff1187cfd1e3eede46e4d3a8704e1ab107a8f6ee851bb63778d917465"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/reading_only/神雕侠侣.txt",
+      "bytes": 2865379,
+      "sha256": "233f15331a46ac3ed1f2bb54fd20e64f6a887767b21922d47ecff5a3a54b074f"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/reading_only/笑傲江湖.txt",
+      "bytes": 2953891,
+      "sha256": "5076b92f757c229d1bfda9664af4e4f85a1e40381c17d697385b6f499e1f03cf"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/reading_only/越女剑.txt",
+      "bytes": 49024,
+      "sha256": "61d37e8cd80cf742385329a72e3d9bd3f15b489db9a54b560e63e10854ae8bf8"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/reading_only/连城诀.txt",
+      "bytes": 688052,
+      "sha256": "c8565117973516d84a97a4ada86e0c42be7c76ad4db8598f26d3ea0cfc04b0dd"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/reading_only/雪山飞狐.txt",
+      "bytes": 389310,
+      "sha256": "17ede42cd1ae5d98becb311b9e36b8c22d26158e230278907d8cadfcf178546e"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/reading_only/飞狐外传.txt",
+      "bytes": 1322708,
+      "sha256": "b47433bafa38ad06fa79482b038b72d7c483ca6ac8cbf79145374b8f8b29b36c"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/reading_only/鸳鸯刀.txt",
+      "bytes": 104865,
+      "sha256": "11f56590c7305233d40270a25ba5c5569b843bdfca20974b8df11be95562c43a"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/reading_only/鹿鼎记.txt",
+      "bytes": 3675504,
+      "sha256": "4ce3fce97fe6e30aea4fd559ee440d4906481b329e6e0135725fa142661e2355"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/records/boundaries.jsonl",
+      "bytes": 388130,
+      "sha256": "6bad17048dd5d8a19aa520f8d098511eeed8fe7394ac576e0763773712c6317e"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/records/excluded_blocks.jsonl",
+      "bytes": 742192,
+      "sha256": "c7f31b28a476d78a867317078307f2592ce33fc348cbc6cdde94872bd7b95ea8"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/records/line_classification.jsonl",
+      "bytes": 16719234,
+      "sha256": "9564c50e4fd88cbadc432dac1b13dc078262224c79e7dae6d5014ba191f82314"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/records/punctuation_candidates_retained.jsonl",
+      "bytes": 9187,
+      "sha256": "07bbcbd3aefc0166a5d1993489fe0feb22e5f75d75f6b4124420f06ab51cedb9"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/records/quarantine.jsonl",
+      "bytes": 16058,
+      "sha256": "43f5c5b8ca0dda5d87686a6c51eed9bc192a6a83f5a8a7e1c6da53bddd0853b6"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/records/repairs.jsonl",
+      "bytes": 109678,
+      "sha256": "9454bb4b0df157d50a11dfdf17eb1a96e22b5939b401ba28cf65929d23173d08"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/records/witness_sources.json",
+      "bytes": 6408,
+      "sha256": "ad813346c09c1955800f086eb6f38ef1715ff331268b8725d81af9b1a3079840"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/samples/train.jsonl",
+      "bytes": 175910794,
+      "sha256": "c8b0f25ae0012722dc59b98113e8e7b31f536c520b6a7cd15058a96ec585a973"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/samples/train_jinyong.jsonl",
+      "bytes": 163985426,
+      "sha256": "20c57a15f4cf580130b9ac523a91ed6edfa0a789837e2671b9887467b9f572fe"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/samples/train_supplementary.jsonl",
+      "bytes": 11925368,
+      "sha256": "068b55b8314861814351032088a144067a56bd5a1d17b909ed84e51e8f2fa85f"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/samples/validation.jsonl",
+      "bytes": 9472018,
+      "sha256": "a5a4801b65d2431c9deb60b3e81b402b3eee49f26f1320959e3e1d02e535dda1"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/samples/validation_jinyong.jsonl",
+      "bytes": 8813417,
+      "sha256": "3d8e743769b43a8692e36039110537f4ade551e0313782ddb5accebfa36d2041"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/samples/validation_supplementary.jsonl",
+      "bytes": 658601,
+      "sha256": "40e371b4cc4b99275fbe3093419b7662a0c5037ce865d2a77d9b6e6877936019"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/splits/chapters.jsonl",
+      "bytes": 83459,
+      "sha256": "cc70daf4c58734bbd5bd07e1c11fb6a28b361334416844c2f38ab9cd001afe27"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/statistics.json",
+      "bytes": 6755,
+      "sha256": "b4b0e3e44baa97f44c456154fbb10f637709dc9105e84ed4baa11ec2e8c65df2"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/verification.json",
+      "bytes": 1281,
+      "sha256": "e209689e3cac6b1eb2bcd4cafdcb612da82efb834930352ea0b81fe6f68e4d91"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/vocab/char_all_training.json",
+      "bytes": 147938,
+      "sha256": "c30e93b2cb4f695fbfa89979386f23466179e1434dcd8609b3a00362b1cdecc8"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/corpus_v1_20261107/vocab/char_jinyong_training.json",
+      "bytes": 137259,
+      "sha256": "60266a89060dc1fcd33f326ab45c2dad7d31e134715905e1b5d6d9f5939a0494"
+    },
+    {
+      "relative_path": "nlp/shared/data/raw/jinyong/manifest.json",
+      "bytes": 3066,
+      "sha256": "196d04edb9d011a74624cf4a5628208261f4c87ce6d323e82b9e008a37fd278b"
+    },
+    {
+      "relative_path": "nlp/shared/data/raw/jinyong/texts/书剑恩仇录.txt",
+      "bytes": 1053544,
+      "sha256": "21fcf899021e45c773db5993e76fe80ea2fcb3dceaac0a94fc65d30dd0f05f9e"
+    },
+    {
+      "relative_path": "nlp/shared/data/raw/jinyong/texts/侠客行.txt",
+      "bytes": 755320,
+      "sha256": "d04a27d2aff0e1740d9441ab96c4dbb9e16708e7ff3ff8f7234092c17d7c70f9"
+    },
+    {
+      "relative_path": "nlp/shared/data/raw/jinyong/texts/倚天屠龙记.txt",
+      "bytes": 1970830,
+      "sha256": "b88d847a57d3634f0e929f92ad1b7ada71a22094a402a488192b08d0d79d64f6"
+    },
+    {
+      "relative_path": "nlp/shared/data/raw/jinyong/texts/天龙八部.txt",
+      "bytes": 2517340,
+      "sha256": "28cc736d9fae6353cd691923cde89906abf3bff83e18465718b0a9e49f973a89"
+    },
+    {
+      "relative_path": "nlp/shared/data/raw/jinyong/texts/射雕英雄传.txt",
+      "bytes": 1886886,
+      "sha256": "b48e2ffbfd0786bdcabdea9137731ee2af2d96a49c95446210a3fb5ebec019aa"
+    },
+    {
+      "relative_path": "nlp/shared/data/raw/jinyong/texts/白马啸西风.txt",
+      "bytes": 138627,
+      "sha256": "ffaa1024e4e0a331656fd196fcbb848540ea005b0567f6ba31e63821db802e06"
+    },
+    {
+      "relative_path": "nlp/shared/data/raw/jinyong/texts/碧血剑.txt",
+      "bytes": 1008495,
+      "sha256": "e4dc7ef82ae3e18c6a6a084d4fbba7a4ea135104ddabe63fbf64a2cdf5b1442b"
+    },
+    {
+      "relative_path": "nlp/shared/data/raw/jinyong/texts/神雕侠侣.txt",
+      "bytes": 1951604,
+      "sha256": "81ebeda3df7d3f09db11e4a0465795ea61a1e75f35acf7b60211ccb2dface6d7"
+    },
+    {
+      "relative_path": "nlp/shared/data/raw/jinyong/texts/笑傲江湖.txt",
+      "bytes": 2019276,
+      "sha256": "c46716c5a0f9c0a353c442a5d094a9b3e05edd6cb9a3a66890d55c433203f696"
+    },
+    {
+      "relative_path": "nlp/shared/data/raw/jinyong/texts/越女剑.txt",
+      "bytes": 164388,
+      "sha256": "af7f1fadc2730df4db4062b17a403e1848f64280211b7ecae4272d713edc29c0"
+    },
+    {
+      "relative_path": "nlp/shared/data/raw/jinyong/texts/连城诀.txt",
+      "bytes": 479550,
+      "sha256": "d467a2aa8f44cd4768f7429941439100435ee5a338576f9190a48c362b47524f"
+    },
+    {
+      "relative_path": "nlp/shared/data/raw/jinyong/texts/雪山飞狐.txt",
+      "bytes": 273792,
+      "sha256": "d9ffc3aba2c0402a10b8ea0521def2ed3dcbf62f9766eb6f95566fc58664bcf9"
+    },
+    {
+      "relative_path": "nlp/shared/data/raw/jinyong/texts/飞狐外传.txt",
+      "bytes": 908472,
+      "sha256": "eaaf3ad169eb69c5b09d7b412d6ec998d3a8dde62770d3edb1e79f3918522bda"
+    },
+    {
+      "relative_path": "nlp/shared/data/raw/jinyong/texts/鸳鸯刀.txt",
+      "bytes": 70911,
+      "sha256": "f169f6ee5e898b7cdf53285a3cd9b291dfb2816dd6b123301cb7ea8a7abafc33"
+    },
+    {
+      "relative_path": "nlp/shared/data/raw/jinyong/texts/鹿鼎记.txt",
+      "bytes": 2557852,
+      "sha256": "9a34a6d97e21a13dee1d924674af6b54b7a6c65f1e989d00a9ae5b26d80d2596"
+    },
+    {
+      "relative_path": "nlp/shared/data/raw/jinyong/金庸小说全集三联版txt.rar",
+      "bytes": 8190089,
+      "sha256": "633d0b8400dbc2d45173b5ecc92de8a1f3026a97040743428d5969107b1ddc12"
+    },
+    {
+      "relative_path": "nlp/shared/data/raw/supplementary/lfglib_20261106/ernvyingxiongzhuan/audit.json",
+      "bytes": 11425,
+      "sha256": "47febfa85ecddff0cfd66f5dec8625e023cfa1141094d6086f78f304c1f39bc0"
+    },
+    {
+      "relative_path": "nlp/shared/data/raw/supplementary/lfglib_20261106/ernvyingxiongzhuan/character_issues.jsonl",
+      "bytes": 22783,
+      "sha256": "aec715251290824caee48277bfe1aca338c733c465d58c1067decd3eaef7ec80"
+    },
+    {
+      "relative_path": "nlp/shared/data/raw/supplementary/lfglib_20261106/ernvyingxiongzhuan/original.txt",
+      "bytes": 1668412,
+      "sha256": "e3026c5107161e905513e7646b1f2f41eaaf6a5286c9d55029630a605d798824"
+    },
+    {
+      "relative_path": "nlp/shared/data/raw/supplementary/lfglib_20261106/ernvyingxiongzhuan/source.json",
+      "bytes": 1377,
+      "sha256": "5ccf7e05fbd43bd89770fa4bdae0003f1a1cd586884ca75b9963113f0bb40e0d"
+    },
+    {
+      "relative_path": "nlp/shared/data/raw/supplementary/lfglib_20261106/sanxiawuyi/audit.json",
+      "bytes": 31273,
+      "sha256": "9a506181b1a045f5b14fc0acb6ad0f5c5e18565311f1e257d761feaee323c0fb"
+    },
+    {
+      "relative_path": "nlp/shared/data/raw/supplementary/lfglib_20261106/sanxiawuyi/character_issues.jsonl",
+      "bytes": 3769,
+      "sha256": "adfbc36cd1b1fea02e96ff381ad4044245777f9e207161ee99cc125c20c41ab0"
+    },
+    {
+      "relative_path": "nlp/shared/data/raw/supplementary/lfglib_20261106/sanxiawuyi/original.txt",
+      "bytes": 1547881,
+      "sha256": "8f4b1552b5397d2e0f4ce47fda2ed09e9cd6ff8f174353bf8705404fe11da536"
+    },
+    {
+      "relative_path": "nlp/shared/data/raw/supplementary/lfglib_20261106/sanxiawuyi/source.json",
+      "bytes": 1354,
+      "sha256": "1164fc69c489b6c3594e7129538e53b876fc9b5bb1ed0be09a039e77ac9a7592"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/build_backup.py",
+      "bytes": 3379,
+      "sha256": "747e05791a231725b438e2bf7958fdd2120d1ae48c16b42e79fec62eece24de5"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/build_repair_proposals.py",
+      "bytes": 6403,
+      "sha256": "919d1ebd7d1fdb5840d31d01d7d6d9f575260c9a5f5586b2df3a30acdaf2c32f"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/config.json",
+      "bytes": 11397,
+      "sha256": "4a28617f17d118fa66e50f3d65954b973db15f94a1faee33b01e52ce8e0b7967"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/corpus_pipeline.py",
+      "bytes": 19660,
+      "sha256": "7731ec1d605c8fa32f244a9e5df3d9b4dd2f1277d2a9236b0bf3f62f1cce3a70"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/evidence_assertions.py",
+      "bytes": 3176,
+      "sha256": "3fd5d1bbeccdedaf2a4576632c8fd9c75c2ceebc525d2a34ae6884386f71f9df"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/execution.log",
+      "bytes": 8525,
+      "sha256": "31db62da7da1254ec65948939b84eaabbf6b79747fa99f3dfe1f0447389f4c71"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/execution_attempt01.log",
+      "bytes": 1758,
+      "sha256": "8ac0e163926be431d2a2484cdfecf28964546a3287909723378b7a76c2ca4106"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/fetch_witnesses.py",
+      "bytes": 2254,
+      "sha256": "1dfee38201bc8c22b78e1e29be3f6abdfabc939f1a782d56cf827f7a0e2eee8a"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/finalize_version.py",
+      "bytes": 8858,
+      "sha256": "b6fd45dbb591bcb9209439b7fa2a019134b67182977801a31fd9ca754dcf13ea"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/near_duplicates.py",
+      "bytes": 2126,
+      "sha256": "e219f861ffb53da95941fbd406e94d9cfbd69e129e964531f68f4c18c0080143"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/pipeline_core.py",
+      "bytes": 6962,
+      "sha256": "bad86be1ed4b2568eaff24a261ee2d258feb27a370f593e13196f4fe81c75d4e"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/progress.md",
+      "bytes": 2287,
+      "sha256": "702a4368c1274316f3ace36ee249033b4a007d5a16f9541734e9dc76181503e7"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/publish_and_export.py",
+      "bytes": 917,
+      "sha256": "860c08395e35d3f8d70aa39b8c8596047f0f3a4260ba1e7c1cf07bf7a8412b0d"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/reference/01_主对话导入Prompt.md",
+      "bytes": 57872,
+      "sha256": "f15a03d7ab008a93410db2fb3882e96bc78c26225694318f67cd63c5ea1e7b6a"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/repairs.json",
+      "bytes": 135324,
+      "sha256": "e6ddd06eafcf6efae558e1531b1e154e6da3e6194f103253b76098a183fb7200"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/review_resolution.json",
+      "bytes": 984,
+      "sha256": "1203844f16bff2342f6f500a6a14852d66bb457fa28efebb4c5519abf9b136a4"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/run_preparation.py",
+      "bytes": 1467,
+      "sha256": "14ccb0af289f2511c5eb23f9c4e5b4defe098313aad4d3a27e6097c8fddbc8d0"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/run_state.json",
+      "bytes": 156,
+      "sha256": "a9493fa3ef1abf541edbe9884c496840884c2cf125afdf2f5766c9caeed3e1e2"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/runtime_and_code.json",
+      "bytes": 1308,
+      "sha256": "3baec56b9f034bfa8cd3d6d6f09246ec0ffab1d3aebe222f32ff7f6f1d0d8b20"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/test_acceptance_gates.py",
+      "bytes": 1435,
+      "sha256": "9676a99333e93a75fe0aff2b8de2cf4b4a48ece510b7ead67e5f99dc2dd95946"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/test_pipeline_core.py",
+      "bytes": 4734,
+      "sha256": "1bd2fd9850b264ba39589a10f5f1fdf0ee7a97b4141131f71518d252200fbaf8"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/verification_acceptance.log",
+      "bytes": 1191,
+      "sha256": "65f40a34a5fbbb3064320bab5f004502f4d9ce29d8e232afffc67be50cadbae8"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/verify_corpus.py",
+      "bytes": 10233,
+      "sha256": "1884b2d5db4848ef22e6bf0f5763658e098995e6d4fcfaf4e34f3c2119b332c4"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/witnesses/ernvyingxiongzhuan_034.html",
+      "bytes": 110723,
+      "sha256": "62c85e2bc877c0857621d494d6b934ad83811fe7032c0c0bce49213d2cc5bd0b"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/witnesses/ernvyingxiongzhuan_034.txt",
+      "bytes": 50294,
+      "sha256": "9185d867ffb128208c28c82ca9136ba1378cae48be70fb2783fb69529a643b8a"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/witnesses/ernvyingxiongzhuan_035.html",
+      "bytes": 105865,
+      "sha256": "d2eae6e178155284160e5e1a7d50e0588092db08d446584b5a9adbff272e23ca"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/witnesses/ernvyingxiongzhuan_035.txt",
+      "bytes": 49254,
+      "sha256": "0b4b0010cb4b873c5a4b8bf94b3c6c3946cfcdda6e67370a3f64db6eedc95909"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/witnesses/ernvyingxiongzhuan_036.html",
+      "bytes": 107448,
+      "sha256": "c1835da84f8574feec5a3451f80f4378dddf54d3b5ad04aceaee0ee778fbeb34"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/witnesses/ernvyingxiongzhuan_036.txt",
+      "bytes": 51170,
+      "sha256": "d544e31f4fc81c21479adc019b2e98dd9a48f8e5029f8c65ca7bbbd088f5d1e6"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/witnesses/ernvyingxiongzhuan_037.html",
+      "bytes": 121554,
+      "sha256": "2a2e3bb76b61ecddbe0e37ebc9db223b2f7063812189f6469f82d0dd28dbc4ff"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/witnesses/ernvyingxiongzhuan_037.txt",
+      "bytes": 54954,
+      "sha256": "bb2c423074774e3f4e8f3c611a3a847d53ac187c401373d426c5e37fc7b2be7e"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/witnesses/ernvyingxiongzhuan_038.html",
+      "bytes": 113468,
+      "sha256": "c8a44f9fd095d69b8396956f6461f7537afb745bb8f855e382d3cbe15b364086"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/witnesses/ernvyingxiongzhuan_038.txt",
+      "bytes": 56972,
+      "sha256": "18c3d76e85958da8717278c9ca5af747c88019bb3bb15e0b8ed577fef5bfe9a2"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/witnesses/ernvyingxiongzhuan_039.html",
+      "bytes": 120437,
+      "sha256": "4bc69166b162187f156448b5262146b8eebb900a7043e08c2835dcd576b74868"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/witnesses/ernvyingxiongzhuan_039.txt",
+      "bytes": 58984,
+      "sha256": "2405863b3ad5d14374763d7d0b4792e5ef925c2b8bf15ac4eea619f60c0459cf"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/witnesses/ernvyingxiongzhuan_040.html",
+      "bytes": 177230,
+      "sha256": "ecea226a3046f8c76b9211bc0bbf876bf3f274c973b7ee16e43897351ce3be4c"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/witnesses/ernvyingxiongzhuan_040.txt",
+      "bytes": 118161,
+      "sha256": "20bf4ba2067f7d2f775911c0db803c95d6162d5af92845424ac3986d306d1eed"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/witnesses/manifest.json",
+      "bytes": 6540,
+      "sha256": "c40b5a5526190a41b6637fcd574794c9e8a0ff8833b5479a10029311bd9e71ff"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/witnesses/sanxiawuyi_003.html",
+      "bytes": 79974,
+      "sha256": "1e2903a05cfa4978ee39cdf42b89dd2a58d1318a79026caf148f71bd911a0263"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/witnesses/sanxiawuyi_003.txt",
+      "bytes": 19156,
+      "sha256": "aaa9236ef06126114d018bd2e27b91e62d93c5ac20e64b17749847b0e3045ce1"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/witnesses/sanxiawuyi_006.html",
+      "bytes": 74413,
+      "sha256": "d1ed3b24f1566fe10822dd793152dae746bec5bfc40f8a5f3d966d7f51e8a0c2"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/witnesses/sanxiawuyi_006.txt",
+      "bytes": 13705,
+      "sha256": "95e26a68211fec61f187595ebabbf56ad0eb81ccfdf167a80d4eea9988075b7b"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/witnesses/sanxiawuyi_007.html",
+      "bytes": 72777,
+      "sha256": "2244ea48724a6eff7638f1f259371ea6105283ce1197e77d7de973247ce95812"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/witnesses/sanxiawuyi_007.txt",
+      "bytes": 12106,
+      "sha256": "b188624f065f7db69e59ee53d5e969f0824159f5b82a1a22b9f769ccd2a7638c"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/witnesses/sanxiawuyi_010.html",
+      "bytes": 74991,
+      "sha256": "43232cc1d0316d026d255f4aa0dc16ef18b14527150021ecfa69b0e5147df1f2"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/witnesses/sanxiawuyi_010.txt",
+      "bytes": 14300,
+      "sha256": "3b7333f6006ea32e198aa8d847cc1b5770b1158dbee8b4c792a756ebd96f7194"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/witnesses/sanxiawuyi_045.html",
+      "bytes": 71944,
+      "sha256": "35ad0fbbd0ac536c3c3cba0614bd444d298de437d31d7cb45c30ffc287fb5ef9"
+    },
+    {
+      "relative_path": "nlp_data_preparation_20261107/witnesses/sanxiawuyi_045.txt",
+      "bytes": 11195,
+      "sha256": "c0463a447237c0ca1ab07aa0ef324e9dd9f46fb96033c3943abe6f2ea2dc3abb"
+    },
+    {
+      "relative_path": "nlp/shared/data/versions/current.json",
+      "bytes": 136,
+      "sha256": "fadbbf7e0465c685b16dbcc3b26bc1ca57cfab2d75e0c527bbd80fbf0a6acd47"
+    }
+  ],
+  "total_bytes": 550383608,
+  "file_count": 120,
+  "git_main_head": "fa582aa209ca4fd97ffed63a37b6b7f1642e7acb",
+  "git_main_status": "",
+  "version_id": "corpus_v1_20261107",
+  "training_started": false,
+  "server_verification": {
+    "passed": true,
+    "raw_books_sha256_verified": 17,
+    "archive_sha256_verified": true,
+    "chapters_verified": 527,
+    "paragraphs_verified": 76154,
+    "samples_verified": 72690,
+    "sample_counts": {
+      "train": 68997,
+      "validation": 3693
+    },
+    "sample_subsets": {
+      "train_jinyong": 65035,
+      "train_supplementary": 3962,
+      "validation_jinyong": 3469,
+      "validation_supplementary": 224
+    },
+    "all_original_lines_classified": true,
+    "utf8_strict": true,
+    "all_pua_issues_accounted": true,
+    "pua_original": 196,
+    "pua_repaired": 170,
+    "pua_quarantined": 26,
+    "quarantined_paragraphs": 16,
+    "cross_gap_samples": 0,
+    "cross_chapter_samples": 0,
+    "cross_split_duplicate_groups": 0,
+    "cross_split_exact_substrings_at_least_128_nonwhitespace_characters": 0,
+    "near_duplicate_scope": "MinHash LSH candidate paragraphs, verified char-5 Jaccard >= .85; not exhaustive semantic deduplication",
+    "repair_records_replayed_against_cached_source": 33,
+    "all_split_subset_objects_verified": true,
+    "vocabulary_uses_validation": false,
+    "validation_unknown_char_occurrences": 49,
+    "validation_unknown_char_fraction": 0.00010350939083667275,
+    "validation_character_fraction": 0.05016012156587374,
+    "no_independent_source_test_set": true,
+    "elapsed_seconds": 19.36
+  }
+}

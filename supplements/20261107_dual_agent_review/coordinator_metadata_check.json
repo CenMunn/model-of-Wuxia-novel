@@ -1,0 +1,36 @@
+{
+  "id": "Q016",
+  "source_algorithm": "build_repair_proposals.py lines 46-64",
+  "anchor_lengths": [
+    20,
+    16,
+    12,
+    8
+  ],
+  "all_pua_offsets": [
+    78,
+    112,
+    127,
+    128
+  ],
+  "locatable_but_not_applied_due_to_whole_paragraph_quarantine": [
+    {
+      "offset": 78,
+      "before": "",
+      "after": "缂",
+      "anchor_length": 20
+    }
+  ],
+  "recorded_unresolved_positions": [
+    112,
+    127,
+    128
+  ],
+  "derived_unresolved_positions": [
+    112,
+    127,
+    128
+  ],
+  "field_semantics_consistent": true,
+  "conclusion": "unresolved_positions只记未定位位置，不能把与总PUA数的差认作漏记。原始4处已计入original_pua_occurrences。"
+}

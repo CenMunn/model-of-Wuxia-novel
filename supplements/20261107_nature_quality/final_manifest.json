@@ -1,0 +1,177 @@
+{
+  "files": [
+    {
+      "name": "figure_contract.md",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\nature_revision_20261107\\figure_contract.md",
+      "bytes": 3289,
+      "sha256": "c4738a6124e197705fb6598a2b72de50e12525840691572a3ae7e9d6d06c0cb3"
+    },
+    {
+      "name": "academic_visual_prompt.md",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\nature_revision_20261107\\academic_visual_prompt.md",
+      "bytes": 4195,
+      "sha256": "2ba246134b5b7af5f7256728065aed911568e61eacf20ae3f2e6036ba9270725"
+    },
+    {
+      "name": "measure_quality.py",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\nature_revision_20261107\\measure_quality.py",
+      "bytes": 5248,
+      "sha256": "2fe36be43ccad553fc330673238fd04b35c2cf622090f76b5248222b4f5ef43c"
+    },
+    {
+      "name": "plot_nature_quality.py",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\nature_revision_20261107\\plot_nature_quality.py",
+      "bytes": 10086,
+      "sha256": "2b827612bf7a493360e7b2fba685076a09610fbbba96722e0505e6cbd1314816"
+    },
+    {
+      "name": "quality_profile.json",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\nature_revision_20261107\\quality_profile.json",
+      "bytes": 2060539,
+      "sha256": "306ac32843aa6da97c51e92f3de0831bfca44f0fd6e74a41eda04e0009bbf01a"
+    },
+    {
+      "name": "exports.json",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\nature_revision_20261107\\exports.json",
+      "bytes": 1236,
+      "sha256": "09f82031a9fa9f5c85f0cbdd21248a6918705000a5aa6209cdaade7eebbff50a"
+    },
+    {
+      "name": "quality.collision.json",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\nature_revision_20261107\\quality.collision.json",
+      "bytes": 625,
+      "sha256": "956afe0ac820d9910b3462254f38dbf03569b129919361647a7d5ac0990db88a"
+    },
+    {
+      "name": "books.collision.json",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\nature_revision_20261107\\books.collision.json",
+      "bytes": 625,
+      "sha256": "7c90726d2a4ee14407fa0220277675e150b01d3de1d646a77cd4f19d12b7d788"
+    },
+    {
+      "name": "qa_review.json",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\nature_revision_20261107\\qa_review.json",
+      "bytes": 715,
+      "sha256": "1653a3d0f7c336363be3f4830d696fffeb88f49fcb8aeb736ab25cd99b00b509"
+    },
+    {
+      "name": "数据质量评测_Nature版_20261107.png",
+      "local_path": "C:\\Users\\g'g\\Documents\\Codex\\2026-11-06\\lst-x4d-x20-x47-r-x55\\outputs\\数据质量评测_Nature版_20261107.png",
+      "bytes": 646653,
+      "sha256": "bfc0cb6e4c48e95b88279eda4d9ccae6c530805c597386d24251e48a4dad6c36",
+      "width": 5400,
+      "height": 3840,
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    {
+      "name": "数据质量评测_Nature版_20261107.pdf",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\nature_revision_20261107\\数据质量评测_Nature版_20261107.pdf",
+      "bytes": 69904,
+      "sha256": "f5bdab370f75acc2bae8e69471f747977934ed2df049e0ef6e0b598ea4a781a6"
+    },
+    {
+      "name": "数据质量评测_Nature版_20261107.svg",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\nature_revision_20261107\\数据质量评测_Nature版_20261107.svg",
+      "bytes": 53917,
+      "sha256": "a1e5922180f27117c2a1f71775d271caa5a1c6ceedcc31b6b348633196a5ac41"
+    },
+    {
+      "name": "数据质量评测_Nature版_20261107.tiff",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\nature_revision_20261107\\数据质量评测_Nature版_20261107.tiff",
+      "bytes": 1464702,
+      "sha256": "46d15d1b73688ad9267ae1c5f34ab112f727a24e0995f6bb3484714d2f161fbc"
+    },
+    {
+      "name": "数据质量评测_Nature版_20261107.alignment.json",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\nature_revision_20261107\\数据质量评测_Nature版_20261107.alignment.json",
+      "bytes": 2815,
+      "sha256": "b8c4e8dfd63b971215d04d118d249b33121e962608d92d1763f6c9e375790cc6"
+    },
+    {
+      "name": "数据质量评测_Nature版_20261107.alignment.svg",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\nature_revision_20261107\\数据质量评测_Nature版_20261107.alignment.svg",
+      "bytes": 1125,
+      "sha256": "edec20725fd6b47124f392b0fa7eabf9426507365da9648f59fda07509701c7a"
+    },
+    {
+      "name": "各书语料变化_Nature版_20261107.png",
+      "local_path": "C:\\Users\\g'g\\Documents\\Codex\\2026-11-06\\lst-x4d-x20-x47-r-x55\\outputs\\各书语料变化_Nature版_20261107.png",
+      "bytes": 423847,
+      "sha256": "b3e7bee27024a1c9285ea19b10bf18fecc1cfa50c33d2c21f0e18797e9b93eab",
+      "width": 5400,
+      "height": 4320,
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    {
+      "name": "各书语料变化_Nature版_20261107.pdf",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\nature_revision_20261107\\各书语料变化_Nature版_20261107.pdf",
+      "bytes": 56289,
+      "sha256": "01ed8bb708f589ba23d8a986b25f41833b6a4b2c46768ba8a95c1c75cbe5f976"
+    },
+    {
+      "name": "各书语料变化_Nature版_20261107.svg",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\nature_revision_20261107\\各书语料变化_Nature版_20261107.svg",
+      "bytes": 30063,
+      "sha256": "45d6e0eb82de5f25b2e6d19e0a723f392274c393ccd90dd235191d59e5be1591"
+    },
+    {
+      "name": "各书语料变化_Nature版_20261107.tiff",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\nature_revision_20261107\\各书语料变化_Nature版_20261107.tiff",
+      "bytes": 1228520,
+      "sha256": "2a4f7540e188a615247c1b0fd8171411df47eac19bb087aa96d62d02b85f81d3"
+    },
+    {
+      "name": "各书语料变化_Nature版_20261107.alignment.json",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\nature_revision_20261107\\各书语料变化_Nature版_20261107.alignment.json",
+      "bytes": 1591,
+      "sha256": "99346c7cedf7c22e189769fef9590c48810ed192af59542c13ee07ef372d91ba"
+    },
+    {
+      "name": "各书语料变化_Nature版_20261107.alignment.svg",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\nature_revision_20261107\\各书语料变化_Nature版_20261107.alignment.svg",
+      "bytes": 695,
+      "sha256": "32c9a92ed1ee089b1801a3275c05739f71faa2d1f08d9ed306e66a319f68b8d3"
+    }
+  ],
+  "review": {
+    "source_preflight": {
+      "pass_count": 20,
+      "warn_count": 1,
+      "fail_count": 0,
+      "warning_resolution": "228.6mm width is the declared course report/PPT size; no journal submission claim."
+    },
+    "backend": "python",
+    "panel_alignment": "PASS for both figures at 1.5pt tolerance",
+    "pdf_text_minimum_pt": [
+      7.2,
+      7.4
+    ],
+    "pdf_text_floor_passed": true,
+    "pdf_collision_audit": "PASS for both final PDFs; zero FAIL and WARN",
+    "visual_review": "Both final figures reviewed; no observed clipping, label collisions, explanatory prose, or footnotes.",
+    "user_facing_output": "two PNG images only",
+    "semantic_accuracy_not_claimed": true,
+    "source_data_modified": false
+  },
+  "source_dimension_references": [
+    {
+      "url": "https://blog.csdn.net/universsky2015/article/details/137296952",
+      "use": "context-dependent quality dimensions; no unsupported accuracy/F1"
+    },
+    {
+      "url": "https://blog.csdn.net/ayiya_Oese/article/details/147810050",
+      "use": "missingness, exact duplication, type consistency and descriptive length profiling"
+    },
+    {
+      "url": "https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework",
+      "use": "primary-source check of operational completeness, consistency, uniqueness, validity and accuracy distinctions"
+    }
+  ],
+  "input_data_unchanged": true
+}

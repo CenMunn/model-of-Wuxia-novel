@@ -1,0 +1,14 @@
+{
+  "backend": "python",
+  "static_preflight": {"pass": 20, "warn": 1, "fail": 0},
+  "width_warning_resolution": "228.6 mm is the established coursework/PPT size, not a journal submission.",
+  "alignment": "PASS; four axes and label anchors within 1.5 pt",
+  "pdf_glyph_floor": "PASS; observed minimum 7.2 pt",
+  "pdf_collisions": "PASS; zero FAIL, zero WARN",
+  "visual_review": "All four panels and complete final PNG inspected; counts, stages, text and units are legible.",
+  "redundancy_review": "Only the additional content-review criteria are plotted; previous structural panels are omitted.",
+  "explanatory_footnotes": false,
+  "ai_assistance_disclosed_in_title": true,
+  "human_gold_accuracy_claimed": false,
+  "frozen_data_modified": false
+}

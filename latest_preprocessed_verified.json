@@ -1,0 +1,50 @@
+{
+  "verified": true,
+  "snapshot_id": "20261107_preprocess_v1",
+  "local_snapshot": "D:\\大三上课程\\自然语言处理\\作业\\武侠小说生成作业\\服务器备份\\snapshots\\20261107_preprocess_v1",
+  "archive_sha256_verified": true,
+  "all_file_sha256_verified": true,
+  "files_verified": 120,
+  "uncompressed_bytes": 550383608,
+  "server_verification": {
+    "passed": true,
+    "raw_books_sha256_verified": 17,
+    "archive_sha256_verified": true,
+    "chapters_verified": 527,
+    "paragraphs_verified": 76154,
+    "samples_verified": 72690,
+    "sample_counts": {
+      "train": 68997,
+      "validation": 3693
+    },
+    "sample_subsets": {
+      "train_jinyong": 65035,
+      "train_supplementary": 3962,
+      "validation_jinyong": 3469,
+      "validation_supplementary": 224
+    },
+    "all_original_lines_classified": true,
+    "utf8_strict": true,
+    "all_pua_issues_accounted": true,
+    "pua_original": 196,
+    "pua_repaired": 170,
+    "pua_quarantined": 26,
+    "quarantined_paragraphs": 16,
+    "cross_gap_samples": 0,
+    "cross_chapter_samples": 0,
+    "cross_split_duplicate_groups": 0,
+    "cross_split_exact_substrings_at_least_128_nonwhitespace_characters": 0,
+    "near_duplicate_scope": "MinHash LSH candidate paragraphs, verified char-5 Jaccard >= .85; not exhaustive semantic deduplication",
+    "repair_records_replayed_against_cached_source": 33,
+    "all_split_subset_objects_verified": true,
+    "vocabulary_uses_validation": false,
+    "validation_unknown_char_occurrences": 49,
+    "validation_unknown_char_fraction": 0.00010350939083667275,
+    "validation_character_fraction": 0.05016012156587374,
+    "no_independent_source_test_set": true,
+    "elapsed_seconds": 19.36
+  },
+  "server_git_main_head": "fa582aa209ca4fd97ffed63a37b6b7f1642e7acb",
+  "server_git_main_status": "",
+  "training_started": false
+}

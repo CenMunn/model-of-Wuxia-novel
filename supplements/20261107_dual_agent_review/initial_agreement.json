@@ -1,0 +1,148 @@
+{
+  "review_type": "two separately prompted AI reviewers",
+  "human_gold": false,
+  "by_kind": {
+    "retained": {
+      "n": 300,
+      "agree": 300,
+      "raw_agreement": 1.0,
+      "cohen_kappa": null,
+      "kappa_note": "undefined when expected agreement is one",
+      "reviewer_a_labels": {
+        "KEEP": 300
+      },
+      "reviewer_b_labels": {
+        "KEEP": 300
+      },
+      "confusion": [
+        {
+          "a": "KEEP",
+          "b": "KEEP",
+          "n": 300
+        }
+      ]
+    },
+    "excluded": {
+      "n": 100,
+      "agree": 100,
+      "raw_agreement": 1.0,
+      "cohen_kappa": null,
+      "kappa_note": "undefined when expected agreement is one",
+      "reviewer_a_labels": {
+        "EXCLUDE": 100
+      },
+      "reviewer_b_labels": {
+        "EXCLUDE": 100
+      },
+      "confusion": [
+        {
+          "a": "EXCLUDE",
+          "b": "EXCLUDE",
+          "n": 100
+        }
+      ]
+    },
+    "repair": {
+      "n": 33,
+      "agree": 33,
+      "raw_agreement": 1.0,
+      "cohen_kappa": null,
+      "kappa_note": "undefined when expected agreement is one",
+      "reviewer_a_labels": {
+        "SUPPORTED": 33
+      },
+      "reviewer_b_labels": {
+        "SUPPORTED": 33
+      },
+      "confusion": [
+        {
+          "a": "SUPPORTED",
+          "b": "SUPPORTED",
+          "n": 33
+        }
+      ]
+    },
+    "quarantine": {
+      "n": 16,
+      "agree": 13,
+      "raw_agreement": 0.8125,
+      "cohen_kappa": 0.7055214723926381,
+      "kappa_note": "",
+      "reviewer_a_labels": {
+        "JUSTIFIED": 8,
+        "OVERCONSERVATIVE": 7,
+        "UNCERTAIN": 1
+      },
+      "reviewer_b_labels": {
+        "UNCERTAIN": 4,
+        "OVERCONSERVATIVE": 7,
+        "JUSTIFIED": 5
+      },
+      "confusion": [
+        {
+          "a": "JUSTIFIED",
+          "b": "UNCERTAIN",
+          "n": 3
+        },
+        {
+          "a": "OVERCONSERVATIVE",
+          "b": "OVERCONSERVATIVE",
+          "n": 7
+        },
+        {
+          "a": "UNCERTAIN",
+          "b": "UNCERTAIN",
+          "n": 1
+        },
+        {
+          "a": "JUSTIFIED",
+          "b": "JUSTIFIED",
+          "n": 5
+        }
+      ]
+    }
+  },
+  "overall_raw_agreement": 0.9933184855233853,
+  "disagreement_ids": [
+    "Q001",
+    "Q002",
+    "Q007"
+  ],
+  "coordinator_high_risk_ids": [
+    "Q001",
+    "Q002",
+    "Q003",
+    "Q004",
+    "Q005",
+    "Q006",
+    "Q007",
+    "Q008",
+    "Q009",
+    "Q010",
+    "Q011",
+    "Q012",
+    "Q013",
+    "Q014",
+    "Q015",
+    "Q016"
+  ],
+  "adjudication_required_ids": [
+    "Q001",
+    "Q002",
+    "Q003",
+    "Q004",
+    "Q005",
+    "Q006",
+    "Q007",
+    "Q008",
+    "Q009",
+    "Q010",
+    "Q011",
+    "Q012",
+    "Q013",
+    "Q014",
+    "Q015",
+    "Q016"
+  ],
+  "packet_sha256": "4c6b2badc95957c46a54cee0b022cb101b72a36dcccc991d58042bbcdbda446c"
+}

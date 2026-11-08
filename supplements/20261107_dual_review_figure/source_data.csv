@@ -1,0 +1,9 @@
+﻿panel,metric,numerator,denominator,unit,stage
+a,paragraph_noise,0,300,paragraph,final_review
+a,main_story_false_exclusion,0,100,source_line,final_review
+a,repair_support,33,33,record,final_review
+b,local_review_flags,14,300,paragraph,final_review
+c,continued_quarantine,3,16,record,after_additional_evidence
+c,recovery_candidate,11,16,record,after_additional_evidence
+c,unresolved,2,16,record,after_additional_evidence
+d,quarantine_reviewer_agreement,13,16,record,initial_independent_review

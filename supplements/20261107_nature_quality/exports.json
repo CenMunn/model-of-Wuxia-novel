@@ -1,0 +1,38 @@
+{
+  "backend": "python",
+  "matplotlib": "3.10.9",
+  "files": [
+    {
+      "file": "数据质量评测_Nature版_20261107.png",
+      "bytes": 646653,
+      "sha256": "bfc0cb6e4c48e95b88279eda4d9ccae6c530805c597386d24251e48a4dad6c36"
+    },
+    {
+      "file": "数据质量评测_Nature版_20261107.pdf",
+      "bytes": 69904,
+      "sha256": "f5bdab370f75acc2bae8e69471f747977934ed2df049e0ef6e0b598ea4a781a6"
+    },
+    {
+      "file": "数据质量评测_Nature版_20261107.svg",
+      "bytes": 53917,
+      "sha256": "a1e5922180f27117c2a1f71775d271caa5a1c6ceedcc31b6b348633196a5ac41"
+    },
+    {
+      "file": "各书语料变化_Nature版_20261107.png",
+      "bytes": 423847,
+      "sha256": "b3e7bee27024a1c9285ea19b10bf18fecc1cfa50c33d2c21f0e18797e9b93eab"
+    },
+    {
+      "file": "各书语料变化_Nature版_20261107.pdf",
+      "bytes": 56289,
+      "sha256": "01ed8bb708f589ba23d8a986b25f41833b6a4b2c46768ba8a95c1c75cbe5f976"
+    },
+    {
+      "file": "各书语料变化_Nature版_20261107.svg",
+      "bytes": 30063,
+      "sha256": "45d6e0eb82de5f25b2e6d19e0a723f392274c393ccd90dd235191d59e5be1591"
+    }
+  ],
+  "input_modified": false,
+  "visible_prose_annotations": false
+}

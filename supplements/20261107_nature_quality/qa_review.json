@@ -1,0 +1,20 @@
+{
+  "source_preflight": {
+    "pass_count": 20,
+    "warn_count": 1,
+    "fail_count": 0,
+    "warning_resolution": "228.6mm width is the declared course report/PPT size; no journal submission claim."
+  },
+  "backend": "python",
+  "panel_alignment": "PASS for both figures at 1.5pt tolerance",
+  "pdf_text_minimum_pt": [
+    7.2,
+    7.4
+  ],
+  "pdf_text_floor_passed": true,
+  "pdf_collision_audit": "PASS for both final PDFs; zero FAIL and WARN",
+  "visual_review": "Both final figures reviewed; no observed clipping, label collisions, explanatory prose, or footnotes.",
+  "user_facing_output": "two PNG images only",
+  "semantic_accuracy_not_claimed": true,
+  "source_data_modified": false
+}

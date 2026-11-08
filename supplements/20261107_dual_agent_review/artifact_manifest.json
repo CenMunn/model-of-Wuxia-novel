@@ -1,0 +1,276 @@
+{
+  "files": [
+    {
+      "name": "review_protocol.md",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\review_protocol.md",
+      "bytes": 4207,
+      "sha256": "3ccfc3e8218a1cc98f1005564b4e415abfbc223fc9ef76a3f77df051ef93a8e0"
+    },
+    {
+      "name": "review_packet.jsonl",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\review_packet.jsonl",
+      "bytes": 749290,
+      "sha256": "4c6b2badc95957c46a54cee0b022cb101b72a36dcccc991d58042bbcdbda446c"
+    },
+    {
+      "name": "sampling_manifest.json",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\sampling_manifest.json",
+      "bytes": 7009,
+      "sha256": "d46d481f907f8ead41f296ec584a44ab91e5a5218d7518a660137a057e20eb06"
+    },
+    {
+      "name": "private_sampling_map.json",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\private_sampling_map.json",
+      "bytes": 13805,
+      "sha256": "00fbba486fd9787f6b6f60e67f848a2c2320681c3c5b99a4576cae04d3d7230a"
+    },
+    {
+      "name": "prepare_review.py",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\prepare_review.py",
+      "bytes": 13090,
+      "sha256": "92e156129db41ace3eee21b798ffde1b61c7d33758a5363e46b18b151d203ae4"
+    },
+    {
+      "name": "aggregate_review.py",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\aggregate_review.py",
+      "bytes": 12529,
+      "sha256": "51917bb90338b8e45c3cdfef716bb9fb7d98140c50b8bde3cbe8fa7a8bbe416e"
+    },
+    {
+      "name": "build_review_report.py",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\build_review_report.py",
+      "bytes": 8145,
+      "sha256": "a72b28a71cb8d54473ae32477ef76fd3acbac038ca554c48804a159219440a26"
+    },
+    {
+      "name": "package_review.py",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\package_review.py",
+      "bytes": 4992,
+      "sha256": "e856f8f2ee8ab84240a605d68a85c3ee94d105af93483560f62c984333237f81"
+    },
+    {
+      "name": "reviewer_a.jsonl",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\reviewer_a.jsonl",
+      "bytes": 104077,
+      "sha256": "801d0de752f927cdc23f8ddaf1ecd9cfa11ce1c0750957d0173aedbe710f0357"
+    },
+    {
+      "name": "reviewer_b.jsonl",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\reviewer_b.jsonl",
+      "bytes": 100780,
+      "sha256": "ba56acf729f20cc08b664f6fcd0db3d7b4e191db9841508534e94db8640eb95e"
+    },
+    {
+      "name": "reviewer_a_notes.md",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\reviewer_a_notes.md",
+      "bytes": 7697,
+      "sha256": "ffc86f6de6eee3d0a4a6a53ee1ae0fe275559abda3294d7092f34821eb642b79"
+    },
+    {
+      "name": "reviewer_b_notes.md",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\reviewer_b_notes.md",
+      "bytes": 6629,
+      "sha256": "46df5c5cb8fa34367b26726e4aaab2e23e5f6b38775c55106e0ae9232d863a03"
+    },
+    {
+      "name": "reviewer_a_supplement.jsonl",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\reviewer_a_supplement.jsonl",
+      "bytes": 2246,
+      "sha256": "378141d22a5b55bf048501318df2c8986301e5f050682b97b2967f13d684c434"
+    },
+    {
+      "name": "reviewer_b_supplement.jsonl",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\reviewer_b_supplement.jsonl",
+      "bytes": 2049,
+      "sha256": "e70dcdf529eef18e6b315b528c115d543b14517d33ad08f1b75bfb534bf1646f"
+    },
+    {
+      "name": "reviewer_a_supplement_notes.md",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\reviewer_a_supplement_notes.md",
+      "bytes": 3225,
+      "sha256": "6c28cefc3d62a696a64e07bad6c7093c97271ce15d0c0a2d3606191eb5df334d"
+    },
+    {
+      "name": "reviewer_b_supplement_notes.md",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\reviewer_b_supplement_notes.md",
+      "bytes": 3516,
+      "sha256": "96f728e3e673a3faea846749009dc27b3f5bc4079f6ce04a94863fd20b617fb7"
+    },
+    {
+      "name": "supplementary_dd_evidence.json",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\supplementary_dd_evidence.json",
+      "bytes": 7716,
+      "sha256": "de055d4ee92101f606e9ca5c43c2deb27b131eb5800363e81fd4c51c529cae2b"
+    },
+    {
+      "name": "supplementary_agreement.json",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\supplementary_agreement.json",
+      "bytes": 846,
+      "sha256": "c4140971c942ec5bf202ca1d5ad6d6889f6ab224b5ea67465b7698b54cde2ee6"
+    },
+    {
+      "name": "coordinator_metadata_check.json",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\coordinator_metadata_check.json",
+      "bytes": 737,
+      "sha256": "2e8536e5a2d5ebfbe7de306c5d3f93d7e095b8d2d4c2b6cd8259432521fb9a31"
+    },
+    {
+      "name": "initial_agreement.json",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\initial_agreement.json",
+      "bytes": 2968,
+      "sha256": "043959b6ceebabee2625339d84309566e31b3ef125bddd589682c1102160b89b"
+    },
+    {
+      "name": "adjudication_queue.json",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\adjudication_queue.json",
+      "bytes": 78323,
+      "sha256": "dba7c70832742b0a533df9b5ed85d157682fea502e47f4d8eb4371fbb3dcabdd"
+    },
+    {
+      "name": "adjudication.jsonl",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\adjudication.jsonl",
+      "bytes": 8508,
+      "sha256": "e892f182f202ef35eb41eff83286aadd260b733b16e143fae0ecbd87f2f08721"
+    },
+    {
+      "name": "coordinator_spotcheck_ids.json",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\coordinator_spotcheck_ids.json",
+      "bytes": 2181,
+      "sha256": "25e09699b68118c23ef91c7189ff13c888552d2128a053df5b629478c6de436e"
+    },
+    {
+      "name": "final_labels.jsonl",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\final_labels.jsonl",
+      "bytes": 182154,
+      "sha256": "a7fecdffb25df892a0193ce482260a83f65b221544a2ad51382c2f465971bfb8"
+    },
+    {
+      "name": "review_metrics.json",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\review_metrics.json",
+      "bytes": 9584,
+      "sha256": "67a4dc90f5020b18523c79070321d36d4a8664e07467d9d355a6a0d02e5e37cd"
+    },
+    {
+      "name": "review_labels.csv",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\review_labels.csv",
+      "bytes": 84042,
+      "sha256": "fff79e98a567f7d7c69c8e3e3e0fe67a35493e89a8790631b44b3e33254ea3b1"
+    },
+    {
+      "name": "retained_review_flags.json",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\retained_review_flags.json",
+      "bytes": 17407,
+      "sha256": "95b6e4d16b7418935ad27a7f396e559a4f299e0373cc459e63c5fe03e89a83f5"
+    },
+    {
+      "name": "数据清洗双智能体审查结果.md",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\数据清洗双智能体审查结果.md",
+      "bytes": 8942,
+      "sha256": "68964b155a615237990472f7bbf41bd6329d5e9e9dabd0a68968e4ba95ec0f5c"
+    },
+    {
+      "name": "witnesses/sanxiawuyi_003.txt",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\witnesses\\sanxiawuyi_003.txt",
+      "bytes": 19156,
+      "sha256": "aaa9236ef06126114d018bd2e27b91e62d93c5ac20e64b17749847b0e3045ce1"
+    },
+    {
+      "name": "witnesses/sanxiawuyi_006.txt",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\witnesses\\sanxiawuyi_006.txt",
+      "bytes": 13705,
+      "sha256": "95e26a68211fec61f187595ebabbf56ad0eb81ccfdf167a80d4eea9988075b7b"
+    },
+    {
+      "name": "witnesses/sanxiawuyi_007.txt",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\witnesses\\sanxiawuyi_007.txt",
+      "bytes": 12106,
+      "sha256": "b188624f065f7db69e59ee53d5e969f0824159f5b82a1a22b9f769ccd2a7638c"
+    },
+    {
+      "name": "witnesses/sanxiawuyi_010.txt",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\witnesses\\sanxiawuyi_010.txt",
+      "bytes": 14300,
+      "sha256": "3b7333f6006ea32e198aa8d847cc1b5770b1158dbee8b4c792a756ebd96f7194"
+    },
+    {
+      "name": "witnesses/sanxiawuyi_045.txt",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\witnesses\\sanxiawuyi_045.txt",
+      "bytes": 11195,
+      "sha256": "c0463a447237c0ca1ab07aa0ef324e9dd9f46fb96033c3943abe6f2ea2dc3abb"
+    },
+    {
+      "name": "witnesses/ernvyingxiongzhuan_034.txt",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\witnesses\\ernvyingxiongzhuan_034.txt",
+      "bytes": 50294,
+      "sha256": "9185d867ffb128208c28c82ca9136ba1378cae48be70fb2783fb69529a643b8a"
+    },
+    {
+      "name": "witnesses/ernvyingxiongzhuan_035.txt",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\witnesses\\ernvyingxiongzhuan_035.txt",
+      "bytes": 49254,
+      "sha256": "0b4b0010cb4b873c5a4b8bf94b3c6c3946cfcdda6e67370a3f64db6eedc95909"
+    },
+    {
+      "name": "witnesses/ernvyingxiongzhuan_036.txt",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\witnesses\\ernvyingxiongzhuan_036.txt",
+      "bytes": 51170,
+      "sha256": "d544e31f4fc81c21479adc019b2e98dd9a48f8e5029f8c65ca7bbbd088f5d1e6"
+    },
+    {
+      "name": "witnesses/ernvyingxiongzhuan_037.txt",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\witnesses\\ernvyingxiongzhuan_037.txt",
+      "bytes": 54954,
+      "sha256": "bb2c423074774e3f4e8f3c611a3a847d53ac187c401373d426c5e37fc7b2be7e"
+    },
+    {
+      "name": "witnesses/ernvyingxiongzhuan_038.txt",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\witnesses\\ernvyingxiongzhuan_038.txt",
+      "bytes": 56972,
+      "sha256": "18c3d76e85958da8717278c9ca5af747c88019bb3bb15e0b8ed577fef5bfe9a2"
+    },
+    {
+      "name": "witnesses/ernvyingxiongzhuan_039.txt",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\witnesses\\ernvyingxiongzhuan_039.txt",
+      "bytes": 58984,
+      "sha256": "2405863b3ad5d14374763d7d0b4792e5ef925c2b8bf15ac4eea619f60c0459cf"
+    },
+    {
+      "name": "witnesses/ernvyingxiongzhuan_040.txt",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\witnesses\\ernvyingxiongzhuan_040.txt",
+      "bytes": 118161,
+      "sha256": "20bf4ba2067f7d2f775911c0db803c95d6162d5af92845424ac3986d306d1eed"
+    },
+    {
+      "name": "method_evidence/fetch_witnesses.py",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\method_evidence\\fetch_witnesses.py",
+      "bytes": 2254,
+      "sha256": "1dfee38201bc8c22b78e1e29be3f6abdfabc939f1a782d56cf827f7a0e2eee8a"
+    },
+    {
+      "name": "method_evidence/build_repair_proposals.py",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\method_evidence\\build_repair_proposals.py",
+      "bytes": 6403,
+      "sha256": "919d1ebd7d1fdb5840d31d01d7d6d9f575260c9a5f5586b2df3a30acdaf2c32f"
+    },
+    {
+      "name": "witnesses/ernvyingxiongzhuan_039.html",
+      "local_path": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\dual_agent_review_20261107\\witnesses\\ernvyingxiongzhuan_039.html",
+      "bytes": 120437,
+      "sha256": "4bc69166b162187f156448b5262146b8eebb900a7043e08c2835dcd576b74868"
+    }
+  ],
+  "preserved_figures": [
+    {
+      "name": "数据质量评测_Nature版_20261107.png",
+      "sha256": "bfc0cb6e4c48e95b88279eda4d9ccae6c530805c597386d24251e48a4dad6c36"
+    },
+    {
+      "name": "各书语料变化_Nature版_20261107.png",
+      "sha256": "b3e7bee27024a1c9285ea19b10bf18fecc1cfa50c33d2c21f0e18797e9b93eab"
+    }
+  ],
+  "review_type": "AI-assisted, not human gold",
+  "units": 449,
+  "packet_sha256": "4c6b2badc95957c46a54cee0b022cb101b72a36dcccc991d58042bbcdbda446c",
+  "protocol_sha256": "3ccfc3e8218a1cc98f1005564b4e415abfbc223fc9ef76a3f77df051ef93a8e0"
+}

@@ -1,0 +1,10 @@
+﻿metric,label,numerator,denominator,value,unit,scope
+known_pua_disposition_coverage,已知PUA处置完成率,196,196,1,ratio,所有已定位PUA均有恢复或隔离状态，不是全部错字修复率
+known_pua_evidence_restoration_fraction,已知PUA有据恢复占比,170,196,0.8673469387755102,ratio,按原始PUA出现次数计
+known_pua_quarantine_fraction,已知PUA隔离占比,26,196,0.1326530612244898,ratio,随16段原文隔离；不是伪造修复
+structural_sample_pass_fraction,样本结构核验通过率,72690,72690,1,ratio,仅限实现的来源、连续性、划分和长度等结构规则
+repair_replay_fraction,修复记录证据重放通过率,33,33,1,ratio,验证可按来源和偏移重建，不等于权威底本全文校勘
+validation_vocabulary_coverage,验证文本词表覆盖率,473338,473387,0.9998964906091633,ratio,统一训练词表；只统计验证正文字符，不是模型准确率
+after_before_han_ratio,处理后/原始汉字量比,8010931,8219763,0.9745939146907276,ratio,规模比，含非正文分离及有据补入，不是逐字保留率
+cross_gap_sample_rate,跨隔离断点样本率,0,72690,0,ratio,依照已记录断点核验
+validation_character_fraction,验证正文字符占比,473387,9437517,0.05016012156587374,ratio,含标点；按整回划分，非独立原文测试集

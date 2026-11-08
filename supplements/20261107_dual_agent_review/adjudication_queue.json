@@ -1,0 +1,1097 @@
+[
+  {
+    "id": "Q001",
+    "triggers": [
+      "reviewer_disagreement",
+      "uncertain_label",
+      "coordinator_high_risk_check: 对全部16项隔离作高风险复查，不以两位AI同意代替参考文本核对。"
+    ],
+    "reviewer_a": {
+      "id": "Q001",
+      "kind": "quarantine",
+      "label": "JUSTIFIED",
+      "confidence": "high",
+      "evidence_quote": "张著张大嘴，一上便叫",
+      "reason": "实搜三十六回只见一上便叫，参考省去原文PUA及嚓两字，不能据以确定失字；原行隔断可避免误接。",
+      "flags": [
+        "参考缺对应文字",
+        "已搜索对应参考文件"
+      ]
+    },
+    "reviewer_b": {
+      "id": "Q001",
+      "kind": "quarantine",
+      "label": "UNCERTAIN",
+      "confidence": "medium",
+      "evidence_quote": "一上便叫",
+      "reason": "已定位第三十六回参考，但该处省去原文私用字及嚓，删读或原声词缺失难定；整行设断点合理，能否安全恢复未定。",
+      "flags": [
+        "参考对应处省字",
+        "需核异文"
+      ]
+    },
+    "material": {
+      "id": "Q001",
+      "kind": "quarantine",
+      "book": "儿女英雄传",
+      "book_id": "ernvyingxiongzhuan",
+      "chapter": 36,
+      "raw_line": 2235,
+      "quarantine_id": "quarantine-001",
+      "text": "　　却说后左门的那班新进士，见宫门一阵簪缨乱动，知是卷子下来了。时候离得越近，心里望得越紧。紧接着便是那班带引见的官如飞而来。忽然见一个胖子分开众人，两只手捧着个大肚子，两条腿踹落踹落的跑得满头是汗，张着张大嘴，一上嚓便叫：“龙媒！龙媒！”众人又不知龙媒为谁。他一眼看见安公子，便跑到他跟前，只说了个“恭喜”两个字，便扶了安公子的肩膀喘个不住，可再说不出话来了。",
+      "unresolved_positions": [
+        108
+      ],
+      "context_before": {
+        "line": 2234,
+        "text": "执法，圣天子神明乎法。原来那日进上前十本殿试卷去，圣人见那第三本，虽然写作俱佳，只是策文靡丽而欠实义，字体姿媚而欠精神，料不是个远大之器。及至看到第八名安骥这本，不但写得黑圆光润，那策文的经学、史学两条，对得本本源源，漕政、捕政两条，对得来条条切中利弊。天颜大喜，便从第八名提向前来，定了第三名，把那原定的第三名改作第八名，因此安公子便占了个一甲三名的探花郎。",
+        "excerpted": true
+      },
+      "context_after": {
+        "line": 2236,
+        "text": "安公子出其不意，倒被他唬了一跳，定睛一看，才认出是何麦舟。这何麦舟便是安公子当日上淮安的时候，同管子金两个来帮盘缠的那人。安公子见他这个样子，只问说：“怎么了？”他才喘吁吁的伸了三个指头，说：“龙媒，恭喜！你点了一甲三名探花了！”安公子只是不信。这个当儿，早听那班带引见的官儿一名一名叫到他的名字，果然一甲三名叫得是安骥。安公子此时惊喜交集，早同了那九个人一个",
+        "excerpted": true
+      },
+      "boundary_records": [
+        {
+          "boundary_id": "ernvyingxiongzhuan-L002235-quarantine_gap",
+          "book_id": "ernvyingxiongzhuan",
+          "chapter_id": "ernvyingxiongzhuan-c036",
+          "kind": "quarantine_gap",
+          "original_line": 2235,
+          "original_text": "　　却说后左门的那班新进士，见宫门一阵簪缨乱动，知是卷子下来了。时候离得越近，心里望得越紧。紧接着便是那班带引见的官如飞而来。忽然见一个胖子分开众人，两只手捧着个大肚子，两条腿踹落踹落的跑得满头是汗，张着张大嘴，一上嚓便叫：“龙媒！龙媒！”众人又不知龙媒为谁。他一眼看见安公子，便跑到他跟前，只说了个“恭喜”两个字，便扶了安公子的肩膀喘个不住，可再说不出话来了。",
+          "quarantine_id": "quarantine-001"
+        }
+      ],
+      "reference_file": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\witnesses\\ernvyingxiongzhuan_036.txt",
+      "reference_url": "https://zh.wikisource.org/zh-hans/兒女英雄傳/第三十六回",
+      "reference_revision_url": "/w/index.php?title=%E5%85%92%E5%A5%B3%E8%8B%B1%E9%9B%84%E5%82%B3/%E7%AC%AC%E4%B8%89%E5%8D%81%E5%85%AD%E5%9B%9E&oldid=877393"
+    }
+  },
+  {
+    "id": "Q002",
+    "triggers": [
+      "reviewer_disagreement",
+      "uncertain_label",
+      "coordinator_high_risk_check: 对全部16项隔离作高风险复查，不以两位AI同意代替参考文本核对。"
+    ],
+    "reviewer_a": {
+      "id": "Q002",
+      "kind": "quarantine",
+      "label": "JUSTIFIED",
+      "confidence": "high",
+      "evidence_quote": "进来了个消瘦老头儿，穿著身旧衣裳。",
+      "reason": "参考同段在身旧之间没有对应字，且后句另有不测异文，无法确定原PUA；按该行设置缺口合理。",
+      "flags": [
+        "参考缺对应文字",
+        "已搜索对应参考文件"
+      ]
+    },
+    "reviewer_b": {
+      "id": "Q002",
+      "kind": "quarantine",
+      "label": "UNCERTAIN",
+      "confidence": "medium",
+      "evidence_quote": "穿著身旧衣裳",
+      "reason": "同回对应段参考在身与旧之间无字，不能判定私用字应删还是参考漏字；行级断点避免硬接，但修复安全性未定。",
+      "flags": [
+        "参考对应处省字",
+        "需核异文"
+      ]
+    },
+    "material": {
+      "id": "Q002",
+      "kind": "quarantine",
+      "book": "儿女英雄传",
+      "book_id": "ernvyingxiongzhuan",
+      "chapter": 36,
+      "raw_line": 2243,
+      "quarantine_id": "quarantine-002",
+      "text": "　　却说那位老爷正坐在西书房炕上，撬着条腿儿，叼着根小烟袋儿，腰里拿下火链来，才要打火吃烟。见一掀帘子，进来了个消瘦老头儿，穿着身旧衣裳。他望着勾了勾头儿，便道：“一块坐着不则，贵姓啊？”安老爷答道：“我便姓安。恕我家居，轻易不到官场，在场的诸位相好都不大认识了。足下何来？到舍下有何见教？”他这才知是安老爷，连忙扔下烟袋，请了个安，说：“原来就是老太爷！”慌得安老爷躬身拉起说：“素昧平生，怎么行这个礼，这等称谓？请问外头怎么称呼？”他才说道：“笔帖式姓贺，名字叫喜升。不敢回老太爷，外头人都称笔帖式是喜贺老大。我们大人打发来了，叫道老太爷的大喜，说宅里的大爷中了探花了。”",
+      "unresolved_positions": [
+        65
+      ],
+      "context_before": {
+        "line": 2242,
+        "text": "’奴才问：‘老爷怎么称呼？要见主人有甚么事？说明了家人好回上去。’他说：‘你别管，只管回去罢。’说着，自己把马拴在树上，就一直跑进大门来了。奴才只得让到西书房去坐。他还说：‘请你们老太爷快出来，我还要赶进城去呢。’”安老爷听了，也心中诧异，不及换衣服，便忙忙的出去见那位老爷。安太太、舅太太、张太太一时听了，更摸不着门子，不放心，忙叫了个小子跟着老爷出去打听。",
+        "excerpted": true
+      },
+      "context_after": {
+        "line": 2244,
+        "text": "安老爷听他这话说得离奇，疑信参半，忙问：“贵堂官是那位？”他才说：“包衣按班乌大人。笔帖式今日是堂上听事的班儿，我们大人把我叫到右门儿，亲口吩咐说：“才在案儿上见前十本的卷子下来，看见大爷的卷子，本定的是第八名，主子的恩典，把名次升到第三，点了探花了。’差派笔帖式飞马来给老太爷送这个喜信。还说因为老太爷是我们大人的老师，算烦笔帖式辛苦一荡，笔帖式抓了匹马就来",
+        "excerpted": true
+      },
+      "boundary_records": [
+        {
+          "boundary_id": "ernvyingxiongzhuan-L002243-quarantine_gap",
+          "book_id": "ernvyingxiongzhuan",
+          "chapter_id": "ernvyingxiongzhuan-c036",
+          "kind": "quarantine_gap",
+          "original_line": 2243,
+          "original_text": "　　却说那位老爷正坐在西书房炕上，撬着条腿儿，叼着根小烟袋儿，腰里拿下火链来，才要打火吃烟。见一掀帘子，进来了个消瘦老头儿，穿着身旧衣裳。他望着勾了勾头儿，便道：“一块坐着不则，贵姓啊？”安老爷答道：“我便姓安。恕我家居，轻易不到官场，在场的诸位相好都不大认识了。足下何来？到舍下有何见教？”他这才知是安老爷，连忙扔下烟袋，请了个安，说：“原来就是老太爷！”慌得安老爷躬身拉起说：“素昧平生，怎么行这个礼，这等称谓？请问外头怎么称呼？”他才说道：“笔帖式姓贺，名字叫喜升。不敢回老太爷，外头人都称笔帖式是喜贺老大。我们大人打发来了，叫道老太爷的大喜，说宅里的大爷中了探花了。”",
+          "quarantine_id": "quarantine-002"
+        }
+      ],
+      "reference_file": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\witnesses\\ernvyingxiongzhuan_036.txt",
+      "reference_url": "https://zh.wikisource.org/zh-hans/兒女英雄傳/第三十六回",
+      "reference_revision_url": "/w/index.php?title=%E5%85%92%E5%A5%B3%E8%8B%B1%E9%9B%84%E5%82%B3/%E7%AC%AC%E4%B8%89%E5%8D%81%E5%85%AD%E5%9B%9E&oldid=877393"
+    }
+  },
+  {
+    "id": "Q003",
+    "triggers": [
+      "potential_defect",
+      "coordinator_high_risk_check: 对全部16项隔离作高风险复查，不以两位AI同意代替参考文本核对。"
+    ],
+    "reviewer_a": {
+      "id": "Q003",
+      "kind": "quarantine",
+      "label": "OVERCONSERVATIVE",
+      "confidence": "high",
+      "evidence_quote": "公子珠挂沉檀，章辉㶉𫛶",
+      "reason": "实搜同回完整相应段落，章辉后明确两个可编码字㶉𫛶，前后服饰锚点吻合，可据参考局部修复而不必隔整行。",
+      "flags": [
+        "参考含扩展汉字非PUA",
+        "可修复后取消该缺口",
+        "已搜索对应参考文件"
+      ]
+    },
+    "reviewer_b": {
+      "id": "Q003",
+      "kind": "quarantine",
+      "label": "OVERCONSERVATIVE",
+      "confidence": "high",
+      "evidence_quote": "章辉㶉𫛶",
+      "reason": "已查同回对应归乡段，章辉与头插两朵金花间明确给出㶉𫛶，两处损坏均可据此安全恢复，整行隔离过保守。",
+      "flags": [
+        "参考有可定位修复",
+        "补充平面字符"
+      ]
+    },
+    "material": {
+      "id": "Q003",
+      "kind": "quarantine",
+      "book": "儿女英雄传",
+      "book_id": "ernvyingxiongzhuan",
+      "chapter": 36,
+      "raw_line": 2262,
+      "quarantine_id": "quarantine-003",
+      "text": "　　公子那边从头一日收拾停当了，次日起早，带了家丁便回庄园而来。半路到了梓潼庙，吃些东西，换了衣服。一路锣声开导，旗影摇风，公子珠挂沉檀，章辉，头插两朵金花，身披十字彩红，骑一匹雕鞍金埒的白马，迤逦向双凤村缓缓而来。一路也过了四五处烟村，也过了两三条镇市，那两面锣接连十三棒敲的不断，惹得那些路上行人，深闺儿女都彼此闲论，说：“这读书得作官的果是谁家子？”一程一程，来到临近。公子在马上望着那太空数点白云，匝地几痕芳草，恰遇那年下半年有个闺月，北地节候又迟，满山杏花还开得如火如锦，四围杏花风里簇拥他白面书生的一个探花郎，好不兴致！近山一带那些人家，早就晓得公子今日回第的信息，一个个扶老携幼，抱女携男，都来夹道欢呼的站在两旁看这热闹。内中也有几个读过书的庞眉皓发老者，扶了根拐杖，在那里指指点点说道：“不知这位安水心先生怎样自修，才生得这等一位公子！又不知这位公子怎样自爱，才成了恁般一个人物！”",
+      "unresolved_positions": [
+        71,
+        72
+      ],
+      "context_before": {
+        "line": 2261,
+        "text": "这日天不亮，张老便合亲家借了两个家人，带了那分执事，迎到离双凤村二十里外，便是那座梓潼庙等候。那执事是一对开导金锣，两对“赐进士出身”、“钦点探花及第”的朱红描金衔牌，一对清道旗，一对朱花旗，一对金瓜，一把重沿蓝伞。",
+        "excerpted": false
+      },
+      "context_after": {
+        "line": 2263,
+        "text": "话休絮烦。须臾，公子马到门首。一片锣声振耳，里头早晓得公子到了。公子离鞍下马，整顿衣冠。抬头一望，先望见门上高悬的“探花及第”那四个大字。进了大门，便是众家丁迎着叩喜。走到穿堂，又有业师程老夫子那里候着道贺。他匆匆一揖，便催公子道：“我们少刻再谈，老翁候久了。”",
+        "excerpted": false
+      },
+      "boundary_records": [
+        {
+          "boundary_id": "ernvyingxiongzhuan-L002262-quarantine_gap",
+          "book_id": "ernvyingxiongzhuan",
+          "chapter_id": "ernvyingxiongzhuan-c036",
+          "kind": "quarantine_gap",
+          "original_line": 2262,
+          "original_text": "　　公子那边从头一日收拾停当了，次日起早，带了家丁便回庄园而来。半路到了梓潼庙，吃些东西，换了衣服。一路锣声开导，旗影摇风，公子珠挂沉檀，章辉，头插两朵金花，身披十字彩红，骑一匹雕鞍金埒的白马，迤逦向双凤村缓缓而来。一路也过了四五处烟村，也过了两三条镇市，那两面锣接连十三棒敲的不断，惹得那些路上行人，深闺儿女都彼此闲论，说：“这读书得作官的果是谁家子？”一程一程，来到临近。公子在马上望着那太空数点白云，匝地几痕芳草，恰遇那年下半年有个闺月，北地节候又迟，满山杏花还开得如火如锦，四围杏花风里簇拥他白面书生的一个探花郎，好不兴致！近山一带那些人家，早就晓得公子今日回第的信息，一个个扶老携幼，抱女携男，都来夹道欢呼的站在两旁看这热闹。内中也有几个读过书的庞眉皓发老者，扶了根拐杖，在那里指指点点说道：“不知这位安水心先生怎样自修，才生得这等一位公子！又不知这位公子怎样自爱，才成了恁般一个人物！”",
+          "quarantine_id": "quarantine-003"
+        }
+      ],
+      "reference_file": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\witnesses\\ernvyingxiongzhuan_036.txt",
+      "reference_url": "https://zh.wikisource.org/zh-hans/兒女英雄傳/第三十六回",
+      "reference_revision_url": "/w/index.php?title=%E5%85%92%E5%A5%B3%E8%8B%B1%E9%9B%84%E5%82%B3/%E7%AC%AC%E4%B8%89%E5%8D%81%E5%85%AD%E5%9B%9E&oldid=877393"
+    }
+  },
+  {
+    "id": "Q004",
+    "triggers": [
+      "potential_defect",
+      "coordinator_high_risk_check: 对全部16项隔离作高风险复查，不以两位AI同意代替参考文本核对。"
+    ],
+    "reviewer_a": {
+      "id": "Q004",
+      "kind": "quarantine",
+      "label": "OVERCONSERVATIVE",
+      "confidence": "high",
+      "evidence_quote": "涧溪沼池之毛，𬞟蘩蕴藻之菜，筐筥锜釜之器，潢污行潦之水",
+      "reason": "同回原段五处依次有池、𬞟、筥、锜、污的明确字形，完整引语及两端问答定位，现有证据足够修复整段。",
+      "flags": [
+        "同项五处可定位",
+        "参考含扩展汉字非PUA",
+        "已搜索对应参考文件"
+      ]
+    },
+    "reviewer_b": {
+      "id": "Q004",
+      "kind": "quarantine",
+      "label": "OVERCONSERVATIVE",
+      "confidence": "high",
+      "evidence_quote": "筐筥锜釜之器",
+      "reason": "已查同回祭器回答，参考逐处给池、𬞟、筥、锜、污，五处缺字均有前后锚点，行级隔离缺少必要性。",
+      "flags": [
+        "参考有可定位修复",
+        "补充平面字符"
+      ]
+    },
+    "material": {
+      "id": "Q004",
+      "kind": "quarantine",
+      "book": "儿女英雄传",
+      "book_id": "ernvyingxiongzhuan",
+      "chapter": 36,
+      "raw_line": 2268,
+      "quarantine_id": "quarantine-004",
+      "text": "　　列公，你看安公子真算得了他老人家点儿衣钵真传，他会明白了。只听他控背答道：“西边这几件自然是‘丹铅设教，夏楚收威’的意思。东边那几件想是‘涧溪沼之毛，蘩蕴藻之菜，筐釜之器，潢行潦之水。”那箪食觚饮，正是至圣大贤的手泽口泽。只不知那奠酒为何要用着白茅根？”",
+      "unresolved_positions": [
+        74,
+        78,
+        86,
+        87,
+        93
+      ],
+      "context_before": {
+        "line": 2267,
+        "text": "的“觚不觚，觚哉觚哉”的那个“觚”，杯里满满盛着一杯清酒。老爷兢兢业业举得升空过顶，从东边献到座前供好了，座旁三揖而退，才退到正中，带领公子行了个四拜的礼。立起身来，又从西边上去撤下那杯酒，捧着作了个揖。出了院子，早见叶通捧过一束白茅根来，单腿跪着放在阶下。安老爷才望空一举，把那杯酒奠在那白茅上。进来，又站在那书案的旁边，问公子道：“你可知我今日这个用意？”",
+        "excerpted": true
+      },
+      "context_after": {
+        "line": 2269,
+        "text": "安老爷道：“这个典，你只看‘尔贡包茅不入，王祭不供，无一宿酒’的几句注疏，就晓得了。”公子道：“还要请示父亲，今日祭的是那位古圣先贤？”安老爷道：“古圣先贤怎的好请到我内室来。”因指着何小姐道：“这便是他的祖父，我那位恩师。当年我不受他老人家这点渊源，却把甚的来教你？你不经我这番训诲，又靠甚的去成名？这便叫作‘饮水思源，敢忘所自’。你要晓得，这等师生却合那托",
+        "excerpted": true
+      },
+      "boundary_records": [
+        {
+          "boundary_id": "ernvyingxiongzhuan-L002268-quarantine_gap",
+          "book_id": "ernvyingxiongzhuan",
+          "chapter_id": "ernvyingxiongzhuan-c036",
+          "kind": "quarantine_gap",
+          "original_line": 2268,
+          "original_text": "　　列公，你看安公子真算得了他老人家点儿衣钵真传，他会明白了。只听他控背答道：“西边这几件自然是‘丹铅设教，夏楚收威’的意思。东边那几件想是‘涧溪沼之毛，蘩蕴藻之菜，筐釜之器，潢行潦之水。”那箪食觚饮，正是至圣大贤的手泽口泽。只不知那奠酒为何要用着白茅根？”",
+          "quarantine_id": "quarantine-004"
+        }
+      ],
+      "reference_file": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\witnesses\\ernvyingxiongzhuan_036.txt",
+      "reference_url": "https://zh.wikisource.org/zh-hans/兒女英雄傳/第三十六回",
+      "reference_revision_url": "/w/index.php?title=%E5%85%92%E5%A5%B3%E8%8B%B1%E9%9B%84%E5%82%B3/%E7%AC%AC%E4%B8%89%E5%8D%81%E5%85%AD%E5%9B%9E&oldid=877393"
+    }
+  },
+  {
+    "id": "Q005",
+    "triggers": [
+      "potential_defect",
+      "coordinator_high_risk_check: 对全部16项隔离作高风险复查，不以两位AI同意代替参考文本核对。"
+    ],
+    "reviewer_a": {
+      "id": "Q005",
+      "kind": "quarantine",
+      "label": "OVERCONSERVATIVE",
+      "confidence": "high",
+      "evidence_quote": "这是比户皆然，却为《礼经》所不载。",
+      "reason": "同回参考完整保留叩佛习俗段，原输加PUA对应是比两字，局部损坏有明确修复文本，无需整段训练缺口。",
+      "flags": [
+        "修复需连同邻近输字校正",
+        "已搜索对应参考文件"
+      ]
+    },
+    "reviewer_b": {
+      "id": "Q005",
+      "kind": "quarantine",
+      "label": "OVERCONSERVATIVE",
+      "confidence": "high",
+      "evidence_quote": "这是比户皆然",
+      "reason": "已查第三十七回仪注段，佛爷作揖与礼经之间完整对应为这是比户皆然，可据参考将输及私用字一并恢复为是比。",
+      "flags": [
+        "参考有可定位修复",
+        "需同时修邻字"
+      ]
+    },
+    "material": {
+      "id": "Q005",
+      "kind": "quarantine",
+      "book": "儿女英雄传",
+      "book_id": "ernvyingxiongzhuan",
+      "chapter": 37,
+      "raw_line": 2292,
+      "quarantine_id": "quarantine-005",
+      "text": "　　你道这是个甚么仪注？原来小户人家凡遇着大典礼，不大肯坐下受人的头，总是叫他朝着家堂佛磕。便是家里有个孩子，从散学里下了学，也得朝着佛爷作那个揖。这输户皆然，却为《礼经》所不载。更兼安公子中举的时候是在上屋给岳父母行的礼，此时如何想得到这个规矩？及至听他岳丈说了句：“姑爷来到就是，别行礼罢。”他才知是该朝佛爷磕的，便在那蒲垫儿上先给泰山磕了三个头。张老也说了几句老实吉利话儿，又说：“这也不枉你爷儿俩、他姐儿俩受那场苦哇！这都是佛天菩萨的保佑啊！”",
+      "unresolved_positions": [
+        76
+      ],
+      "context_before": {
+        "line": 2291,
+        "text": "两口儿早迎出来。原来张老因人少房多，只占了三间正房，六间厢房。那正房里当中供佛，一间住人，一间座客。当下公子夫妻进去，见堂屋里佛爷桌儿上换了簇新的黄布桌围，桌儿上的锡五供儿擦得镜亮，佛前点着日夜不断的万年海灯，佛龛两旁一边儿还立着一根干稻草，讲究说这是怕屋里有个不洁净，遮佛爷的眼目的，佛桌儿前早铺下了个蒲垫儿，老两口儿走到那蒲垫儿跟前就站住，等着姑爷行礼。",
+        "excerpted": true
+      },
+      "context_after": {
+        "line": 2293,
+        "text": "公子起来，又给泰水磕头。俗语说的：“挨金似金，挨玉似玉。”今番亲家太太的谈吐就与往日不大相同了。只听他说道：“姑爷多礼，姑爷请起。这可实然的难为你！也不枉你家一场辛苦吃到底，也不枉我家‘行下的秋风望下的雨’，也不枉咱两家子这一嫁一娶。往后来我两口儿还愁甚么年少柴来月少米！可是人家说的，‘老天隔不了一层纸’，等明儿他姐儿俩再生上个一男半女，那才是重重见喜。谁也",
+        "excerpted": true
+      },
+      "boundary_records": [
+        {
+          "boundary_id": "ernvyingxiongzhuan-L002292-quarantine_gap",
+          "book_id": "ernvyingxiongzhuan",
+          "chapter_id": "ernvyingxiongzhuan-c037",
+          "kind": "quarantine_gap",
+          "original_line": 2292,
+          "original_text": "　　你道这是个甚么仪注？原来小户人家凡遇着大典礼，不大肯坐下受人的头，总是叫他朝着家堂佛磕。便是家里有个孩子，从散学里下了学，也得朝着佛爷作那个揖。这输户皆然，却为《礼经》所不载。更兼安公子中举的时候是在上屋给岳父母行的礼，此时如何想得到这个规矩？及至听他岳丈说了句：“姑爷来到就是，别行礼罢。”他才知是该朝佛爷磕的，便在那蒲垫儿上先给泰山磕了三个头。张老也说了几句老实吉利话儿，又说：“这也不枉你爷儿俩、他姐儿俩受那场苦哇！这都是佛天菩萨的保佑啊！”",
+          "quarantine_id": "quarantine-005"
+        }
+      ],
+      "reference_file": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\witnesses\\ernvyingxiongzhuan_037.txt",
+      "reference_url": "https://zh.wikisource.org/zh-hans/兒女英雄傳/第三十七回",
+      "reference_revision_url": "/w/index.php?title=%E5%85%92%E5%A5%B3%E8%8B%B1%E9%9B%84%E5%82%B3/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%83%E5%9B%9E&oldid=873333"
+    }
+  },
+  {
+    "id": "Q006",
+    "triggers": [
+      "uncertain_label",
+      "coordinator_high_risk_check: 对全部16项隔离作高风险复查，不以两位AI同意代替参考文本核对。"
+    ],
+    "reviewer_a": {
+      "id": "Q006",
+      "kind": "quarantine",
+      "label": "UNCERTAIN",
+      "confidence": "medium",
+      "evidence_quote": "要顶〈（庭）〉参格〈（的）〉[4]",
+      "reason": "实搜参考在乡音处仅作参并接[4]标记，原为PUA加参注及庭参释义，能规范化但不能确定方言原字；是否足够安全取决于版本归一边界。",
+      "flags": [
+        "参考注释布局异文",
+        "需判断是否允许规范化乡音",
+        "损坏未解决前保留断点",
+        "已搜索对应参考文件"
+      ]
+    },
+    "reviewer_b": {
+      "id": "Q006",
+      "kind": "quarantine",
+      "label": "UNCERTAIN",
+      "confidence": "medium",
+      "evidence_quote": "参格〈（的）〉[4]",
+      "reason": "已查同回乡谈段，参考只保留参及脚注号，原文为私用字加参的释音；原方言字形与注释处理未定，整行断点可理解。",
+      "flags": [
+        "方言原字与释音难分",
+        "参考注释表示不同"
+      ]
+    },
+    "material": {
+      "id": "Q006",
+      "kind": "quarantine",
+      "book": "儿女英雄传",
+      "book_id": "ernvyingxiongzhuan",
+      "chapter": 37,
+      "raw_line": 2312,
+      "quarantine_id": "quarantine-006",
+      "text": "　　原来大凡大江以南的朋友见了人，是个见过的，必先叫一声；没见过的，必先问问：“这个可是某人不是？”安老爷见问，忙答道：“正是山荆求见。”他这一肃整威仪，乡谈又来了，说道：“顾（这）四（是）要顶（庭）（参）格（的）。”庭参者，行大礼也。说着，只见他背过脸儿去，倒把脊梁朝着安太太，向北又是一躬。慌得安老爷还揖不迭，连说：“代还礼，代还礼。”安太太此时要还他个万福罢，旗装汉礼，既两不对帐，待摸着头把儿还他个旗礼，又怕不懂，更弄糟了。想了想，左右他在那里望着影壁作揖，索兴不还他礼。等他转过脸来，才说道：“师老爷多礼！我们玉格这么个糊涂孩子，多亏师老爷费心，成全了他，一总再给师老爷道谢罢。”他只低了头，红了脸，一时无话。",
+      "unresolved_positions": [
+        100
+      ],
+      "context_before": {
+        "line": 2311,
+        "text": "老爷便吩咐公子：“请你母亲出来。”幸亏是安太太素来那等大方，才能见怪不怪，出来合他相见。便忍了笑，扶了儿子出来，从靠南一带绕到下首，才待说话，只听他那里问着老爷道：“顾（这）个秀（就）四（是）嫂夫呐银（人）？”",
+        "excerpted": false
+      },
+      "context_after": {
+        "line": 2313,
+        "text": "安老爷便让道：“大哥请坐，待愚夫妇教小儿当堂叩谢。”",
+        "excerpted": false
+      },
+      "boundary_records": [
+        {
+          "boundary_id": "ernvyingxiongzhuan-L002312-quarantine_gap",
+          "book_id": "ernvyingxiongzhuan",
+          "chapter_id": "ernvyingxiongzhuan-c037",
+          "kind": "quarantine_gap",
+          "original_line": 2312,
+          "original_text": "　　原来大凡大江以南的朋友见了人，是个见过的，必先叫一声；没见过的，必先问问：“这个可是某人不是？”安老爷见问，忙答道：“正是山荆求见。”他这一肃整威仪，乡谈又来了，说道：“顾（这）四（是）要顶（庭）（参）格（的）。”庭参者，行大礼也。说着，只见他背过脸儿去，倒把脊梁朝着安太太，向北又是一躬。慌得安老爷还揖不迭，连说：“代还礼，代还礼。”安太太此时要还他个万福罢，旗装汉礼，既两不对帐，待摸着头把儿还他个旗礼，又怕不懂，更弄糟了。想了想，左右他在那里望着影壁作揖，索兴不还他礼。等他转过脸来，才说道：“师老爷多礼！我们玉格这么个糊涂孩子，多亏师老爷费心，成全了他，一总再给师老爷道谢罢。”他只低了头，红了脸，一时无话。",
+          "quarantine_id": "quarantine-006"
+        }
+      ],
+      "reference_file": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\witnesses\\ernvyingxiongzhuan_037.txt",
+      "reference_url": "https://zh.wikisource.org/zh-hans/兒女英雄傳/第三十七回",
+      "reference_revision_url": "/w/index.php?title=%E5%85%92%E5%A5%B3%E8%8B%B1%E9%9B%84%E5%82%B3/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%83%E5%9B%9E&oldid=873333"
+    }
+  },
+  {
+    "id": "Q007",
+    "triggers": [
+      "reviewer_disagreement",
+      "uncertain_label",
+      "coordinator_high_risk_check: 对全部16项隔离作高风险复查，不以两位AI同意代替参考文本核对。"
+    ],
+    "reviewer_a": {
+      "id": "Q007",
+      "kind": "quarantine",
+      "label": "JUSTIFIED",
+      "confidence": "high",
+      "evidence_quote": "还有那将呼合人家赌气呢",
+      "reason": "参考同处作将呼而原作德加PUA，整词读法相异且参考搭配可疑，不能单据窗口补成德某字，原行缺口有必要。",
+      "flags": [
+        "参考邻词异文",
+        "已搜索对应参考文件"
+      ]
+    },
+    "reviewer_b": {
+      "id": "Q007",
+      "kind": "quarantine",
+      "label": "UNCERTAIN",
+      "confidence": "medium",
+      "evidence_quote": "还有那将呼合人家赌气呢",
+      "reason": "已查同回争酒段，参考对应德加私用字位置却作将呼，存在两字异读且语义可疑；隔离行界合理，缺字无法据此确定。",
+      "flags": [
+        "参考对应词异读",
+        "需核异文"
+      ]
+    },
+    "material": {
+      "id": "Q007",
+      "kind": "quarantine",
+      "book": "儿女英雄传",
+      "book_id": "ernvyingxiongzhuan",
+      "chapter": 37,
+      "raw_line": 2348,
+      "quarantine_id": "quarantine-007",
+      "text": "　　公子将要回答，脸上却又有些讪讪儿的，说：“这句话却不敢说。”老爷道：“怎的忽然又有个‘不敢’起来？”公子原觉他要说的那句话有些不好开口，无如他此时是满怀的遂心快意，满脸的吐气扬眉，话挤话，不由得冲口而出，说道：“意思直要等两个媳妇作了夫人，那时叫他两个双手接过那轴五花官诰去，才算行完了他两个那名花旨酒美人的令。那时请教他两个，我这酒究竟喝得起喝不起？再开这杯酒。”安太太不等老爷说话，便啐了一口道：“呸！不害臊！这还不亏了人家俩媳妇儿呀！还有那德合人家赌气呢！就狂，狂的你这么着？别扯他娘的臊了！”安太太这话，才叫作“打是疼，骂是爱！”",
+      "unresolved_positions": [
+        226
+      ],
+      "context_before": {
+        "line": 2347,
+        "text": "定功课的那天，我说：‘这也不知是他自己憋出这股子横劲来了，也不知是俩媳妇儿把个懒驴子逼的上了磨了？’听听，果然应了我的话了不是？”老爷道：“且慢，他这话还不曾讲得明白。”因问着公子道；“就便如此，如今你举人也中了，进士也中了，翰林也点了，清秘堂也进了，并且玉堂金马，巍巍乎一甲三名的探花及第，也就尽是了。何以方才还不肯喝那盅酒？然则你这盅酒直要戒到几时才开？”",
+        "excerpted": true
+      },
+      "context_after": {
+        "line": 2349,
+        "text": "早见老爷一副正经面孔说道：“住着，太太这话也欠些平允。这不是舅太太、亲家太太、儿子、媳妇以至丫头女人们都在此，听我从公平断。他夫妻三个这段情节，就面子上听去，小子自然要算忍性上欠些把待，媳妇自然要算用情上欠些宛转，似乎都有些不是。然而不然。”说到这里，便举起右手来，伸着两个指头，望空画着圈儿说道：“我以为皆是也。",
+        "excerpted": false
+      },
+      "boundary_records": [
+        {
+          "boundary_id": "ernvyingxiongzhuan-L002348-quarantine_gap",
+          "book_id": "ernvyingxiongzhuan",
+          "chapter_id": "ernvyingxiongzhuan-c037",
+          "kind": "quarantine_gap",
+          "original_line": 2348,
+          "original_text": "　　公子将要回答，脸上却又有些讪讪儿的，说：“这句话却不敢说。”老爷道：“怎的忽然又有个‘不敢’起来？”公子原觉他要说的那句话有些不好开口，无如他此时是满怀的遂心快意，满脸的吐气扬眉，话挤话，不由得冲口而出，说道：“意思直要等两个媳妇作了夫人，那时叫他两个双手接过那轴五花官诰去，才算行完了他两个那名花旨酒美人的令。那时请教他两个，我这酒究竟喝得起喝不起？再开这杯酒。”安太太不等老爷说话，便啐了一口道：“呸！不害臊！这还不亏了人家俩媳妇儿呀！还有那德合人家赌气呢！就狂，狂的你这么着？别扯他娘的臊了！”安太太这话，才叫作“打是疼，骂是爱！”",
+          "quarantine_id": "quarantine-007"
+        }
+      ],
+      "reference_file": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\witnesses\\ernvyingxiongzhuan_037.txt",
+      "reference_url": "https://zh.wikisource.org/zh-hans/兒女英雄傳/第三十七回",
+      "reference_revision_url": "/w/index.php?title=%E5%85%92%E5%A5%B3%E8%8B%B1%E9%9B%84%E5%82%B3/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%83%E5%9B%9E&oldid=873333"
+    }
+  },
+  {
+    "id": "Q008",
+    "triggers": [
+      "potential_defect",
+      "coordinator_high_risk_check: 对全部16项隔离作高风险复查，不以两位AI同意代替参考文本核对。"
+    ],
+    "reviewer_a": {
+      "id": "Q008",
+      "kind": "quarantine",
+      "label": "OVERCONSERVATIVE",
+      "confidence": "high",
+      "evidence_quote": "只慌得跼蹐不安，才待回避",
+      "reason": "实搜三十九回相同哺乳场景可定位跼蹐不安，局跼字形差不妨碍补蹐，前后全段一致，可安全修复取消缺口。",
+      "flags": [
+        "局跼字形差异",
+        "已搜索对应参考文件"
+      ]
+    },
+    "reviewer_b": {
+      "id": "Q008",
+      "kind": "quarantine",
+      "label": "OVERCONSERVATIVE",
+      "confidence": "high",
+      "evidence_quote": "只慌得跼蹐不安",
+      "reason": "已查第三十九回哺乳段，参考在慌得与不安间明确跼蹐，局的异体及私用字可一并有据恢复，隔离整段过保守。",
+      "flags": [
+        "参考有可定位修复",
+        "需同时修邻字"
+      ]
+    },
+    "material": {
+      "id": "Q008",
+      "kind": "quarantine",
+      "book": "儿女英雄传",
+      "book_id": "ernvyingxiongzhuan",
+      "chapter": 39,
+      "raw_line": 2520,
+      "quarantine_id": "quarantine-008",
+      "text": "　　原来这位姨奶奶的奶孩子法与众不同。人家奶孩子只得奶一个，他得奶两个。人家养双伴儿的也有，自然是奶了一个再奶一个，他却是要俩一块儿奶。到了要俩一块儿奶了，只解开一个脖钮儿、一个二钮儿这可就不行了，所以他奶起孩子来是要把里外衣裳上的钮子一件件都解开，大敞辕门的撩在两边儿去，然后才用两只胳膊拢着两个孩子，叫两个孩子分着吃他两个咂儿。他却把俩孩子的四条腿儿搭成个十字架儿，两只手紧紧的抱着给他吃。又苦于外路人儿，轻易不会上炕盘腿儿，只叉着两条腿儿坐在炕沿儿上在那里奶。安老爷进门儿，一眼就看见他那对鼓蓬蓬的大咂儿。他那对咂儿往小里说也有斤半来重的馒头大小，围腰儿也不曾穿，中间儿还露着个雪白的大肚子。老爷等闲不曾开过这个眼，只慌得局不安，才待回避，邓九公一把拉住说：“老弟，你这又嫩绰绰了，这有甚么的呢。”",
+      "unresolved_positions": [
+        315
+      ],
+      "context_before": {
+        "line": 2519,
+        "text": "安老爷听了大喜，站起身来就同他进了那个东进间的屋门。进得屋门，安老爷一看，他家那位姨奶奶正在那里奶孩子呢，慌得老爷回身往外就跑。你道安老爷也是五十多岁生儿养女的人，难道连个奶孩子的也没见过不成？何况到了小户人家，再要房屋窄小些，遇着有个亲友来，偏是这个当儿孩子要吃奶，往往的就彼此回避不来，何至于就把这位老先生吓跑了呢？",
+        "excerpted": false
+      },
+      "context_after": {
+        "line": 2521,
+        "text": "他那位姨奶奶见安老爷进来，便笑嘻嘻的说了句：“哟，了不的了！他二叔进来了！”待要站起来，怀里是搂着俩孩子，才一欠身儿，左边儿那个孩子早把个咂儿从嘴里脱落出来。不想正在个灌精儿的时候，他那奶头儿里的奶就像激一般往外直冒，冒了那孩子一鼻子一嘴，呛得那孩子又是咳嗽又是嚏喷。邓九公只急得合他嚷道：“二老爷又不是外人，你正经老老实实儿的坐在那儿给孩子吃就完了，又闹这",
+        "excerpted": true
+      },
+      "boundary_records": [
+        {
+          "boundary_id": "ernvyingxiongzhuan-L002520-quarantine_gap",
+          "book_id": "ernvyingxiongzhuan",
+          "chapter_id": "ernvyingxiongzhuan-c039",
+          "kind": "quarantine_gap",
+          "original_line": 2520,
+          "original_text": "　　原来这位姨奶奶的奶孩子法与众不同。人家奶孩子只得奶一个，他得奶两个。人家养双伴儿的也有，自然是奶了一个再奶一个，他却是要俩一块儿奶。到了要俩一块儿奶了，只解开一个脖钮儿、一个二钮儿这可就不行了，所以他奶起孩子来是要把里外衣裳上的钮子一件件都解开，大敞辕门的撩在两边儿去，然后才用两只胳膊拢着两个孩子，叫两个孩子分着吃他两个咂儿。他却把俩孩子的四条腿儿搭成个十字架儿，两只手紧紧的抱着给他吃。又苦于外路人儿，轻易不会上炕盘腿儿，只叉着两条腿儿坐在炕沿儿上在那里奶。安老爷进门儿，一眼就看见他那对鼓蓬蓬的大咂儿。他那对咂儿往小里说也有斤半来重的馒头大小，围腰儿也不曾穿，中间儿还露着个雪白的大肚子。老爷等闲不曾开过这个眼，只慌得局不安，才待回避，邓九公一把拉住说：“老弟，你这又嫩绰绰了，这有甚么的呢。”",
+          "quarantine_id": "quarantine-008"
+        }
+      ],
+      "reference_file": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\witnesses\\ernvyingxiongzhuan_039.txt",
+      "reference_url": "https://zh.wikisource.org/zh-hans/兒女英雄傳/第三十九回",
+      "reference_revision_url": "/w/index.php?title=%E5%85%92%E5%A5%B3%E8%8B%B1%E9%9B%84%E5%82%B3/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B9%9D%E5%9B%9E&oldid=873335"
+    }
+  },
+  {
+    "id": "Q009",
+    "triggers": [
+      "coordinator_high_risk_check: 对全部16项隔离作高风险复查，不以两位AI同意代替参考文本核对。"
+    ],
+    "reviewer_a": {
+      "id": "Q009",
+      "kind": "quarantine",
+      "label": "JUSTIFIED",
+      "confidence": "high",
+      "evidence_quote": "饰媪婢以绖",
+      "reason": "搜索何公杞、先是女、孀等无对应，参考从念给大家听道直接接念完，整篇生传缺载，两缺字无直接证据且须留缺口。",
+      "flags": [
+        "参考整篇生传缺载",
+        "已搜索对应参考文件"
+      ]
+    },
+    "reviewer_b": {
+      "id": "Q009",
+      "kind": "quarantine",
+      "label": "JUSTIFIED",
+      "confidence": "high",
+      "evidence_quote": "饰媪婢以绖",
+      "reason": "搜索第三十九回先是女随及先人等均无对应生传正文，参考在朗诵引语后直跳念完；两缺字不能安全补，行级断点合理。",
+      "flags": [
+        "参考缺少整篇嵌入生传"
+      ]
+    },
+    "material": {
+      "id": "Q009",
+      "kind": "quarantine",
+      "book": "儿女英雄传",
+      "book_id": "ernvyingxiongzhuan",
+      "chapter": 39,
+      "raw_line": 2539,
+      "quarantine_id": "quarantine-009",
+      "text": "　　先是女随其先人副总戎何公杞之官甘肃，何公为强有力者所挫，下于理，郁郁以死。女义有所避，饰媪婢以绖，伪为母若女者，致其先人于京邸，己则窃母而逃，埋头项于青云山间。今义士邓翁者，能急人急，往依而庇门户焉。",
+      "unresolved_positions": [
+        49,
+        63
+      ],
+      "context_before": {
+        "line": 2538,
+        "text": "义士邓翁传学海八年出就外傅，五十成名，其间读书四十余年，凡遇古人豪侠好义事，辄心向往之，而窃以生今之世闻其语而末尝一见其人为憾。今天子御极之四年，岁在丙午，学海官淮上，旋去官，将之山左访故人女十三妹于齐鲁之青云山。十三妹者，盖曙后孤星，昔为吾师故孝廉子何子明若先生女孙，今归吾子骥，为吾家子妇者也。",
+        "excerpted": false
+      },
+      "context_after": {
+        "line": 2540,
+        "text": "予既至山左，甫得其颠末。然予与翁初无杯酒交，而计非翁又无由梯以见女，乃因翁之子婿褚者介以见翁。既见翁，饮予以酒。言笑甚欢，纵谈其生平事，须眉跃跃欲动，始知古所谓豪侠好义之士者，今非无其人也。会女母氏又见背，有岌岌焉不可终日势，凡货财筋力之礼，翁悉锐身任之。已乃为女执柯，以之妃吾子骥，而使归吾家。计女得翁以获安全者，凡三年八月有奇。以道路之人，躬杵臼之事，而卒",
+        "excerpted": true
+      },
+      "boundary_records": [
+        {
+          "boundary_id": "ernvyingxiongzhuan-L002539-quarantine_gap",
+          "book_id": "ernvyingxiongzhuan",
+          "chapter_id": "ernvyingxiongzhuan-c039",
+          "kind": "quarantine_gap",
+          "original_line": 2539,
+          "original_text": "　　先是女随其先人副总戎何公杞之官甘肃，何公为强有力者所挫，下于理，郁郁以死。女义有所避，饰媪婢以绖，伪为母若女者，致其先人于京邸，己则窃母而逃，埋头项于青云山间。今义士邓翁者，能急人急，往依而庇门户焉。",
+          "quarantine_id": "quarantine-009"
+        }
+      ],
+      "reference_file": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\witnesses\\ernvyingxiongzhuan_039.txt",
+      "reference_url": "https://zh.wikisource.org/zh-hans/兒女英雄傳/第三十九回",
+      "reference_revision_url": "/w/index.php?title=%E5%85%92%E5%A5%B3%E8%8B%B1%E9%9B%84%E5%82%B3/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B9%9D%E5%9B%9E&oldid=873335"
+    }
+  },
+  {
+    "id": "Q010",
+    "triggers": [
+      "coordinator_high_risk_check: 对全部16项隔离作高风险复查，不以两位AI同意代替参考文本核对。"
+    ],
+    "reviewer_a": {
+      "id": "Q010",
+      "kind": "quarantine",
+      "label": "JUSTIFIED",
+      "confidence": "high",
+      "evidence_quote": "而卒措孀崽子于磐石之安",
+      "reason": "实搜甫得、躬杵臼等均无结果，参考跳过生传正文，不能凭文言猜补措后字及附近疑词，隔行断点合理。",
+      "flags": [
+        "参考整篇生传缺载",
+        "附近另有可疑用字",
+        "已搜索对应参考文件"
+      ]
+    },
+    "reviewer_b": {
+      "id": "Q010",
+      "kind": "quarantine",
+      "label": "JUSTIFIED",
+      "confidence": "high",
+      "evidence_quote": "而卒措孀崽子于磐石之安",
+      "reason": "已查同回山左与生传位置，缓存整篇传文缺载，无法核措后字及邻词；隔离该物理行并设断点能防虚构续接。",
+      "flags": [
+        "参考缺少整篇嵌入生传"
+      ]
+    },
+    "material": {
+      "id": "Q010",
+      "kind": "quarantine",
+      "book": "儿女英雄传",
+      "book_id": "ernvyingxiongzhuan",
+      "chapter": 39,
+      "raw_line": 2540,
+      "quarantine_id": "quarantine-010",
+      "text": "　　予既至山左，甫得其颠末。然予与翁初无杯酒交，而计非翁又无由梯以见女，乃因翁之子婿褚者介以见翁。既见翁，饮予以酒。言笑甚欢，纵谈其生平事，须眉跃跃欲动，始知古所谓豪侠好义之士者，今非无其人也。会女母氏又见背，有岌岌焉不可终日势，凡货财筋力之礼，翁悉锐身任之。已乃为女执柯，以之妃吾子骥，而使归吾家。计女得翁以获安全者，凡三年八月有奇。以道路之人，躬杵臼之事，而卒措孀崽子于磐石之安，使学海亦得因之报师门而来佳妇，皆翁力也。",
+      "unresolved_positions": [
+        183
+      ],
+      "context_before": {
+        "line": 2539,
+        "text": "先是女随其先人副总戎何公杞之官甘肃，何公为强有力者所挫，下于理，郁郁以死。女义有所避，饰媪婢以绖，伪为母若女者，致其先人于京邸，己则窃母而逃，埋头项于青云山间。今义士邓翁者，能急人急，往依而庇门户焉。",
+        "excerpted": false
+      },
+      "context_after": {
+        "line": 2541,
+        "text": "吾媳既外除来归，合之夕，翁年且八十七，不远千里来，遗女甚厚。与予饮于堂上，以酒属予曰：‘某浪迹江湖，交游满天下，求其真知某者无如吾子。吾九十近矣，纵百岁归居，亦来日苦少，子盍为我撰墓志以须乎？’予闻命皇皇，疑从翁之言，则豫凶非礼；以不敏辞，又非翁所以属予之意，而没翁可传之贤。考古人为贤者立传，不妨及其生存而为之，如司马君实之于范蜀公是也。翁平生出处皆不类范",
+        "excerpted": true
+      },
+      "boundary_records": [
+        {
+          "boundary_id": "ernvyingxiongzhuan-L002540-quarantine_gap",
+          "book_id": "ernvyingxiongzhuan",
+          "chapter_id": "ernvyingxiongzhuan-c039",
+          "kind": "quarantine_gap",
+          "original_line": 2540,
+          "original_text": "　　予既至山左，甫得其颠末。然予与翁初无杯酒交，而计非翁又无由梯以见女，乃因翁之子婿褚者介以见翁。既见翁，饮予以酒。言笑甚欢，纵谈其生平事，须眉跃跃欲动，始知古所谓豪侠好义之士者，今非无其人也。会女母氏又见背，有岌岌焉不可终日势，凡货财筋力之礼，翁悉锐身任之。已乃为女执柯，以之妃吾子骥，而使归吾家。计女得翁以获安全者，凡三年八月有奇。以道路之人，躬杵臼之事，而卒措孀崽子于磐石之安，使学海亦得因之报师门而来佳妇，皆翁力也。",
+          "quarantine_id": "quarantine-010"
+        }
+      ],
+      "reference_file": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\witnesses\\ernvyingxiongzhuan_039.txt",
+      "reference_url": "https://zh.wikisource.org/zh-hans/兒女英雄傳/第三十九回",
+      "reference_revision_url": "/w/index.php?title=%E5%85%92%E5%A5%B3%E8%8B%B1%E9%9B%84%E5%82%B3/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B9%9D%E5%9B%9E&oldid=873335"
+    }
+  },
+  {
+    "id": "Q011",
+    "triggers": [
+      "coordinator_high_risk_check: 对全部16项隔离作高风险复查，不以两位AI同意代替参考文本核对。"
+    ],
+    "reviewer_a": {
+      "id": "Q011",
+      "kind": "quarantine",
+      "label": "JUSTIFIED",
+      "confidence": "high",
+      "evidence_quote": "合之夕",
+      "reason": "搜吾媳既外除与合卺等未见生传此段，参考明确略去所念文章；即使习语可猜，也缺同章直接证据，暂隔并留断点合理。",
+      "flags": [
+        "参考整篇生传缺载",
+        "已搜索对应参考文件"
+      ]
+    },
+    "reviewer_b": {
+      "id": "Q011",
+      "kind": "quarantine",
+      "label": "JUSTIFIED",
+      "confidence": "high",
+      "evidence_quote": "吾媳既外除来归，合之夕",
+      "reason": "搜索第三十九回来归及生传正文无对应文字，缓存朗诵处跳段；虽可猜婚礼词仍无参考支持，整行隔离与断点合理。",
+      "flags": [
+        "参考缺少整篇嵌入生传"
+      ]
+    },
+    "material": {
+      "id": "Q011",
+      "kind": "quarantine",
+      "book": "儿女英雄传",
+      "book_id": "ernvyingxiongzhuan",
+      "chapter": 39,
+      "raw_line": 2541,
+      "quarantine_id": "quarantine-011",
+      "text": "　　吾媳既外除来归，合之夕，翁年且八十七，不远千里来，遗女甚厚。与予饮于堂上，以酒属予曰：‘某浪迹江湖，交游满天下，求其真知某者无如吾子。吾九十近矣，纵百岁归居，亦来日苦少，子盍为我撰墓志以须乎？’予闻命皇皇，疑从翁之言，则豫凶非礼；以不敏辞，又非翁所以属予之意，而没翁可传之贤。考古人为贤者立传，不妨及其生存而为之，如司马君实之于范蜀公是也。翁平生出处皆不类范蜀公，而学海视君实且弗如远甚。然其例可援也，请得援此例以质翁。",
+      "unresolved_positions": [
+        11
+      ],
+      "context_before": {
+        "line": 2540,
+        "text": "见女，乃因翁之子婿褚者介以见翁。既见翁，饮予以酒。言笑甚欢，纵谈其生平事，须眉跃跃欲动，始知古所谓豪侠好义之士者，今非无其人也。会女母氏又见背，有岌岌焉不可终日势，凡货财筋力之礼，翁悉锐身任之。已乃为女执柯，以之妃吾子骥，而使归吾家。计女得翁以获安全者，凡三年八月有奇。以道路之人，躬杵臼之事，而卒措孀崽子于磐石之安，使学海亦得因之报师门而来佳妇，皆翁力也。",
+        "excerpted": true
+      },
+      "context_after": {
+        "line": 2542,
+        "text": "谨按翁名振彪，字虎臣，以行行，人称曰九公。淮之桃源人，其大父某公，官明崇祯按察副使，从永明王入滇，与邓士廉、李定国诸人同日尽难。父某公，时以岁贡生任训导，闻之弃官，徒步万里，冒锋镝负骸骨以归，竟以身殉。呜呼！以知翁之得天独厚者，端有自来矣！",
+        "excerpted": false
+      },
+      "boundary_records": [
+        {
+          "boundary_id": "ernvyingxiongzhuan-L002541-quarantine_gap",
+          "book_id": "ernvyingxiongzhuan",
+          "chapter_id": "ernvyingxiongzhuan-c039",
+          "kind": "quarantine_gap",
+          "original_line": 2541,
+          "original_text": "　　吾媳既外除来归，合之夕，翁年且八十七，不远千里来，遗女甚厚。与予饮于堂上，以酒属予曰：‘某浪迹江湖，交游满天下，求其真知某者无如吾子。吾九十近矣，纵百岁归居，亦来日苦少，子盍为我撰墓志以须乎？’予闻命皇皇，疑从翁之言，则豫凶非礼；以不敏辞，又非翁所以属予之意，而没翁可传之贤。考古人为贤者立传，不妨及其生存而为之，如司马君实之于范蜀公是也。翁平生出处皆不类范蜀公，而学海视君实且弗如远甚。然其例可援也，请得援此例以质翁。",
+          "quarantine_id": "quarantine-011"
+        }
+      ],
+      "reference_file": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\witnesses\\ernvyingxiongzhuan_039.txt",
+      "reference_url": "https://zh.wikisource.org/zh-hans/兒女英雄傳/第三十九回",
+      "reference_revision_url": "/w/index.php?title=%E5%85%92%E5%A5%B3%E8%8B%B1%E9%9B%84%E5%82%B3/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B9%9D%E5%9B%9E&oldid=873335"
+    }
+  },
+  {
+    "id": "Q012",
+    "triggers": [
+      "coordinator_high_risk_check: 对全部16项隔离作高风险复查，不以两位AI同意代替参考文本核对。"
+    ],
+    "reviewer_a": {
+      "id": "Q012",
+      "kind": "quarantine",
+      "label": "JUSTIFIED",
+      "confidence": "high",
+      "evidence_quote": "恒为里排难解纷",
+      "reason": "搜性诚笃及排难解纷未见相应正文，参考不载生传，里后失字无法与锚点核定；不跨该行拼接较稳妥。",
+      "flags": [
+        "参考整篇生传缺载",
+        "已搜索对应参考文件"
+      ]
+    },
+    "reviewer_b": {
+      "id": "Q012",
+      "kind": "quarantine",
+      "label": "JUSTIFIED",
+      "confidence": "high",
+      "evidence_quote": "恒为里排难解纷",
+      "reason": "已搜索同回性诚笃及排难等锚无结果，定位到参考省去生传整篇，里后字不能以常识猜补；本行留断点合理。",
+      "flags": [
+        "参考缺少整篇嵌入生传"
+      ]
+    },
+    "material": {
+      "id": "Q012",
+      "kind": "quarantine",
+      "book": "儿女英雄传",
+      "book_id": "ernvyingxiongzhuan",
+      "chapter": 39,
+      "raw_line": 2544,
+      "quarantine_id": "quarantine-012",
+      "text": "　　性诚笃而毅，间以侠气出，恒为里排难解纷，抑强扶弱，有不顺者则奋老拳捶楚之，人恒乐得其一言以为曲直。久之，举益豪，名益重。时承平久，萑苻蜂起，凡南北挟巨资通有无者，多有戒心。闻翁名，咸侠重币来聘翁偕护行箧，翁因之得以马足遍天下。业此垂六十年，未尝失一事，亦未尝伤一人。卒业之日，诸大贾榜其门曰‘名镇江湖’。此诚不足为翁荣，然亦可想见其气概之轶伦矣。翁身中周尺九尺，广颡丰下，目光炯炯射人，颏下须如银，长可过脐，卧则理而束之，尝谓：‘不惜日掷千金，此须不得损吾毫末也。’晚无他嗜好，惟纵酒自适，酣则击刺跳踯以为乐。",
+      "unresolved_positions": [
+        17
+      ],
+      "context_before": {
+        "line": 2543,
+        "text": "丈夫事，望望然去之，便从事于长枪大戟，驰马试剑，改试武科。试之日，弓刀石皆膺上上考，而以默写武经违式，应见黜。典试者将先有所要求而后斡旋之，且许以冠军。翁怒曰：‘丈夫以血气取功名，谁复能持白镪乞怜昏夜哉！’然犹得缀名榜末。而翁竟由此绝意进取，乃载先人柩，去乡里，走山东，择荏平桐口之二十八棵红柳树地卜筑家焉。至今地以人重，道公者辄道‘二十八棵红柳树邓九公’云。",
+        "excerpted": true
+      },
+      "context_after": {
+        "line": 2545,
+        "text": "翁康强富寿，特有伯道之戚，居辄怏怏曰：‘使邓某终无子，非天道也。’予以‘《洪范》五福，子与官不与焉’解之，而翁终不怿。岁庚戌，为翁九十初度，予自京邸载酒以来，为翁寿。入门，翁家适作汤饼会，问之，则翁室已先一月协熊占而又挛生也。噫嘻！学海闻男子八八而不生，女子七七而不长，此理数之常也；九十生子，曾未前闻。乃翁之所以格天，与天之所报翁，一若有非理数所能限者。翁",
+        "excerpted": true
+      },
+      "boundary_records": [
+        {
+          "boundary_id": "ernvyingxiongzhuan-L002544-quarantine_gap",
+          "book_id": "ernvyingxiongzhuan",
+          "chapter_id": "ernvyingxiongzhuan-c039",
+          "kind": "quarantine_gap",
+          "original_line": 2544,
+          "original_text": "　　性诚笃而毅，间以侠气出，恒为里排难解纷，抑强扶弱，有不顺者则奋老拳捶楚之，人恒乐得其一言以为曲直。久之，举益豪，名益重。时承平久，萑苻蜂起，凡南北挟巨资通有无者，多有戒心。闻翁名，咸侠重币来聘翁偕护行箧，翁因之得以马足遍天下。业此垂六十年，未尝失一事，亦未尝伤一人。卒业之日，诸大贾榜其门曰‘名镇江湖’。此诚不足为翁荣，然亦可想见其气概之轶伦矣。翁身中周尺九尺，广颡丰下，目光炯炯射人，颏下须如银，长可过脐，卧则理而束之，尝谓：‘不惜日掷千金，此须不得损吾毫末也。’晚无他嗜好，惟纵酒自适，酣则击刺跳踯以为乐。",
+          "quarantine_id": "quarantine-012"
+        }
+      ],
+      "reference_file": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\witnesses\\ernvyingxiongzhuan_039.txt",
+      "reference_url": "https://zh.wikisource.org/zh-hans/兒女英雄傳/第三十九回",
+      "reference_revision_url": "/w/index.php?title=%E5%85%92%E5%A5%B3%E8%8B%B1%E9%9B%84%E5%82%B3/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B9%9D%E5%9B%9E&oldid=873335"
+    }
+  },
+  {
+    "id": "Q013",
+    "triggers": [
+      "coordinator_high_risk_check: 对全部16项隔离作高风险复查，不以两位AI同意代替参考文本核对。"
+    ],
+    "reviewer_a": {
+      "id": "Q013",
+      "kind": "quarantine",
+      "label": "JUSTIFIED",
+      "confidence": "high",
+      "evidence_quote": "则翁室已先一月协熊占",
+      "reason": "搜伯道等无该段，参考只在后文铭辞见生子概述而无此生传句，不能将推测替代直接字证，连续缺口须保留。",
+      "flags": [
+        "参考整篇生传缺载",
+        "已搜索对应参考文件"
+      ]
+    },
+    "reviewer_b": {
+      "id": "Q013",
+      "kind": "quarantine",
+      "label": "JUSTIFIED",
+      "confidence": "high",
+      "evidence_quote": "则翁室已先一月协熊占",
+      "reason": "同回只在后附铭文搜到协熊占，未有本段康强富寿生传内容，无法借铭文确定室前字，整行隔离及断点合理。",
+      "flags": [
+        "参考缺少整篇嵌入生传"
+      ]
+    },
+    "material": {
+      "id": "Q013",
+      "kind": "quarantine",
+      "book": "儿女英雄传",
+      "book_id": "ernvyingxiongzhuan",
+      "chapter": 39,
+      "raw_line": 2545,
+      "quarantine_id": "quarantine-013",
+      "text": "　　翁康强富寿，特有伯道之戚，居辄怏怏曰：‘使邓某终无子，非天道也。’予以‘《洪范》五福，子与官不与焉’解之，而翁终不怿。岁庚戌，为翁九十初度，予自京邸载酒以来，为翁寿。入门，翁家适作汤饼会，问之，则翁室已先一月协熊占而又挛生也。噫嘻！学海闻男子八八而不生，女子七七而不长，此理数之常也；九十生子，曾未前闻。乃翁之所以格天，与天之所报翁，一若有非理数所能限者。翁亦人杰也哉！",
+      "unresolved_positions": [
+        101
+      ],
+      "context_before": {
+        "line": 2544,
+        "text": "资通有无者，多有戒心。闻翁名，咸侠重币来聘翁偕护行箧，翁因之得以马足遍天下。业此垂六十年，未尝失一事，亦未尝伤一人。卒业之日，诸大贾榜其门曰‘名镇江湖’。此诚不足为翁荣，然亦可想见其气概之轶伦矣。翁身中周尺九尺，广颡丰下，目光炯炯射人，颏下须如银，长可过脐，卧则理而束之，尝谓：‘不惜日掷千金，此须不得损吾毫末也。’晚无他嗜好，惟纵酒自适，酣则击刺跳踯以为乐。",
+        "excerpted": true
+      },
+      "context_after": {
+        "line": 2546,
+        "text": "然则翁之享期颐，宜孙子，余庆方长，此后之可传者正未有艾。学海幸旦暮勿死，终将濡笔以待焉。",
+        "excerpted": false
+      },
+      "boundary_records": [
+        {
+          "boundary_id": "ernvyingxiongzhuan-L002545-quarantine_gap",
+          "book_id": "ernvyingxiongzhuan",
+          "chapter_id": "ernvyingxiongzhuan-c039",
+          "kind": "quarantine_gap",
+          "original_line": 2545,
+          "original_text": "　　翁康强富寿，特有伯道之戚，居辄怏怏曰：‘使邓某终无子，非天道也。’予以‘《洪范》五福，子与官不与焉’解之，而翁终不怿。岁庚戌，为翁九十初度，予自京邸载酒以来，为翁寿。入门，翁家适作汤饼会，问之，则翁室已先一月协熊占而又挛生也。噫嘻！学海闻男子八八而不生，女子七七而不长，此理数之常也；九十生子，曾未前闻。乃翁之所以格天，与天之所报翁，一若有非理数所能限者。翁亦人杰也哉！",
+          "quarantine_id": "quarantine-013"
+        }
+      ],
+      "reference_file": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\witnesses\\ernvyingxiongzhuan_039.txt",
+      "reference_url": "https://zh.wikisource.org/zh-hans/兒女英雄傳/第三十九回",
+      "reference_revision_url": "/w/index.php?title=%E5%85%92%E5%A5%B3%E8%8B%B1%E9%9B%84%E5%82%B3/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B9%9D%E5%9B%9E&oldid=873335"
+    }
+  },
+  {
+    "id": "Q014",
+    "triggers": [
+      "potential_defect",
+      "coordinator_high_risk_check: 对全部16项隔离作高风险复查，不以两位AI同意代替参考文本核对。"
+    ],
+    "reviewer_a": {
+      "id": "Q014",
+      "kind": "quarantine",
+      "label": "OVERCONSERVATIVE",
+      "confidence": "high",
+      "evidence_quote": "六枝儿抓痒痒儿",
+      "reason": "实搜四十回该歇后语完整作抓痒痒，左右六枝儿及敷馀著一个均定位，一字补抓有据，整行隔离过度。",
+      "flags": [
+        "可修复后取消该缺口",
+        "已搜索对应参考文件"
+      ]
+    },
+    "reviewer_b": {
+      "id": "Q014",
+      "kind": "quarantine",
+      "label": "OVERCONSERVATIVE",
+      "confidence": "high",
+      "evidence_quote": "六枝儿抓痒痒儿",
+      "reason": "已查第四十回褚大娘子劝夫段，歇后语两侧长文本对应且参考明确抓字，单处缺字可修，整段隔离过保守。",
+      "flags": [
+        "参考有可定位修复"
+      ]
+    },
+    "material": {
+      "id": "Q014",
+      "kind": "quarantine",
+      "book": "儿女英雄传",
+      "book_id": "ernvyingxiongzhuan",
+      "chapter": 40,
+      "raw_line": 2601,
+      "quarantine_id": "quarantine-014",
+      "text": "　　褚大娘子的性情却又合他丈夫不同，方才听他父亲一说，就早合了他的意思。你道为何？难道他果的看得他那个老玉那般重，看得他这个一官这般轻，无端的就肯叫他到乌里雅苏台给老玉保镖去不成？非也。他是这两年合安府上这阵走动，见安太太那等尊贵，金、玉姊妹那等富丽，他把个脚步眼界闹高了，热厮唿喇的，一心只想给他家一官大小也闹个前程儿，他好借此作个官儿娘子。听褚一官这等说，他便说道：“不是这么着。你听我说，这件事不值甚么，家里有我呢。咱们索兴把东庄儿的房子交给庄客们看着，我还搬回来跟老爷子住，早晚儿也好照应。你只管干你的去，就留你在家里，也是‘六枝儿痒痒儿——敷余着一个’。”说着，他倒站起来向安老爷拜了一拜，说道：“就是这么着了。只求你老人家把这话好好儿的替我托付托付我们老玉罢。我也不会花说柳说的，一句话，我就保他不撒谎、出苦力这两条儿。要讲本事呵，不是我过奖，他可‘挂拉枣儿——有线（限）’。”",
+      "unresolved_positions": [
+        270
+      ],
+      "context_before": {
+        "line": 2600,
+        "text": "这边褚大娘子还没开口，褚一官到底是老实人，听了便说：“罢了，老爷子，可是这话？也有你老人家养活了我半辈子，这会子瞧着你老这么大年纪了，我倒扔下，跑这么远去自己找官儿作的？真个的，我也忒认得官儿了！知道我有那造化没有呢！”",
+        "excerpted": false
+      },
+      "context_after": {
+        "line": 2602,
+        "text": "邓九公在旁呵呵的笑道：“姑奶奶，你这是何苦来！”因合安老爷说道：“老弟，这一来，你放了心了罢咧！再要不放心，我还有个人。我们那个大铁锤陆老大，老弟你不也见过他吗？你来的头里，我原说叫他同女婿俩人接你去。没得去，你就来了。如今我还打发他俩送你回京，就叫他俩去替我给我们老贤侄道喜。这事也得合我们老贤侄商量商量。”说罢，就回头吩咐他女婿道：“姑爷，这话你明白了？你",
+        "excerpted": true
+      },
+      "boundary_records": [
+        {
+          "boundary_id": "ernvyingxiongzhuan-L002601-quarantine_gap",
+          "book_id": "ernvyingxiongzhuan",
+          "chapter_id": "ernvyingxiongzhuan-c040",
+          "kind": "quarantine_gap",
+          "original_line": 2601,
+          "original_text": "　　褚大娘子的性情却又合他丈夫不同，方才听他父亲一说，就早合了他的意思。你道为何？难道他果的看得他那个老玉那般重，看得他这个一官这般轻，无端的就肯叫他到乌里雅苏台给老玉保镖去不成？非也。他是这两年合安府上这阵走动，见安太太那等尊贵，金、玉姊妹那等富丽，他把个脚步眼界闹高了，热厮唿喇的，一心只想给他家一官大小也闹个前程儿，他好借此作个官儿娘子。听褚一官这等说，他便说道：“不是这么着。你听我说，这件事不值甚么，家里有我呢。咱们索兴把东庄儿的房子交给庄客们看着，我还搬回来跟老爷子住，早晚儿也好照应。你只管干你的去，就留你在家里，也是‘六枝儿痒痒儿——敷余着一个’。”说着，他倒站起来向安老爷拜了一拜，说道：“就是这么着了。只求你老人家把这话好好儿的替我托付托付我们老玉罢。我也不会花说柳说的，一句话，我就保他不撒谎、出苦力这两条儿。要讲本事呵，不是我过奖，他可‘挂拉枣儿——有线（限）’。”",
+          "quarantine_id": "quarantine-014"
+        }
+      ],
+      "reference_file": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\witnesses\\ernvyingxiongzhuan_040.txt",
+      "reference_url": "https://zh.wikisource.org/zh-hans/兒女英雄傳/第四十回",
+      "reference_revision_url": "/w/index.php?title=%E5%85%92%E5%A5%B3%E8%8B%B1%E9%9B%84%E5%82%B3/%E7%AC%AC%E5%9B%9B%E5%8D%81%E5%9B%9E&oldid=873336"
+    }
+  },
+  {
+    "id": "Q015",
+    "triggers": [
+      "potential_defect",
+      "coordinator_high_risk_check: 对全部16项隔离作高风险复查，不以两位AI同意代替参考文本核对。"
+    ],
+    "reviewer_a": {
+      "id": "Q015",
+      "kind": "quarantine",
+      "label": "OVERCONSERVATIVE",
+      "confidence": "high",
+      "evidence_quote": "就咕喇咕喇合他说了一套满洲话",
+      "reason": "同回相同长姐儿话题后参考明确两处咕，重复拟声及双侧句子齐备，可按本句恢复两字而取消断点。",
+      "flags": [
+        "同项两处可定位",
+        "已搜索对应参考文件"
+      ]
+    },
+    "reviewer_b": {
+      "id": "Q015",
+      "kind": "quarantine",
+      "label": "OVERCONSERVATIVE",
+      "confidence": "high",
+      "evidence_quote": "就咕喇咕喇合他说了一套满洲话",
+      "reason": "已查同回父子满洲话段，参考两次均为咕且周围整句相符，两个私用字可明确恢复，不必形成行级缺口。",
+      "flags": [
+        "参考有可定位修复"
+      ]
+    },
+    "material": {
+      "id": "Q015",
+      "kind": "quarantine",
+      "book": "儿女英雄传",
+      "book_id": "ernvyingxiongzhuan",
+      "chapter": 40,
+      "raw_line": 2687,
+      "quarantine_id": "quarantine-015",
+      "text": "　　安老爷见了公子，先露着望之俨然的一脸严霜凛凛，不提别话，第一句便问他道：“你可知子事父母合妇事舅姑这桩事是不得相提并论的？”公子听了，一时摸不着这话从那里说起，只得含糊答应了个“是”。这才听他父亲说道：“两个媳妇遇了喜，他自己自然不好合我说；怎的这等宗祧所关的一桩大事，你也不晓得预先禀我一句？这也罢了，只是他两个此刻既不便远行，你这番出去倒得……”说到这句，又顿住了。安太太大家听这话头儿，底下这一转，自然就要转到长姐儿身上了，都静静的听着，要听老爷怎么个说法。谁知老爷从这句话一岔，就喇喇合他说了一套满洲话。",
+      "unresolved_positions": [
+        246,
+        248
+      ],
+      "context_before": {
+        "line": 2686,
+        "text": "安太太一见，便合舅太太说：“大姐姐来得正好，那句话我合你妹夫说明白了。”回头便告诉俩媳妇说：“你公公竟把他赏了你们了，快给你公公磕头罢。”金、玉姊妹两个连忙给老爷、太太磕了头，站起来，只说得句：“这实在是公公婆婆疼我们。”便见公子从二门外进来。",
+        "excerpted": false
+      },
+      "context_after": {
+        "line": 2688,
+        "text": "公子此时梦也梦不到老人家叫了来吩咐这么一段话，踌躇了会子，也翻着满洲话回了一套。一边向着老爷说，却又一边望着太太脸上，看那神情，好像说得是这个人他母亲使着得力，如今自己不能在家侍奉，怎的倒把母亲一个得力的人带去服侍自己呢？仿佛是在那里心里不安，口里苦辞的话。",
+        "excerpted": false
+      },
+      "boundary_records": [
+        {
+          "boundary_id": "ernvyingxiongzhuan-L002687-quarantine_gap",
+          "book_id": "ernvyingxiongzhuan",
+          "chapter_id": "ernvyingxiongzhuan-c040",
+          "kind": "quarantine_gap",
+          "original_line": 2687,
+          "original_text": "　　安老爷见了公子，先露着望之俨然的一脸严霜凛凛，不提别话，第一句便问他道：“你可知子事父母合妇事舅姑这桩事是不得相提并论的？”公子听了，一时摸不着这话从那里说起，只得含糊答应了个“是”。这才听他父亲说道：“两个媳妇遇了喜，他自己自然不好合我说；怎的这等宗祧所关的一桩大事，你也不晓得预先禀我一句？这也罢了，只是他两个此刻既不便远行，你这番出去倒得……”说到这句，又顿住了。安太太大家听这话头儿，底下这一转，自然就要转到长姐儿身上了，都静静的听着，要听老爷怎么个说法。谁知老爷从这句话一岔，就喇喇合他说了一套满洲话。",
+          "quarantine_id": "quarantine-015"
+        }
+      ],
+      "reference_file": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\witnesses\\ernvyingxiongzhuan_040.txt",
+      "reference_url": "https://zh.wikisource.org/zh-hans/兒女英雄傳/第四十回",
+      "reference_revision_url": "/w/index.php?title=%E5%85%92%E5%A5%B3%E8%8B%B1%E9%9B%84%E5%82%B3/%E7%AC%AC%E5%9B%9B%E5%8D%81%E5%9B%9E&oldid=873336"
+    }
+  },
+  {
+    "id": "Q016",
+    "triggers": [
+      "potential_defect",
+      "coordinator_high_risk_check: 对全部16项隔离作高风险复查，不以两位AI同意代替参考文本核对。"
+    ],
+    "reviewer_a": {
+      "id": "Q016",
+      "kind": "quarantine",
+      "label": "OVERCONSERVATIVE",
+      "confidence": "high",
+      "evidence_quote": "衣衿上又带著对成对儿的荷包。鬓钗窸窣",
+      "reason": "实搜相应妆扮段有缂丝、衣衿上、窸窣的完整依据，四处PUA及抬里邻字可局部修复；记录仅列三未解位置漏及缂处。",
+      "flags": [
+        "未解位置列表漏一处PUA",
+        "局部修复需兼顾邻字",
+        "已搜索对应参考文件"
+      ]
+    },
+    "reviewer_b": {
+      "id": "Q016",
+      "kind": "quarantine",
+      "label": "OVERCONSERVATIVE",
+      "confidence": "high",
+      "evidence_quote": "衣衿上又带著对成对儿的荷包",
+      "reason": "已查同回妆扮段，参考给出缂丝、衣衿上和鬓钗窸窣，包含邻字误读也能定位恢复，现隔离整行过保守。",
+      "flags": [
+        "参考有可定位修复",
+        "未解决位置清单未涵盖全部损坏",
+        "需同时修邻字"
+      ]
+    },
+    "material": {
+      "id": "Q016",
+      "kind": "quarantine",
+      "book": "儿女英雄传",
+      "book_id": "ernvyingxiongzhuan",
+      "chapter": 40,
+      "raw_line": 2709,
+      "quarantine_id": "quarantine-016",
+      "text": "　　闲话少说。却说过了两日，择定吉期，舅太太早把长姐儿妆扮好了，叫金、玉姊妹带过来谒见老爷、太太。只见他戴着满簪子的钿子，穿一件纱绿地景儿衬衣儿，套一件藕色丝氅衣儿，罩一件石青绣花大坎肩儿，上还带了些手串儿，怀镜儿等等，抬里又带着对成对儿的荷包。鬓钗、手钏铿锵的站在那里。安太太看了半日，便合老爷说道：“老爷瞧，我打扮起来也还像个样儿呀？”老爷只点点头。金、玉姊妹两个心里只要讨公婆喜欢，又附和着太太问老爷道：“公公白瞧，他这一开脸，瞧着也还不算黑不是？”偏遇着他这位死心眼儿的公公，素日说话一字字都要抛砖落地的，便道：“黑怎说得不黑？不过在德不在色罢了。这黑白分明上却是含混不得。”",
+      "unresolved_positions": [
+        112,
+        127,
+        128
+      ],
+      "context_before": {
+        "line": 2708,
+        "text": "姊妹自从那日探明婆婆口气之后，暗中早把他家那位新人一应妆新的东西办妥。如今见事成了，闲中便把这话回了婆婆，把个安太太乐的，说道：“你瞧，你们俩这个性急法儿！这要我那天一说，万一你公公有个不准，可怎么好？”列公，你看这位老孺人这句话说的好不呆气！这桩事，那安水心先生怎的会有个不准？假如他果的不准，别的莫讲，长姐儿那副急泪可不枉流了？燕北闲人这身臭汗可不枉出了？",
+        "excerpted": true
+      },
+      "context_after": {
+        "line": 2710,
+        "text": "说话间，舅太太也过来了。恰好这日张亲家太太眼睛好了，也出来了。都给安老夫妻道过喜，大家归坐。金、玉姊妹便叫人铺下红毡子，带新人给老爷、太太行礼。太太先说：“孩儿阿，我今儿个可只好先受你个空头儿了。我有些东西要给你，现在忙叨叨的，等有了起身的日子再说罢，如今先把这个活的儿给你。”说着便叫：“喜儿呢？”只见那小丫头子也擦了一脸怪粉，戴着一脑袋通草花儿，又换了件新",
+        "excerpted": true
+      },
+      "boundary_records": [
+        {
+          "boundary_id": "ernvyingxiongzhuan-L002709-quarantine_gap",
+          "book_id": "ernvyingxiongzhuan",
+          "chapter_id": "ernvyingxiongzhuan-c040",
+          "kind": "quarantine_gap",
+          "original_line": 2709,
+          "original_text": "　　闲话少说。却说过了两日，择定吉期，舅太太早把长姐儿妆扮好了，叫金、玉姊妹带过来谒见老爷、太太。只见他戴着满簪子的钿子，穿一件纱绿地景儿衬衣儿，套一件藕色丝氅衣儿，罩一件石青绣花大坎肩儿，上还带了些手串儿，怀镜儿等等，抬里又带着对成对儿的荷包。鬓钗、手钏铿锵的站在那里。安太太看了半日，便合老爷说道：“老爷瞧，我打扮起来也还像个样儿呀？”老爷只点点头。金、玉姊妹两个心里只要讨公婆喜欢，又附和着太太问老爷道：“公公白瞧，他这一开脸，瞧着也还不算黑不是？”偏遇着他这位死心眼儿的公公，素日说话一字字都要抛砖落地的，便道：“黑怎说得不黑？不过在德不在色罢了。这黑白分明上却是含混不得。”",
+          "quarantine_id": "quarantine-016"
+        }
+      ],
+      "reference_file": "D:\\大三上课程\\自然语言处理\\work\\preprocess_20261107\\witnesses\\ernvyingxiongzhuan_040.txt",
+      "reference_url": "https://zh.wikisource.org/zh-hans/兒女英雄傳/第四十回",
+      "reference_revision_url": "/w/index.php?title=%E5%85%92%E5%A5%B3%E8%8B%B1%E9%9B%84%E5%82%B3/%E7%AC%AC%E5%9B%9B%E5%8D%81%E5%9B%9E&oldid=873336"
+    }
+  }
+]

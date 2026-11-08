@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1188pt" height="828pt" viewBox="0 0 1188 828" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <title>数据预处理量化总览_20261107</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>数据预处理量化总览_20261107</dc:title>
+    <dc:date>2026-11-07</dc:date>
+    <dc:description>Source data and metric definitions accompany the figure.</dc:description>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 828 
+L 1188 828 
+L 1188 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="patch_2">
+   <path d="M 66.528 190.44 
+L 316.008 190.44 
+Q 326.7 190.44 326.7 182.988 
+L 326.7 95.22 
+Q 326.7 87.768 316.008 87.768 
+L 66.528 87.768 
+Q 55.836 87.768 55.836 95.22 
+L 55.836 182.988 
+Q 55.836 190.44 66.528 190.44 
+z
+" style="fill: #f3f6fa; stroke: #dde5ed; stroke-width: 0.7; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_3">
+   <path d="M 342.144 190.44 
+L 591.624 190.44 
+Q 602.316 190.44 602.316 182.988 
+L 602.316 95.22 
+Q 602.316 87.768 591.624 87.768 
+L 342.144 87.768 
+Q 331.452 87.768 331.452 95.22 
+L 331.452 182.988 
+Q 331.452 190.44 342.144 190.44 
+z
+" style="fill: #f3f6fa; stroke: #dde5ed; stroke-width: 0.7; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_4">
+   <path d="M 617.76 190.44 
+L 867.24 190.44 
+Q 877.932 190.44 877.932 182.988 
+L 877.932 95.22 
+Q 877.932 87.768 867.24 87.768 
+L 617.76 87.768 
+Q 607.068 87.768 607.068 95.22 
+L 607.068 182.988 
+Q 607.068 190.44 617.76 190.44 
+z
+" style="fill: #f3f6fa; stroke: #dde5ed; stroke-width: 0.7; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_5">
+   <path d="M 893.376 190.44 
+L 1142.856 190.44 
+Q 1153.548 190.44 1153.548 182.988 
+L 1153.548 95.22 
+Q 1153.548 87.768 1142.856 87.768 
+L 893.376 87.768 
+Q 882.684 87.768 882.684 95.22 
+L 882.684 182.988 
+Q 882.684 190.44 893.376 190.44 
+z
+" style="fill: #f3f6fa; stroke: #dde5ed; stroke-width: 0.7; stroke-linejoin: miter"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_6">
+    <path d="M 166.32 385.02 
+L 552.42 385.02 
+L 552.42 269.1 
+L 166.32 269.1 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 166.32 385.02 
+L 166.32 269.1 
+" clip-path="url(#pf00e71dfaf)" style="fill: none; stroke: #dde5ed; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2"/>
+     <g id="text_1">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #526277" x="166.32" y="400.01375" transform="rotate(-0 166.32 400.01375)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 243.54 385.02 
+L 243.54 269.1 
+" clip-path="url(#pf00e71dfaf)" style="fill: none; stroke: #dde5ed; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4"/>
+     <g id="text_2">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #526277" x="243.54" y="400.01375" transform="rotate(-0 243.54 400.01375)">200</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 320.76 385.02 
+L 320.76 269.1 
+" clip-path="url(#pf00e71dfaf)" style="fill: none; stroke: #dde5ed; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6"/>
+     <g id="text_3">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #526277" x="320.76" y="400.01375" transform="rotate(-0 320.76 400.01375)">400</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 397.98 385.02 
+L 397.98 269.1 
+" clip-path="url(#pf00e71dfaf)" style="fill: none; stroke: #dde5ed; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8"/>
+     <g id="text_4">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #526277" x="397.98" y="400.01375" transform="rotate(-0 397.98 400.01375)">600</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 475.2 385.02 
+L 475.2 269.1 
+" clip-path="url(#pf00e71dfaf)" style="fill: none; stroke: #dde5ed; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10"/>
+     <g id="text_5">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #526277" x="475.2" y="400.01375" transform="rotate(-0 475.2 400.01375)">800</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 552.42 385.02 
+L 552.42 269.1 
+" clip-path="url(#pf00e71dfaf)" style="fill: none; stroke: #dde5ed; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12"/>
+     <g id="text_6">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #526277" x="552.42" y="400.01375" transform="rotate(-0 552.42 400.01375)">1000</text>
+     </g>
+    </g>
+    <g id="text_7">
+     <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #526277" x="359.37" y="415.493437" transform="rotate(-0 359.37 415.493437)">汉字量 / 万字</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_13"/>
+     <g id="text_8">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #526277" x="159.32" y="304.71142" transform="rotate(-0 159.32 304.71142)">原始文件</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_14"/>
+     <g id="text_9">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #526277" x="159.32" y="357.40233" transform="rotate(-0 159.32 357.40233)">处理后正文</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_7">
+    <path d="M 166.32 385.02 
+L 552.42 385.02 
+" style="fill: none; stroke: #dde5ed; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 166.32 312.57 
+L 483.685049 312.57 
+L 483.685049 288.859091 
+L 166.32 288.859091 
+z
+" clip-path="url(#pf00e71dfaf)" style="fill: #e4e9ef; stroke: #718096; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 166.32 365.260909 
+L 475.622046 365.260909 
+L 475.622046 341.55 
+L 166.32 341.55 
+z
+" clip-path="url(#pf00e71dfaf)" style="fill: #2166ac; stroke: #2166ac; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 11px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #172b4d" x="488.704349" y="303.743842" transform="rotate(-0 488.704349 303.743842)">821.98万</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 11px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #172b4d" x="480.641346" y="356.434751" transform="rotate(-0 480.641346 356.434751)">801.09万</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_10">
+    <path d="M 689.04 375.912 
+L 1110.78 375.912 
+L 1110.78 284.832 
+L 689.04 284.832 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_7">
+     <g id="line2d_15">
+      <path d="M 689.04 375.912 
+L 689.04 284.832 
+" clip-path="url(#p062df9a8c5)" style="fill: none; stroke: #dde5ed; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_16"/>
+     <g id="text_12">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #526277" x="689.04" y="390.90575" transform="rotate(-0 689.04 390.90575)">0</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_17">
+      <path d="M 796.626735 375.912 
+L 796.626735 284.832 
+" clip-path="url(#p062df9a8c5)" style="fill: none; stroke: #dde5ed; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_18"/>
+     <g id="text_13">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #526277" x="796.626735" y="390.90575" transform="rotate(-0 796.626735 390.90575)">50</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_19">
+      <path d="M 904.213469 375.912 
+L 904.213469 284.832 
+" clip-path="url(#p062df9a8c5)" style="fill: none; stroke: #dde5ed; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_20"/>
+     <g id="text_14">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #526277" x="904.213469" y="390.90575" transform="rotate(-0 904.213469 390.90575)">100</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_21">
+      <path d="M 1011.800204 375.912 
+L 1011.800204 284.832 
+" clip-path="url(#p062df9a8c5)" style="fill: none; stroke: #dde5ed; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_22"/>
+     <g id="text_15">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #526277" x="1011.800204" y="390.90575" transform="rotate(-0 1011.800204 390.90575)">150</text>
+     </g>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_23">
+      <path d="M 1110.78 375.912 
+L 1110.78 284.832 
+" clip-path="url(#p062df9a8c5)" style="fill: none; stroke: #dde5ed; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_24"/>
+     <g id="text_16">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #526277" x="1110.78" y="390.90575" transform="rotate(-0 1110.78 390.90575)">196</text>
+     </g>
+    </g>
+    <g id="text_17">
+     <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #526277" x="899.91" y="406.385437" transform="rotate(-0 899.91 406.385437)">原始出现次数 / 次</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4"/>
+   <g id="patch_11">
+    <path d="M 689.04 375.912 
+L 1110.78 375.912 
+" style="fill: none; stroke: #dde5ed; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 689.04 349.416 
+L 1054.834898 349.416 
+L 1054.834898 311.328 
+L 689.04 311.328 
+z
+" clip-path="url(#p062df9a8c5)" style="fill: #177c66; stroke: #177c66; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 1054.834898 349.416 
+L 1110.78 349.416 
+L 1110.78 311.328 
+L 1054.834898 311.328 
+z
+" clip-path="url(#p062df9a8c5)" style="fill: url(#hee3469f96b); stroke: #ffffff; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #ffffff" transform="translate(829.049636 324.99075)">有据恢复 170次</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #ffffff" transform="translate(849.835886 342.362625)">86.73%</text>
+   </g>
+   <g id="text_19">
+    <g id="patch_14">
+     <path d="M 1063.88948 342.950437 
+L 1101.725418 342.950437 
+L 1101.725418 317.793562 
+L 1063.88948 317.793562 
+z
+" style="fill: #a55516"/>
+    </g>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #ffffff" transform="translate(1071.640261 326.287312)">26次</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #ffffff" transform="translate(1064.38948 339.9645)">13.27%</text>
+   </g>
+   <g id="legend_1">
+    <g id="patch_15">
+     <path d="M 698.04 262.416462 
+L 712.04 262.416462 
+L 712.04 255.416462 
+L 698.04 255.416462 
+z
+" style="fill: #177c66"/>
+    </g>
+    <g id="text_20">
+     <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: start" x="720.04" y="262.416462" transform="rotate(-0 720.04 262.416462)">有据恢复</text>
+    </g>
+    <g id="patch_16">
+     <path d="M 780.04 262.416462 
+L 794.04 262.416462 
+L 794.04 255.416462 
+L 780.04 255.416462 
+z
+" style="fill: url(#hee3469f96b); stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_21">
+     <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: start" x="802.04" y="262.416462" transform="rotate(-0 802.04 262.416462)">原段隔离</text>
+    </g>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_17">
+    <path d="M 166.32 690.552 
+L 552.42 690.552 
+L 552.42 533.232 
+L 166.32 533.232 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_5">
+    <g id="xtick_12">
+     <g id="line2d_25">
+      <path d="M 166.32 690.552 
+L 166.32 533.232 
+" clip-path="url(#p2152b39983)" style="fill: none; stroke: #dde5ed; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_26"/>
+     <g id="text_22">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #526277" x="166.32" y="705.54575" transform="rotate(-0 166.32 705.54575)">0</text>
+     </g>
+    </g>
+    <g id="xtick_13">
+     <g id="line2d_27">
+      <path d="M 265.32 690.552 
+L 265.32 533.232 
+" clip-path="url(#p2152b39983)" style="fill: none; stroke: #dde5ed; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_28"/>
+     <g id="text_23">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #526277" x="265.32" y="705.54575" transform="rotate(-0 265.32 705.54575)">20,000</text>
+     </g>
+    </g>
+    <g id="xtick_14">
+     <g id="line2d_29">
+      <path d="M 364.32 690.552 
+L 364.32 533.232 
+" clip-path="url(#p2152b39983)" style="fill: none; stroke: #dde5ed; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_30"/>
+     <g id="text_24">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #526277" x="364.32" y="705.54575" transform="rotate(-0 364.32 705.54575)">40,000</text>
+     </g>
+    </g>
+    <g id="xtick_15">
+     <g id="line2d_31">
+      <path d="M 463.32 690.552 
+L 463.32 533.232 
+" clip-path="url(#p2152b39983)" style="fill: none; stroke: #dde5ed; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_32"/>
+     <g id="text_25">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #526277" x="463.32" y="705.54575" transform="rotate(-0 463.32 705.54575)">60,000</text>
+     </g>
+    </g>
+    <g id="text_26">
+     <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #526277" x="359.37" y="721.025437" transform="rotate(-0 359.37 721.025437)">续写样本数 / 条</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_6">
+    <g id="ytick_3">
+     <g id="line2d_33"/>
+     <g id="text_27">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #526277" x="159.32" y="561.009805" transform="rotate(-0 159.32 561.009805)">金庸 · 训练</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_34"/>
+     <g id="text_28">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #526277" x="159.32" y="597.595852" transform="rotate(-0 159.32 597.595852)">金庸 · 验证</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_35"/>
+     <g id="text_29">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #526277" x="159.32" y="634.181898" transform="rotate(-0 159.32 634.181898)">补充 · 训练</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_36"/>
+     <g id="text_30">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #526277" x="159.32" y="670.767945" transform="rotate(-0 159.32 670.767945)">补充 · 验证</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_18">
+    <path d="M 166.32 690.552 
+L 552.42 690.552 
+" style="fill: none; stroke: #dde5ed; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 166.32 566.708233 
+L 488.24325 566.708233 
+L 488.24325 547.317628 
+L 166.32 547.317628 
+z
+" clip-path="url(#p2152b39983)" style="fill: #2166ac; stroke: #2166ac; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 11px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #172b4d" x="492.45075" y="560.042227" transform="rotate(-0 492.45075 560.042227)">65,035</text>
+   </g>
+   <g id="patch_20">
+    <path d="M 166.32 603.294279 
+L 183.49155 603.294279 
+L 183.49155 583.903674 
+L 166.32 583.903674 
+z
+" clip-path="url(#p2152b39983)" style="fill: url(#h6f9148e6e2); stroke: #177c66; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 11px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #172b4d" x="187.69905" y="596.628274" transform="rotate(-0 187.69905 596.628274)">3,469</text>
+   </g>
+   <g id="patch_21">
+    <path d="M 166.32 639.880326 
+L 185.9319 639.880326 
+L 185.9319 620.489721 
+L 166.32 620.489721 
+z
+" clip-path="url(#p2152b39983)" style="fill: #2166ac; stroke: #2166ac; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 11px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #172b4d" x="190.1394" y="633.21432" transform="rotate(-0 190.1394 633.21432)">3,962</text>
+   </g>
+   <g id="patch_22">
+    <path d="M 166.32 676.466372 
+L 167.4288 676.466372 
+L 167.4288 657.075767 
+L 166.32 657.075767 
+z
+" clip-path="url(#p2152b39983)" style="fill: url(#h6f9148e6e2); stroke: #177c66; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 11px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #172b4d" x="171.6363" y="669.800367" transform="rotate(-0 171.6363 669.800367)">224</text>
+   </g>
+  </g>
+  <g id="axes_4">
+   <g id="line2d_37">
+    <path d="M 671.22 551.58048 
+L 1110.78 551.58048 
+" clip-path="url(#pdd5969b285)" style="fill: none; stroke: #dde5ed; stroke-width: 0.65; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_38">
+    <path d="M 671.22 585.52848 
+L 1110.78 585.52848 
+" clip-path="url(#pdd5969b285)" style="fill: none; stroke: #dde5ed; stroke-width: 0.65; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_39">
+    <path d="M 671.22 619.47648 
+L 1110.78 619.47648 
+" clip-path="url(#pdd5969b285)" style="fill: none; stroke: #dde5ed; stroke-width: 0.65; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_40">
+    <path d="M 671.22 653.42448 
+L 1110.78 653.42448 
+" clip-path="url(#pdd5969b285)" style="fill: none; stroke: #dde5ed; stroke-width: 0.65; stroke-linecap: square"/>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 11.5px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #526277" x="671.22" y="539.131392" transform="rotate(-0 671.22 539.131392)">样本跨回／跨隔离断点</text>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #172b4d" x="1110.78" y="539.269088" transform="rotate(-0 1110.78 539.269088)">0 条</text>
+   </g>
+   <g id="text_37">
+    <text style="font-size: 11.5px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #526277" x="671.22" y="573.079392" transform="rotate(-0 671.22 573.079392)">修复记录证据重放</text>
+   </g>
+   <g id="text_38">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #172b4d" x="1110.78" y="573.217088" transform="rotate(-0 1110.78 573.217088)">33 / 33</text>
+   </g>
+   <g id="text_39">
+    <text style="font-size: 11.5px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #526277" x="671.22" y="607.027392" transform="rotate(-0 671.22 607.027392)">跨集长重复（≥128非空白字符）</text>
+   </g>
+   <g id="text_40">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #172b4d" x="1110.78" y="607.165088" transform="rotate(-0 1110.78 607.165088)">未检出</text>
+   </g>
+   <g id="text_41">
+    <text style="font-size: 11.5px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #526277" x="671.22" y="640.975392" transform="rotate(-0 671.22 640.975392)">验证正文占比（按字符）</text>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #172b4d" x="1110.78" y="641.113088" transform="rotate(-0 1110.78 641.113088)">5.016%</text>
+   </g>
+   <g id="text_43">
+    <text style="font-size: 11.5px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #526277" x="671.22" y="674.923392" transform="rotate(-0 671.22 674.923392)">原始文件指纹</text>
+   </g>
+   <g id="text_44">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #172b4d" x="1110.78" y="675.061087" transform="rotate(-0 1110.78 675.061087)">17本TXT＋RAR一致</text>
+   </g>
+  </g>
+  <g id="line2d_41">
+   <path d="M 65.34 742.716 
+L 1122.66 742.716 
+" style="fill: none; stroke: #dde5ed; stroke-width: 0.8; stroke-linecap: square"/>
+  </g>
+  <g id="text_45">
+   <text style="font-size: 30px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #172b4d" x="65.34" y="39.744" transform="rotate(-0 65.34 39.744)">语料预处理 · 量化结果</text>
+  </g>
+  <g id="text_46">
+   <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #526277" x="65.34" y="71.208" transform="rotate(-0 65.34 71.208)">固定版本 corpus_v1_20261107  |  金庸15本＋补充2本  |  统计日期 2026-11-07</text>
+  </g>
+  <g id="text_47">
+   <text style="font-size: 11.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #526277" x="79.596" y="115.92" transform="rotate(-0 79.596 115.92)">正文汉字量</text>
+  </g>
+  <g id="text_48">
+   <text style="font-size: 24px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #2166ac" x="79.596" y="152.352" transform="rotate(-0 79.596 152.352)">8,010,931</text>
+  </g>
+  <g id="text_49">
+   <text style="font-size: 9.8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #526277" x="79.596" y="175.536" transform="rotate(-0 79.596 175.536)">17本 · 527个正文单元</text>
+  </g>
+  <g id="text_50">
+   <text style="font-size: 11.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #526277" x="355.212" y="115.92" transform="rotate(-0 355.212 115.92)">可用续写样本</text>
+  </g>
+  <g id="text_51">
+   <text style="font-size: 24px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #2166ac" x="355.212" y="152.352" transform="rotate(-0 355.212 152.352)">72,690</text>
+  </g>
+  <g id="text_52">
+   <text style="font-size: 9.8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #526277" x="355.212" y="175.536" transform="rotate(-0 355.212 175.536)">68,997训练＋3,693验证</text>
+  </g>
+  <g id="text_53">
+   <text style="font-size: 11.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #526277" x="630.828" y="115.92" transform="rotate(-0 630.828 115.92)">已知PUA已处置</text>
+  </g>
+  <g id="text_54">
+   <text style="font-size: 24px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #177c66" x="630.828" y="152.352" transform="rotate(-0 630.828 152.352)">196 / 196</text>
+  </g>
+  <g id="text_55">
+   <text style="font-size: 9.8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #526277" x="630.828" y="175.536" transform="rotate(-0 630.828 175.536)">170次恢复；26次隔离</text>
+  </g>
+  <g id="text_56">
+   <text style="font-size: 11.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #526277" x="906.444" y="115.92" transform="rotate(-0 906.444 115.92)">验证词表覆盖</text>
+  </g>
+  <g id="text_57">
+   <text style="font-size: 24px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #177c66" x="906.444" y="152.352" transform="rotate(-0 906.444 152.352)">99.9896%</text>
+  </g>
+  <g id="text_58">
+   <text style="font-size: 9.8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #526277" x="906.444" y="175.536" transform="rotate(-0 906.444 175.536)">未知 49 / 473,387 个字符</text>
+  </g>
+  <g id="text_59">
+   <text style="font-size: 16px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #172b4d" x="65.34" y="236.808" transform="rotate(-0 65.34 236.808)">A  原始与处理后的汉字量</text>
+  </g>
+  <g id="text_60">
+   <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #172b4d" x="65.34" y="436.356" transform="rotate(-0 65.34 436.356)">量比 97.46%；净减少 20.88万汉字</text>
+  </g>
+  <g id="text_61">
+   <text style="font-size: 10.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #526277" x="65.34" y="456.228" transform="rotate(-0 65.34 456.228)">原始量含序跋、目录等；处理后含有据补入内容。</text>
+  </g>
+  <g id="text_62">
+   <text style="font-size: 16px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #172b4d" x="671.22" y="236.808" transform="rotate(-0 671.22 236.808)">B  196次私用区字符异常的去向</text>
+  </g>
+  <g id="text_63">
+   <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #172b4d" x="671.22" y="436.356" transform="rotate(-0 671.22 436.356)">进入正文的PUA：0次；仍隔离16个原段落。</text>
+  </g>
+  <g id="text_64">
+   <text style="font-size: 10.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #526277" x="671.22" y="456.228" transform="rotate(-0 671.22 456.228)">处置完成率100% ≠ 原文全部修复正确。</text>
+  </g>
+  <g id="text_65">
+   <text style="font-size: 16px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #172b4d" x="65.34" y="503.424" transform="rotate(-0 65.34 503.424)">C  训练与验证样本分布</text>
+  </g>
+  <g id="text_66">
+   <text style="font-size: 16px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #172b4d" x="671.22" y="503.424" transform="rotate(-0 671.22 503.424)">D  可复核的规则验收</text>
+  </g>
+  <g id="text_67">
+   <text style="font-size: 10.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #526277" x="65.34" y="766.728" transform="rotate(-0 65.34 766.728)">口径：汉字量不含标点和空白；样本、修复及指纹为固定版本的全量规则检查，不是人工正确率。</text>
+  </g>
+  <g id="text_68">
+   <text style="font-size: 10.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #526277" x="65.34" y="788.256" transform="rotate(-0 65.34 788.256)">范围：未做全文逐字校勘；近重复检查有算法与阈值范围；尚未训练模型，也没有生成质量分数。</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pf00e71dfaf">
+   <rect x="166.32" y="269.1" width="386.1" height="115.92"/>
+  </clipPath>
+  <clipPath id="p062df9a8c5">
+   <rect x="689.04" y="284.832" width="421.74" height="91.08"/>
+  </clipPath>
+  <clipPath id="p2152b39983">
+   <rect x="166.32" y="533.232" width="386.1" height="157.32"/>
+  </clipPath>
+  <clipPath id="pdd5969b285">
+   <rect x="671.22" y="525.78" width="439.56" height="169.74"/>
+  </clipPath>
+ </defs>
+ <defs>
+  <pattern id="hee3469f96b" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
+   <rect x="0" y="0" width="73" height="73" fill="#a55516"/>
+   <path d="M -36 36 
+L 36 -36 
+M -32 40 
+L 40 -32 
+M -28 44 
+L 44 -28 
+M -24 48 
+L 48 -24 
+M -20 52 
+L 52 -20 
+M -16 56 
+L 56 -16 
+M -12 60 
+L 60 -12 
+M -8 64 
+L 64 -8 
+M -4 68 
+L 68 -4 
+M 0 72 
+L 72 0 
+M 4 76 
+L 76 4 
+M 8 80 
+L 80 8 
+M 12 84 
+L 84 12 
+M 16 88 
+L 88 16 
+M 20 92 
+L 92 20 
+M 24 96 
+L 96 24 
+M 28 100 
+L 100 28 
+M 32 104 
+L 104 32 
+M 36 108 
+L 108 36 
+" style="fill: #ffffff; stroke: #ffffff; stroke-width: 0.7; stroke-linecap: butt; stroke-linejoin: miter"/>
+  </pattern>
+  <pattern id="h6f9148e6e2" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
+   <rect x="0" y="0" width="73" height="73" fill="#177c66"/>
+   <path d="M -36 36 
+L 36 -36 
+M -32 40 
+L 40 -32 
+M -28 44 
+L 44 -28 
+M -24 48 
+L 48 -24 
+M -20 52 
+L 52 -20 
+M -16 56 
+L 56 -16 
+M -12 60 
+L 60 -12 
+M -8 64 
+L 64 -8 
+M -4 68 
+L 68 -4 
+M 0 72 
+L 72 0 
+M 4 76 
+L 76 4 
+M 8 80 
+L 80 8 
+M 12 84 
+L 84 12 
+M 16 88 
+L 88 16 
+M 20 92 
+L 92 20 
+M 24 96 
+L 96 24 
+M 28 100 
+L 100 28 
+M 32 104 
+L 104 32 
+M 36 108 
+L 108 36 
+" style="fill: #177c66; stroke: #177c66; stroke-width: 0.7; stroke-linecap: butt; stroke-linejoin: miter"/>
+  </pattern>
+ </defs>
+</svg>

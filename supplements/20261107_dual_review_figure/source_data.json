@@ -1,0 +1,79 @@
+{
+  "ai_assisted_review": true,
+  "human_gold_accuracy": null,
+  "review_units": 449,
+  "paragraph_noise": {
+    "numerator": 0,
+    "denominator": 300,
+    "unit": "paragraph"
+  },
+  "main_story_false_exclusion": {
+    "numerator": 0,
+    "denominator": 100,
+    "unit": "nonempty_source_line"
+  },
+  "repair_support": {
+    "numerator": 33,
+    "denominator": 33,
+    "unit": "repair_record"
+  },
+  "local_review_flags": {
+    "numerator": 14,
+    "denominator": 300,
+    "fraction": 0.04666666666666667
+  },
+  "final_quarantine": {
+    "JUSTIFIED": 3,
+    "OVERCONSERVATIVE": 11,
+    "UNCERTAIN": 2
+  },
+  "recovery_candidate_characters": 2808,
+  "initial_quarantine_matrix": [
+    [
+      5,
+      0,
+      3
+    ],
+    [
+      0,
+      7,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "initial_quarantine_categories": [
+    "JUSTIFIED",
+    "OVERCONSERVATIVE",
+    "UNCERTAIN"
+  ],
+  "initial_quarantine_agreement": 0.8125,
+  "initial_quarantine_kappa": 0.7055214723926381,
+  "source_hashes_verified": [
+    {
+      "name": "review_metrics.json",
+      "sha256": "67a4dc90f5020b18523c79070321d36d4a8664e07467d9d355a6a0d02e5e37cd"
+    },
+    {
+      "name": "final_labels.jsonl",
+      "sha256": "a7fecdffb25df892a0193ce482260a83f65b221544a2ad51382c2f465971bfb8"
+    },
+    {
+      "name": "reviewer_a.jsonl",
+      "sha256": "801d0de752f927cdc23f8ddaf1ecd9cfa11ce1c0750957d0173aedbe710f0357"
+    },
+    {
+      "name": "reviewer_b.jsonl",
+      "sha256": "ba56acf729f20cc08b664f6fcd0db3d7b4e191db9841508534e94db8640eb95e"
+    },
+    {
+      "name": "review_packet.jsonl",
+      "sha256": "4c6b2badc95957c46a54cee0b022cb101b72a36dcccc991d58042bbcdbda446c"
+    }
+  ],
+  "frozen_corpus_modified": false,
+  "previous_figures_modified": false
+}
